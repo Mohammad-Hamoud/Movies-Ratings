@@ -514,7 +514,8 @@ function openEdit(idx){
   document.getElementById('ep-sub').textContent=(m.year||'')+(m.imdb?' · IMDb '+m.imdb:'');
   const img=document.getElementById('ep-img');
   if(m.poster){img.src=TMDB_LG+m.poster;img.style.display='block';}else img.style.display='none';
-  document.getElementById('edit-fields').innerHTML=data.reviewers.map(r=>`
+  const titleRow=unlocked?`<div class="mrow"><span class="mrow-l" style="flex-shrink:0">Title</span><input class="tinp" id="ei-title" value="${m.title}" style="text-transform:capitalize"></div>`:'';
+  document.getElementById('edit-fields').innerHTML=titleRow+data.reviewers.map(r=>`
     <div class="mrow"><span class="mrow-l">${r}</span>
     <input class="rinp" type="number" min="0" max="10" step="0.1" id="ei-${r}" value="${m[r]!=null?m[r]:''}" ${unlocked?'':'disabled style="opacity:.4"'}></div>`).join('');
   document.getElementById('edit-save-btn').style.display=unlocked?'flex':'none';
@@ -523,8 +524,10 @@ function openEdit(idx){
 function closeEdit(){document.getElementById('edit-ov').classList.remove('show');editIdx=null;}
 function saveEdit(){
   if(!unlocked||editIdx==null)return;
+  const titleInp=document.getElementById('ei-title');
+  if(titleInp&&titleInp.value.trim())data.movies[editIdx].title=titleInp.value.trim();
   data.reviewers.forEach(r=>{const v=parseFloat(document.getElementById('ei-'+r).value);data.movies[editIdx][r]=isNaN(v)?null:v;});
-  render(); closeEdit(); saveData('Update ratings');
+  render(); closeEdit(); saveData('Update: '+data.movies[editIdx].title);
 }
 
 // ── Add ────────────────────────────────────────────────
