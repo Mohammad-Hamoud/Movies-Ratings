@@ -513,7 +513,7 @@
       "Jory": 7.6
     },
     {
-      "title": "once upon a timeÃ¢ÂÂ¦ in hollywood",
+      "title": "once upon a timeÃÂ¢ÃÂÃÂ¦ in hollywood",
       "year": 2019,
       "imdb": 7.6,
       "poster": "/8j58iEBw9pOXFD2L0nt0ZXeHviB.jpg",
@@ -3780,7 +3780,7 @@
       "Jory": 8
     },
     {
-      "title": "dÃÂ©jÃÂ  vu",
+      "title": "dÃÂÃÂ©jÃÂÃÂ  vu",
       "year": 2006,
       "imdb": 7,
       "poster": null,
@@ -3967,7 +3967,7 @@
       "Jory": null
     },
     {
-      "title": "Joker: Folie ÃÂ  Deux",
+      "title": "Joker: Folie ÃÂÃÂ  Deux",
       "year": 2024,
       "imdb": 5.3,
       "poster": "/aciP8Km0waTLXEYf5ybFK5CSUxl.jpg",
@@ -4947,9 +4947,9 @@
     }
   ],
   "initials": {
-    "Mohammad": "Moh",
-    "Mohannad": "Mnd",
-    "Albandary": "Alb",
-    "Jory": "Jry"
+    "Mohammad": "Mohd",
+    "Mohannad": "Mhnd",
+    "Albandary": "Bndr",
+    "Jory": "Jory"
   }
 }
