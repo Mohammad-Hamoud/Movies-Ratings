@@ -7,6 +7,18 @@
   ],
   "movies": [
     {
+      "title": "The Man from Earth",
+      "year": 2007,
+      "imdb": 7.8,
+      "poster": "/V086R82gNgWrotaXZFO4JhdgB1.jpg",
+      "tmdb_id": 13363,
+      "Mohammad": 8.1,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 8,
+      "imdb_id": "tt0756683"
+    },
+    {
       "title": "Obsession",
       "year": 2026,
       "imdb": 8.2,
@@ -297,7 +309,7 @@
       "imdb": 7.6,
       "poster": "/w9kR8qbmQ01HwnvK4alvnQ2ca0L.jpg",
       "tmdb_id": 301528,
-      "Mohammad": 8.7,
+      "Mohammad": 8.1,
       "Mohannad": 8.4,
       "Albandary": null,
       "Jory": 8.8,
@@ -554,7 +566,7 @@
       "imdb_id": "tt1655442"
     },
     {
-      "title": "once upon a timeÃÂÃÂ¢ÃÂÃÂÃÂÃÂ¦ in hollywood",
+      "title": "once upon a timeÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¦ in hollywood",
       "year": 2019,
       "imdb": 7.6,
       "poster": "/8j58iEBw9pOXFD2L0nt0ZXeHviB.jpg",
@@ -4102,7 +4114,7 @@
       "imdb_id": "tt1045658"
     },
     {
-      "title": "dÃÂÃÂÃÂÃÂ©jÃÂÃÂÃÂÃÂ  vu",
+      "title": "dÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©jÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ  vu",
       "year": 2006,
       "imdb": 7,
       "poster": null,
@@ -4302,7 +4314,7 @@
       "imdb_id": "tt0103064"
     },
     {
-      "title": "Joker: Folie ÃÂÃÂÃÂÃÂ  Deux",
+      "title": "Joker: Folie ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ  Deux",
       "year": 2024,
       "imdb": 5.3,
       "poster": "/aciP8Km0waTLXEYf5ybFK5CSUxl.jpg",
