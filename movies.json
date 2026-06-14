@@ -7,6 +7,17 @@
   ],
   "movies": [
     {
+      "title": "Blind River",
+      "year": 2025,
+      "imdb": null,
+      "poster": "/dM8BbTTc7ePaTIAlZr247jCZXvY.jpg",
+      "tmdb_id": 1406831,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 7.5
+    },
+    {
       "title": "F1",
       "year": 2025,
       "imdb": 7.6,
@@ -1842,7 +1853,7 @@
       "Mohammad": 7.8,
       "Mohannad": 7.6,
       "Albandary": null,
-      "Jory": 8,
+      "Jory": 8.2,
       "imdb_id": "tt1504320"
     },
     {
