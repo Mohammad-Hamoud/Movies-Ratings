@@ -986,6 +986,28 @@
       "Jory": 8
     },
     {
+      "title": "zack snyder's justice league",
+      "year": 2021,
+      "imdb": 8.1,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 8,
+      "Mohannad": 7.5,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "Cinderella Man",
+      "year": 2005,
+      "imdb": 8,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 8,
+      "Mohannad": 8,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
       "title": "knives out",
       "year": 2019,
       "imdb": 7.9,
@@ -993,6 +1015,28 @@
       "tmdb_id": null,
       "Mohammad": 8,
       "Mohannad": 8.2,
+      "Albandary": null,
+      "Jory": 7.8
+    },
+    {
+      "title": "The Curious Case of Benjamin Button",
+      "year": 2008,
+      "imdb": 7.8,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 8,
+      "Mohannad": 7.7,
+      "Albandary": null,
+      "Jory": 8
+    },
+    {
+      "title": "marriage story",
+      "year": 2019,
+      "imdb": 7.8,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 8,
+      "Mohannad": 7.6,
       "Albandary": null,
       "Jory": 7.8
     },
@@ -1030,6 +1074,17 @@
       "Jory": 7.7
     },
     {
+      "title": "little miss sunshine",
+      "year": 2006,
+      "imdb": 7.8,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 8,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
       "title": "the matrix",
       "year": 1999,
       "imdb": 8.7,
@@ -1050,6 +1105,17 @@
       "Mohannad": 7.8,
       "Albandary": null,
       "Jory": 7.8
+    },
+    {
+      "title": "american beauty",
+      "year": 1999,
+      "imdb": 8.4,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.9,
+      "Mohannad": 5,
+      "Albandary": null,
+      "Jory": null
     },
     {
       "title": "1917",
@@ -1217,6 +1283,17 @@
       "Jory": 7.6
     },
     {
+      "title": "kill bill vol 1",
+      "year": 2003,
+      "imdb": 8.1,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.8,
+      "Mohannad": 7.5,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
       "title": "the covenant",
       "year": 2023,
       "imdb": 8.1,
@@ -1316,6 +1393,17 @@
       "Jory": 8
     },
     {
+      "title": "the fall",
+      "year": 2006,
+      "imdb": 7.8,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.8,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
       "title": "x-men",
       "year": 2000,
       "imdb": 7.4,
@@ -1347,6 +1435,17 @@
       "Mohannad": 7.7,
       "Albandary": null,
       "Jory": 7.3
+    },
+    {
+      "title": "Nocturnal Animals",
+      "year": 2016,
+      "imdb": 7.4,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.8,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
     },
     {
       "title": "The Whale",
@@ -1426,6 +1525,17 @@
       "Jory": 9
     },
     {
+      "title": "sin city",
+      "year": 2005,
+      "imdb": 8,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.7,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
       "title": "the judge",
       "year": 2014,
       "imdb": 7.4,
@@ -1457,6 +1567,28 @@
       "Mohannad": 7.3,
       "Albandary": null,
       "Jory": 7.7
+    },
+    {
+      "title": "john q",
+      "year": 2002,
+      "imdb": 7.1,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.7,
+      "Mohannad": 7.1,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "x-men the last stand",
+      "year": 2006,
+      "imdb": 6.7,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.7,
+      "Mohannad": 7.5,
+      "Albandary": null,
+      "Jory": null
     },
     {
       "title": "Bullet train",
@@ -1587,6 +1719,17 @@
       "tmdb_id": null,
       "Mohammad": 8.8,
       "Mohannad": 7.3,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "straw",
+      "year": 2025,
+      "imdb": 6.5,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 4,
+      "Mohannad": null,
       "Albandary": null,
       "Jory": null
     },
