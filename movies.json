@@ -7,6 +7,18 @@
   ],
   "movies": [
     {
+      "title": "All About Eve",
+      "year": 1950,
+      "imdb": 8.2,
+      "poster": "/blBzZaatPWVuWpXEnPscMA4Xp6m.jpg",
+      "tmdb_id": 705,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 7.5,
+      "imdb_id": "tt0042192"
+    },
+    {
       "title": "The Karate Kid",
       "year": 1984,
       "imdb": 7.3,
