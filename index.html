@@ -533,8 +533,7 @@ function pick(i,movie){
 }
 function saveNew(){
   if(!tmdbSel)return;
-  // Must have poster from TMDb
-  if(!tmdbSel.poster_path){toast('Pick a movie with a poster','err');return;}
+
   const yr=tmdbSel.release_date?parseInt(tmdbSel.release_date.slice(0,4)):null;
   const m={
     title:tmdbSel.title,year:yr,
