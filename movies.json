@@ -7,6 +7,18 @@
   ],
   "movies": [
     {
+      "title": "Paths of Glory",
+      "year": 1957,
+      "imdb": 8.4,
+      "poster": "/p7OHwomA8UOhe3EhckF2IetBTh9.jpg",
+      "tmdb_id": 975,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 7,
+      "imdb_id": "tt0050825"
+    },
+    {
       "title": "All About Eve",
       "year": 1950,
       "imdb": 8.2,
