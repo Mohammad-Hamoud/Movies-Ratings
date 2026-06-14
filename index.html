@@ -501,23 +501,26 @@ document.getElementById('tmdb-inp').addEventListener('input',e=>{
   document.getElementById('tmdb-results').innerHTML='<div class="hint">Searching...</div>';
   tmdbTO=setTimeout(()=>doSearch(q),500);
 });
+let tmdbCache=[];
 async function doSearch(q){
   try{
     const r=await fetch(`https://api.themoviedb.org/3/search/movie?api_key=${TMDB_KEY}&query=${encodeURIComponent(q)}&language=en-US`);
     const d=await r.json();
     const res=(d.results||[]).slice(0,6);
+    tmdbCache=res;
     const el=document.getElementById('tmdb-results');
     if(!res.length){el.innerHTML='<div class="hint">No results</div>';return;}
     el.innerHTML=res.map((m,i)=>{
       const yr=m.release_date?m.release_date.slice(0,4):'';
       const rat=m.vote_average?'⭐ '+m.vote_average.toFixed(1):'';
       const img=m.poster_path?`<img class="tcp" src="${TMDB_IMG}${m.poster_path}" alt="">`:`<div class="tcp" style="display:flex;align-items:center;justify-content:center;color:var(--text3);font-size:11px">?</div>`;
-      const ms=JSON.stringify(m).replace(/\\/g,'\\\\').replace(/'/g,"\\'");
-      return `<div class="tc" id="tc-${i}" onclick='pick(${i},${ms})'>${img}<div><div class="tct">${m.title}</div><div class="tcs">${yr} ${rat}</div></div></div>`;
+      return `<div class="tc" id="tc-${i}" onclick="pick(${i})">${img}<div><div class="tct">${m.title}</div><div class="tcs">${yr} ${rat}</div></div></div>`;
     }).join('');
   }catch(e){document.getElementById('tmdb-results').innerHTML='<div class="hint">Connection error</div>';}
 }
-function pick(i,movie){
+function pick(i){
+  const movie=tmdbCache[i];
+  if(!movie)return;
   tmdbSel=movie;
   document.querySelectorAll('.tc').forEach(c=>c.classList.remove('sel'));
   const c=document.getElementById('tc-'+i);if(c)c.classList.add('sel');
