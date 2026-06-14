@@ -7,6 +7,18 @@
   ],
   "movies": [
     {
+      "title": "Anger Management",
+      "year": 2003,
+      "imdb": 6.3,
+      "poster": "/8wX3S5HjL3bgb2yi4CfR2qIqbdH.jpg",
+      "tmdb_id": 9506,
+      "Mohammad": 7.6,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 6.3,
+      "imdb_id": "tt0305224"
+    },
+    {
       "title": "The Favourite",
       "year": 2018,
       "imdb": 7.5,
@@ -622,7 +634,7 @@
       "Mohammad": 8.6,
       "Mohannad": 9,
       "Albandary": null,
-      "Jory": null,
+      "Jory": 9,
       "imdb_id": "tt0174856"
     },
     {
