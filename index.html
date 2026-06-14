@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Movie Ratings</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+<style>
+:root {
+  --bg: #0f0f0f;
+  --bg2: #1a1a1a;
+  --bg3: #242424;
+  --border: #2e2e2e;
+  --border2: #3a3a3a;
+  --text: #f0f0f0;
+  --text2: #999;
+  --text3: #555;
+  --accent: #e2b616;
+  --green: #22c55e;
+  --radius: 12px;
+  --radius-sm: 8px;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; min-height: 100vh; }
+#app { max-width: 480px; margin: 0 auto; padding: 16px; }
+
+/* Header */
+.app-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
+.app-title { font-size: 18px; font-weight: 600; }
+.header-actions { display: flex; gap: 8px; }
+.icon-btn { width: 36px; height: 36px; border-radius: var(--radius-sm); border: 1px solid var(--border); background: var(--bg2); color: var(--text2); cursor: pointer; display: flex; align-items: center; justify-content: center; font-size: 16px; }
+.icon-btn.active { color: var(--accent); border-color: var(--accent); }
+
+/* Search */
+#search-wrap { position: relative; margin-bottom: 10px; }
+#search-input { width: 100%; height: 42px; background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); color: var(--text); padding: 0 12px 0 38px; font-size: 15px; }
+#search-input:focus { outline: none; border-color: var(--border2); }
+#search-wrap .ti { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); color: var(--text3); font-size: 16px; pointer-events: none; }
+
+/* Filter chips */
+.chips-row { display: flex; gap: 6px; overflow-x: auto; padding-bottom: 4px; margin-bottom: 10px; scrollbar-width: none; }
+.chips-row::-webkit-scrollbar { display: none; }
+.chip { flex-shrink: 0; padding: 5px 12px; border-radius: 20px; border: 1px solid var(--border); background: transparent; color: var(--text2); font-size: 12px; cursor: pointer; white-space: nowrap; }
+.chip.active { border-color: var(--accent); color: var(--accent); background: rgba(226,182,22,0.08); }
+
+/* Sort row */
+.sort-row { display: flex; gap: 6px; margin-bottom: 10px; align-items: center; }
+.sort-label { font-size: 12px; color: var(--text3); }
+.sort-btn { padding: 4px 10px; border-radius: 20px; border: 1px solid var(--border); background: transparent; color: var(--text2); font-size: 12px; cursor: pointer; }
+.sort-btn.active { border-color: var(--border2); color: var(--text); }
+
+/* Year filter */
+.year-row { display: flex; gap: 6px; overflow-x: auto; padding-bottom: 4px; margin-bottom: 12px; scrollbar-width: none; align-items: center; }
+.year-row::-webkit-scrollbar { display: none; }
+#year-select { height: 28px; background: var(--bg2); border: 1px solid var(--border); border-radius: 20px; color: var(--text2); padding: 0 8px; font-size: 12px; cursor: pointer; }
+
+/* Stats */
+.stats-row { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 14px; }
+.stat-card { background: var(--bg2); border-radius: var(--radius-sm); padding: 10px 12px; border: 1px solid var(--border); }
+.stat-label { font-size: 11px; color: var(--text2); margin-bottom: 2px; }
+.stat-val { font-size: 20px; font-weight: 600; }
+
+/* Result count */
+.result-count { font-size: 12px; color: var(--text3); margin-bottom: 8px; }
+
+/* Movie list */
+#movie-list { display: flex; flex-direction: column; gap: 8px; }
+.movie-card { background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); padding: 10px 12px; cursor: pointer; display: flex; gap: 10px; align-items: flex-start; transition: border-color 0.15s; }
+.movie-card:hover { border-color: var(--border2); }
+.movie-poster { width: 38px; height: 56px; border-radius: 6px; object-fit: cover; flex-shrink: 0; background: var(--bg3); }
+.poster-ph { width: 38px; height: 56px; border-radius: 6px; flex-shrink: 0; background: var(--bg3); display: flex; align-items: center; justify-content: center; color: var(--text3); }
+.movie-body { flex: 1; min-width: 0; }
+.movie-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 6px; margin-bottom: 3px; }
+.movie-title { font-size: 14px; font-weight: 500; line-height: 1.3; text-transform: capitalize; }
+.movie-avg { font-size: 16px; font-weight: 600; color: var(--text); flex-shrink: 0; }
+.movie-meta { font-size: 11px; color: var(--text2); margin-bottom: 5px; display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
+.imdb-badge { background: #e2b616; color: #000; padding: 1px 5px; border-radius: 4px; font-size: 10px; font-weight: 700; }
+.ratings-row { display: flex; gap: 5px; flex-wrap: wrap; }
+.r-pill { font-size: 10px; padding: 2px 6px; border-radius: 10px; background: rgba(255,255,255,0.06); color: var(--text2); font-weight: 500; }
+.no-results { text-align: center; padding: 3rem 1rem; color: var(--text2); }
+
+/* Add btn */
+#add-btn { width: 100%; height: 44px; margin-top: 14px; border-radius: var(--radius); border: 1px dashed var(--border2); background: transparent; color: var(--text2); font-size: 14px; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 6px; transition: border-color 0.15s, color 0.15s; }
+#add-btn:hover { border-color: var(--accent); color: var(--accent); }
+
+/* PIN bar */
+#pin-bar { background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 8px 12px; margin-bottom: 12px; display: none; align-items: center; gap: 8px; }
+#pin-bar.show { display: flex; }
+#pin-input { flex: 1; height: 32px; background: var(--bg3); border: 1px solid var(--border); border-radius: var(--radius-sm); color: var(--text); padding: 0 10px; font-size: 14px; letter-spacing: 4px; text-align: center; }
+#pin-input:focus { outline: none; border-color: var(--border2); }
+#pin-submit { height: 32px; padding: 0 12px; background: var(--accent); border: none; border-radius: var(--radius-sm); color: #000; font-size: 13px; font-weight: 600; cursor: pointer; }
+#pin-status { font-size: 12px; }
+#pin-status.ok { color: var(--green); }
+#pin-status.err { color: #ef4444; }
+
+/* Loading */
+#loading { text-align: center; padding: 3rem; color: var(--text2); }
+
+/* Modals */
+.overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.7); z-index: 100; align-items: flex-end; justify-content: center; }
+.overlay.show { display: flex; }
+.modal { background: var(--bg2); border-radius: var(--radius) var(--radius) 0 0; width: 100%; max-width: 480px; padding: 20px; max-height: 88vh; overflow-y: auto; border-top: 1px solid var(--border); }
+.modal-hdr { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 16px; gap: 10px; }
+.modal-hdr-info { display: flex; gap: 10px; align-items: center; flex: 1; min-width: 0; }
+.modal-hdr-poster { width: 42px; height: 62px; border-radius: 6px; object-fit: cover; display: none; flex-shrink: 0; }
+.modal-hdr-text .title { font-size: 15px; font-weight: 600; text-transform: capitalize; }
+.modal-hdr-text .sub { font-size: 12px; color: var(--text2); margin-top: 2px; }
+.close-x { background: none; border: none; color: var(--text2); cursor: pointer; font-size: 22px; flex-shrink: 0; padding: 0; line-height: 1; }
+.mrow { display: flex; justify-content: space-between; align-items: center; padding: 9px 0; border-bottom: 1px solid var(--border); }
+.mrow:last-of-type { border-bottom: none; }
+.mrow-label { font-size: 13px; color: var(--text2); }
+.r-inp { width: 68px; height: 34px; background: var(--bg3); border: 1px solid var(--border); border-radius: var(--radius-sm); color: var(--text); text-align: center; font-size: 14px; font-weight: 500; }
+.r-inp:focus { outline: none; border-color: var(--border2); }
+.t-inp { flex: 1; height: 34px; background: var(--bg3); border: 1px solid var(--border); border-radius: var(--radius-sm); color: var(--text); padding: 0 10px; font-size: 13px; }
+.t-inp:focus { outline: none; border-color: var(--border2); }
+.modal-actions { display: flex; gap: 8px; margin-top: 16px; }
+.btn-primary { flex: 1; height: 40px; background: var(--accent); border: none; border-radius: var(--radius-sm); color: #000; font-size: 14px; font-weight: 600; cursor: pointer; }
+.btn-secondary { height: 40px; padding: 0 16px; background: transparent; border: 1px solid var(--border); border-radius: var(--radius-sm); color: var(--text2); font-size: 14px; cursor: pointer; }
+.btn-danger { height: 32px; padding: 0 10px; background: transparent; border: 1px solid var(--border); border-radius: var(--radius-sm); color: #ef4444; font-size: 12px; cursor: pointer; }
+.section-lbl { font-size: 12px; color: var(--text2); margin: 10px 0 6px; }
+
+/* TMDb search */
+#tmdb-inp { width: 100%; height: 40px; background: var(--bg3); border: 1px solid var(--border); border-radius: var(--radius-sm); color: var(--text); padding: 0 12px; font-size: 14px; margin-bottom: 10px; }
+#tmdb-inp:focus { outline: none; border-color: var(--border2); }
+#tmdb-results { display: flex; flex-direction: column; gap: 6px; margin-bottom: 10px; min-height: 40px; }
+.tmdb-card { display: flex; gap: 10px; align-items: center; padding: 8px; border-radius: var(--radius-sm); border: 1px solid var(--border); cursor: pointer; background: var(--bg3); }
+.tmdb-card:hover, .tmdb-card.sel { border-color: var(--accent); }
+.tmdb-p { width: 30px; height: 44px; border-radius: 4px; object-fit: cover; background: var(--bg2); flex-shrink: 0; }
+.tmdb-info .t { font-size: 13px; font-weight: 500; }
+.tmdb-info .s { font-size: 11px; color: var(--text2); margin-top: 2px; }
+.hint { font-size: 13px; color: var(--text2); text-align: center; padding: 12px; }
+#sel-prev { display: none; margin-bottom: 12px; padding: 10px; border-radius: var(--radius-sm); background: var(--bg3); border: 1px solid var(--border); }
+#add-r-sec { display: none; }
+
+/* Saving indicator */
+#save-indicator { position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%); background: var(--bg3); border: 1px solid var(--border); border-radius: 20px; padding: 8px 16px; font-size: 13px; color: var(--text2); display: none; z-index: 200; }
+#save-indicator.show { display: block; }
+#save-indicator.ok { color: var(--green); border-color: var(--green); }
+#save-indicator.err { color: #ef4444; border-color: #ef4444; }
+</style>
+</head>
+<body>
+<div id="app">
+  <div class="app-header">
+    <div class="app-title">🎬 Movie Ratings</div>
+    <div class="header-actions">
+      <button class="icon-btn" id="pin-toggle-btn" onclick="togglePinBar()" title="Unlock editing"><i class="ti ti-lock"></i></button>
+    </div>
+  </div>
+
+  <div id="pin-bar">
+    <input id="pin-input" type="password" maxlength="4" placeholder="PIN" inputmode="numeric">
+    <button id="pin-submit" onclick="checkPin()">OK</button>
+    <span id="pin-status"></span>
+  </div>
+
+  <div id="search-wrap">
+    <i class="ti ti-search"></i>
+    <input id="search-input" type="text" placeholder="Search movies...">
+  </div>
+
+  <div class="chips-row" id="reviewer-chips"></div>
+
+  <div class="year-row">
+    <select id="year-select" onchange="setYear(this.value)"><option value="">All Years</option></select>
+    <button class="chip active" data-d="" onclick="setDecade('',this)">All</button>
+    <button class="chip" data-d="2020" onclick="setDecade('2020',this)">2020s</button>
+    <button class="chip" data-d="2010" onclick="setDecade('2010',this)">2010s</button>
+    <button class="chip" data-d="2000" onclick="setDecade('2000',this)">2000s</button>
+    <button class="chip" data-d="1990" onclick="setDecade('1990',this)">90s</button>
+    <button class="chip" data-d="old" onclick="setDecade('old',this)">Older</button>
+  </div>
+
+  <div class="sort-row">
+    <span class="sort-label">Sort:</span>
+    <button class="sort-btn active" id="s-avg" onclick="setSort('avg')">Average</button>
+    <button class="sort-btn" id="s-year" onclick="setSort('year')">Year</button>
+    <button class="sort-btn" id="s-name" onclick="setSort('name')">Name</button>
+  </div>
+
+  <div class="stats-row">
+    <div class="stat-card"><div class="stat-label">Total Movies</div><div class="stat-val" id="st-total">—</div></div>
+    <div class="stat-card"><div class="stat-label">Avg Rating</div><div class="stat-val" id="st-avg">—</div></div>
+  </div>
+
+  <div class="result-count" id="result-count"></div>
+  <div id="loading"><i class="ti ti-loader" style="font-size:24px"></i><br>Loading...</div>
+  <div id="movie-list"></div>
+  <button id="add-btn" onclick="openAdd()" style="display:none"><i class="ti ti-plus"></i> Add Movie</button>
+</div>
+
+<!-- Edit modal -->
+<div class="overlay" id="edit-ov">
+  <div class="modal">
+    <div class="modal-hdr">
+      <div class="modal-hdr-info">
+        <img class="modal-hdr-poster" id="ep-img" src="" alt="">
+        <div class="modal-hdr-text">
+          <div class="title" id="ep-title"></div>
+          <div class="sub" id="ep-sub"></div>
+        </div>
+      </div>
+      <button class="close-x" onclick="closeEdit()">×</button>
+    </div>
+    <div id="edit-fields"></div>
+    <div class="modal-actions">
+      <button class="btn-primary" onclick="saveEdit()">Save</button>
+      <button class="btn-secondary" onclick="closeEdit()">Cancel</button>
+    </div>
+  </div>
+</div>
+
+<!-- Add movie modal -->
+<div class="overlay" id="add-ov">
+  <div class="modal">
+    <div class="modal-hdr" style="margin-bottom:12px">
+      <span style="font-size:15px;font-weight:600">Add Movie</span>
+      <button class="close-x" onclick="closeAdd()">×</button>
+    </div>
+    <input id="tmdb-inp" type="text" placeholder="Search by title...">
+    <div id="tmdb-results"><div class="hint">Start typing to search TMDb</div></div>
+    <div id="sel-prev">
+      <div style="display:flex;gap:10px;align-items:center">
+        <img id="sp-img" style="width:40px;height:58px;border-radius:6px;object-fit:cover" src="" alt="">
+        <div><div id="sp-title" style="font-size:14px;font-weight:500"></div><div id="sp-meta" style="font-size:12px;color:var(--text2);margin-top:2px"></div></div>
+      </div>
+    </div>
+    <div id="add-r-sec">
+      <div class="section-lbl">Your ratings (optional):</div>
+      <div id="add-r-fields"></div>
+      <div class="modal-actions">
+        <button class="btn-primary" onclick="saveNew()">Add to List</button>
+        <button class="btn-secondary" onclick="closeAdd()">Cancel</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Reviewers modal -->
+<div class="overlay" id="rev-ov">
+  <div class="modal">
+    <div class="modal-hdr">
+      <span style="font-size:15px;font-weight:600">Manage Reviewers</span>
+      <button class="close-x" onclick="closeRevModal()">×</button>
+    </div>
+    <div id="rev-list" style="margin-bottom:14px"></div>
+    <div class="section-lbl">Add new reviewer:</div>
+    <div style="display:flex;gap:8px;margin-top:6px">
+      <input class="t-inp" id="new-rev-inp" placeholder="Name..." maxlength="20">
+      <button class="btn-primary" style="flex:0;padding:0 14px;white-space:nowrap" onclick="addReviewer()">Add</button>
+    </div>
+    <div class="modal-actions" style="margin-top:16px">
+      <button class="btn-primary" onclick="closeRevModal()">Done</button>
+    </div>
+  </div>
+</div>
+
+<div id="save-indicator">Saving...</div>
+
+<script>
+const TMDB_KEY = 'feee1f259210d0919278ac13da4acae3';
+const TMDB_IMG = 'https://image.tmdb.org/t/p/w92';
+const TMDB_IMG_LG = 'https://image.tmdb.org/t/p/w185';
+const GH_TOKEN = localStorage.getItem('mr_gh_token') || '';
+const GH_OWNER = localStorage.getItem('mr_gh_owner') || 'Mohammad-Hamoud';
+const GH_REPO = 'Movies-Ratings';
+const GH_FILE = 'movies.json';
+const PIN = localStorage.getItem('mr_pin') || '1525';
+
+let data = { reviewers: [], movies: [] };
+let fileSha = null;
+let unlocked = false;
+let sortMode = 'avg', filterReviewer = 'all', filterYear = '', filterDecade = '', searchQ = '';
+let editIdx = null, tmdbSel = null, tmdbTimeout = null;
+
+// --- GitHub API ---
+async function loadFromGitHub() {
+  try {
+    const r = await fetch(`https://api.github.com/repos/${GH_OWNER}/${GH_REPO}/contents/${GH_FILE}`,
+      { headers: { 'Authorization': `token ${GH_TOKEN}`, 'Accept': 'application/vnd.github.v3+json' } });
+    const j = await r.json();
+    fileSha = j.sha;
+    data = JSON.parse(atob(j.content.replace(/\n/g,'')));
+    document.getElementById('loading').style.display = 'none';
+    buildYearSelect();
+    buildReviewerChips();
+    render();
+  } catch(e) {
+    document.getElementById('loading').innerHTML = '<i class="ti ti-wifi-off" style="font-size:24px"></i><br>Connection error';
+  }
+}
+
+async function saveToGitHub() {
+  showSaving('Saving...');
+  try {
+    const content = btoa(unescape(encodeURIComponent(JSON.stringify(data, null, 2))));
+    const body = JSON.stringify({ message: 'Update movies', content, sha: fileSha });
+    const r = await fetch(`https://api.github.com/repos/${GH_OWNER}/${GH_REPO}/contents/${GH_FILE}`, {
+      method: 'PUT',
+      headers: { 'Authorization': `token ${GH_TOKEN}`, 'Accept': 'application/vnd.github.v3+json', 'Content-Type': 'application/json' },
+      body
+    });
+    const j = await r.json();
+    fileSha = j.content.sha;
+    showSaving('Saved ✓', 'ok');
+  } catch(e) {
+    showSaving('Save failed!', 'err');
+  }
+}
+
+function showSaving(msg, cls) {
+  const el = document.getElementById('save-indicator');
+  el.textContent = msg;
+  el.className = 'show' + (cls ? ' ' + cls : '');
+  setTimeout(() => el.className = '', 2500);
+}
+
+// --- PIN ---
+function togglePinBar() {
+  if (unlocked) { unlocked = false; document.getElementById('add-btn').style.display='none'; document.getElementById('pin-toggle-btn').classList.remove('active'); document.getElementById('pin-toggle-btn').innerHTML='<i class="ti ti-lock"></i>'; document.getElementById('pin-bar').classList.remove('show'); return; }
+  document.getElementById('pin-bar').classList.toggle('show');
+  if (document.getElementById('pin-bar').classList.contains('show')) setTimeout(() => document.getElementById('pin-input').focus(), 100);
+}
+function checkPin() {
+  const v = document.getElementById('pin-input').value;
+  const st = document.getElementById('pin-status');
+  if (v === PIN) {
+    unlocked = true;
+    st.textContent = '✓ Unlocked';
+    st.className = 'ok';
+    document.getElementById('pin-toggle-btn').classList.add('active');
+    document.getElementById('pin-toggle-btn').innerHTML = '<i class="ti ti-lock-open"></i>';
+    document.getElementById('add-btn').style.display = 'flex';
+    document.getElementById('pin-input').value = '';
+    setTimeout(() => { document.getElementById('pin-bar').classList.remove('show'); st.textContent=''; }, 1200);
+  } else {
+    st.textContent = '✗ Wrong PIN';
+    st.className = 'err';
+    document.getElementById('pin-input').value = '';
+  }
+}
+document.getElementById('pin-input').addEventListener('keydown', e => { if(e.key==='Enter') checkPin(); });
+
+// --- Filters ---
+function setSort(m) {
+  sortMode = m;
+  document.querySelectorAll('.sort-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById('s-' + m).classList.add('active');
+  render();
+}
+function setReviewer(r, el) {
+  filterReviewer = r;
+  document.querySelectorAll('.chips-row .chip').forEach(b => b.classList.remove('active'));
+  el.classList.add('active');
+  render();
+}
+function setYear(v) { filterYear = v; filterDecade = ''; document.querySelectorAll('[data-d]').forEach(b => b.classList.remove('active')); document.querySelector('[data-d=""]').classList.add('active'); render(); }
+function setDecade(d, el) { filterDecade = d; filterYear = ''; document.getElementById('year-select').value = ''; document.querySelectorAll('[data-d]').forEach(b => b.classList.remove('active')); el.classList.add('active'); render(); }
+document.getElementById('search-input').addEventListener('input', e => { searchQ = e.target.value.toLowerCase(); render(); });
+
+function buildYearSelect() {
+  const years = [...new Set(data.movies.map(m => m.year).filter(Boolean))].sort((a,b) => b-a);
+  const sel = document.getElementById('year-select');
+  sel.innerHTML = '<option value="">All Years</option>' + years.map(y => `<option value="${y}">${y}</option>`).join('');
+}
+function buildReviewerChips() {
+  const row = document.getElementById('reviewer-chips');
+  const allBtn = `<button class="chip active" onclick="setReviewer('all',this)">All</button>`;
+  const chips = data.reviewers.map(r => `<button class="chip" onclick="setReviewer('${r}',this)">${r}</button>`).join('');
+  const mgr = unlocked ? `<button class="chip" onclick="openRevModal()" style="border-style:dashed"><i class="ti ti-settings" style="font-size:12px"></i></button>` : '';
+  row.innerHTML = allBtn + chips + mgr;
+}
+
+function calcAvg(m) {
+  const v = data.reviewers.map(r => m[r]).filter(x => x != null && !isNaN(x));
+  return v.length ? +(v.reduce((a,b) => a+b, 0) / v.length).toFixed(2) : null;
+}
+
+function getFiltered() {
+  let list = data.movies.filter(m => {
+    if (searchQ && !m.title.toLowerCase().includes(searchQ)) return false;
+    if (filterReviewer !== 'all' && (m[filterReviewer] == null || isNaN(m[filterReviewer]))) return false;
+    if (filterYear && m.year != filterYear) return false;
+    if (filterDecade) {
+      if (filterDecade === 'old') { if (m.year >= 1990) return false; }
+      else { const d = parseInt(filterDecade); if (!m.year || m.year < d || m.year >= d+10) return false; }
+    }
+    return true;
+  });
+  if (sortMode === 'avg') list.sort((a,b) => (calcAvg(b)||0) - (calcAvg(a)||0));
+  else if (sortMode === 'year') list.sort((a,b) => (b.year||0) - (a.year||0));
+  else list.sort((a,b) => a.title.localeCompare(b.title));
+  return list;
+}
+
+function render() {
+  const list = getFiltered();
+  document.getElementById('st-total').textContent = data.movies.length;
+  const avgs = data.movies.map(m => calcAvg(m)).filter(Boolean);
+  document.getElementById('st-avg').textContent = avgs.length ? (avgs.reduce((a,b) => a+b,0)/avgs.length).toFixed(1) : '—';
+  document.getElementById('result-count').textContent = list.length + ' movies';
+  const el = document.getElementById('movie-list');
+  if (!list.length) { el.innerHTML = '<div class="no-results"><i class="ti ti-movie-off" style="font-size:28px;display:block;margin-bottom:8px"></i>No results</div>'; return; }
+  el.innerHTML = list.map(m => {
+    const idx = data.movies.indexOf(m);
+    const avg = calcAvg(m);
+    const pills = data.reviewers.filter(r => m[r] != null && !isNaN(m[r])).map(r => `<span class="r-pill">${r.slice(0,3)}: ${m[r]}</span>`).join('');
+    const poster = m.poster
+      ? `<img class="movie-poster" src="${TMDB_IMG}${m.poster}" alt="" loading="lazy" onerror="this.style.display='none'">`
+      : `<div class="poster-ph"><i class="ti ti-movie" style="font-size:16px"></i></div>`;
+    return `<div class="movie-card" onclick="openEdit(${idx})">
+      ${poster}
+      <div class="movie-body">
+        <div class="movie-top">
+          <div class="movie-title">${m.title}</div>
+          ${avg != null ? `<span class="movie-avg">${avg.toFixed(1)}</span>` : ''}
+        </div>
+        <div class="movie-meta">
+          ${m.year ? `<span>${m.year}</span>` : ''}
+          ${m.imdb ? `<span class="imdb-badge">IMDb ${m.imdb}</span>` : ''}
+        </div>
+        <div class="ratings-row">${pills || '<span style="font-size:11px;color:var(--text3)">No ratings yet</span>'}</div>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+// --- Edit ---
+function openEdit(idx) {
+  editIdx = idx;
+  const m = data.movies[idx];
+  document.getElementById('ep-title').textContent = m.title;
+  document.getElementById('ep-sub').textContent = (m.year||'') + (m.imdb ? ' · IMDb ' + m.imdb : '');
+  const img = document.getElementById('ep-img');
+  if (m.poster) { img.src = TMDB_IMG_LG + m.poster; img.style.display = 'block'; } else img.style.display = 'none';
+  document.getElementById('edit-fields').innerHTML = data.reviewers.map(r => `
+    <div class="mrow"><span class="mrow-label">${r}</span>
+    <input class="r-inp" type="number" min="0" max="10" step="0.1" id="ei-${r}" value="${m[r] != null ? m[r] : ''}" ${unlocked ? '' : 'disabled'}></div>`).join('');
+  document.getElementById('edit-ov').classList.add('show');
+}
+function closeEdit() { document.getElementById('edit-ov').classList.remove('show'); editIdx = null; }
+function saveEdit() {
+  if (!unlocked || editIdx == null) return;
+  data.reviewers.forEach(r => { const v = parseFloat(document.getElementById('ei-'+r).value); data.movies[editIdx][r] = isNaN(v) ? null : v; });
+  render();
+  closeEdit();
+  saveToGitHub();
+}
+
+// --- Add ---
+function openAdd() {
+  if (!unlocked) return;
+  tmdbSel = null;
+  document.getElementById('tmdb-inp').value = '';
+  document.getElementById('tmdb-results').innerHTML = '<div class="hint">Start typing to search</div>';
+  document.getElementById('sel-prev').style.display = 'none';
+  document.getElementById('add-r-sec').style.display = 'none';
+  document.getElementById('add-ov').classList.add('show');
+  setTimeout(() => document.getElementById('tmdb-inp').focus(), 100);
+}
+function closeAdd() { document.getElementById('add-ov').classList.remove('show'); tmdbSel = null; }
+
+document.getElementById('tmdb-inp').addEventListener('input', e => {
+  clearTimeout(tmdbTimeout);
+  const q = e.target.value.trim();
+  if (q.length < 2) { document.getElementById('tmdb-results').innerHTML = '<div class="hint">Start typing to search</div>'; return; }
+  document.getElementById('tmdb-results').innerHTML = '<div class="hint">Searching...</div>';
+  tmdbTimeout = setTimeout(() => doSearch(q), 500);
+});
+
+async function doSearch(q) {
+  try {
+    const r = await fetch(`https://api.themoviedb.org/3/search/movie?api_key=${TMDB_KEY}&query=${encodeURIComponent(q)}&language=en-US`);
+    const d = await r.json();
+    const res = (d.results||[]).slice(0,6);
+    const el = document.getElementById('tmdb-results');
+    if (!res.length) { el.innerHTML = '<div class="hint">No results</div>'; return; }
+    el.innerHTML = res.map((m,i) => {
+      const yr = m.release_date ? m.release_date.slice(0,4) : '';
+      const rat = m.vote_average ? '⭐ ' + m.vote_average.toFixed(1) : '';
+      const img = m.poster_path ? `<img class="tmdb-p" src="${TMDB_IMG}${m.poster_path}" alt="">` : `<div class="tmdb-p" style="display:flex;align-items:center;justify-content:center;color:var(--text3)">?</div>`;
+      const ms = JSON.stringify(m).replace(/\\/g,'\\\\').replace(/'/g,"\\'");
+      return `<div class="tmdb-card" id="tc-${i}" onclick='pick(${i},${ms})'>${img}<div class="tmdb-info"><div class="t">${m.title}</div><div class="s">${yr} ${rat}</div></div></div>`;
+    }).join('');
+  } catch(e) { document.getElementById('tmdb-results').innerHTML = '<div class="hint">Connection error</div>'; }
+}
+
+function pick(i, movie) {
+  tmdbSel = movie;
+  document.querySelectorAll('.tmdb-card').forEach(c => c.classList.remove('sel'));
+  const c = document.getElementById('tc-'+i); if(c) c.classList.add('sel');
+  document.getElementById('sp-title').textContent = movie.title;
+  const yr = movie.release_date ? movie.release_date.slice(0,4) : '';
+  document.getElementById('sp-meta').textContent = yr + (movie.vote_average ? ' · TMDb ' + movie.vote_average.toFixed(1) : '');
+  if (movie.poster_path) document.getElementById('sp-img').src = TMDB_IMG_LG + movie.poster_path;
+  document.getElementById('sel-prev').style.display = 'block';
+  document.getElementById('add-r-sec').style.display = 'block';
+  document.getElementById('add-r-fields').innerHTML = data.reviewers.map(r => `
+    <div class="mrow"><span class="mrow-label">${r}</span>
+    <input class="r-inp" type="number" min="0" max="10" step="0.1" id="ai-${r}" placeholder="—"></div>`).join('');
+}
+
+function saveNew() {
+  if (!tmdbSel) return;
+  const yr = tmdbSel.release_date ? parseInt(tmdbSel.release_date.slice(0,4)) : null;
+  const m = { title: tmdbSel.title, year: yr, imdb: tmdbSel.vote_average ? +tmdbSel.vote_average.toFixed(1) : null, poster: tmdbSel.poster_path||null, tmdb_id: tmdbSel.id };
+  data.reviewers.forEach(r => { const v = parseFloat(document.getElementById('ai-'+r).value); m[r] = isNaN(v) ? null : v; });
+  data.movies.unshift(m);
+  buildYearSelect();
+  closeAdd();
+  render();
+  saveToGitHub();
+}
+
+// --- Reviewers ---
+function openRevModal() {
+  renderRevList();
+  document.getElementById('new-rev-inp').value = '';
+  document.getElementById('rev-ov').classList.add('show');
+}
+function closeRevModal() { document.getElementById('rev-ov').classList.remove('show'); buildReviewerChips(); render(); }
+function renderRevList() {
+  document.getElementById('rev-list').innerHTML = data.reviewers.map((r,i) => `
+    <div class="mrow"><span class="mrow-label">${r}</span>
+    <button class="btn-danger" onclick="removeReviewer(${i})"><i class="ti ti-trash" style="font-size:12px"></i> Remove</button></div>`).join('');
+}
+function addReviewer() {
+  const inp = document.getElementById('new-rev-inp');
+  const name = inp.value.trim();
+  if (!name || data.reviewers.includes(name)) return;
+  data.reviewers.push(name);
+  inp.value = '';
+  renderRevList();
+  saveToGitHub();
+}
+function removeReviewer(i) {
+  if (!confirm(`Remove "${data.reviewers[i]}" from reviewers?`)) return;
+  data.reviewers.splice(i, 1);
+  renderRevList();
+  saveToGitHub();
+}
+
+loadFromGitHub();
+</script>
+
+<div id="setup-ov" class="overlay" style="align-items:center;padding:16px">
+  <div class="modal" style="border-radius:var(--radius);max-width:340px">
+    <div style="font-size:15px;font-weight:600;margin-bottom:4px">First Time Setup</div>
+    <div style="font-size:12px;color:var(--text2);margin-bottom:16px">Enter your GitHub credentials to connect the app to your data.</div>
+    <div class="mrow"><span class="mrow-label">GitHub Token</span><input class="r-inp" style="width:160px;letter-spacing:1px" type="password" id="setup-token" placeholder="ghp_..."></div>
+    <div class="mrow"><span class="mrow-label">GitHub Owner</span><input class="r-inp" style="width:160px" type="text" id="setup-owner" value="Mohammad-Hamoud"></div>
+    <div class="mrow"><span class="mrow-label">PIN</span><input class="r-inp" type="password" id="setup-pin" placeholder="4 digits" maxlength="4" inputmode="numeric"></div>
+    <div class="modal-actions">
+      <button class="btn-primary" onclick="saveSetup()">Connect</button>
+    </div>
+  </div>
+</div>
+<script>
+function checkSetup() {
+  const t = localStorage.getItem('mr_gh_token');
+  if (!t) document.getElementById('setup-ov').classList.add('show');
+}
+function saveSetup() {
+  const t = document.getElementById('setup-token').value.trim();
+  const o = document.getElementById('setup-owner').value.trim();
+  const p = document.getElementById('setup-pin').value.trim();
+  if (!t || !o || !p) return;
+  localStorage.setItem('mr_gh_token', t);
+  localStorage.setItem('mr_gh_owner', o);
+  localStorage.setItem('mr_pin', p);
+  location.reload();
+}
+checkSetup();
+</script>
+
+</body>
+</html>
