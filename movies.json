@@ -7,6 +7,18 @@
   ],
   "movies": [
     {
+      "title": "Dallas Buyers Club",
+      "year": 2013,
+      "imdb": 7.9,
+      "poster": "/7Fdh7gUq3plvQqxRbNYhWvDABXA.jpg",
+      "tmdb_id": 152532,
+      "Mohammad": 8.3,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 8.3,
+      "imdb_id": "tt0790636"
+    },
+    {
       "title": "The Hangover",
       "year": 2009,
       "imdb": 7.7,
