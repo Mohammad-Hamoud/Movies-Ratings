@@ -7,6 +7,18 @@
   ],
   "movies": [
     {
+      "title": "Raiders of the Lost Ark",
+      "year": 1981,
+      "imdb": 8.4,
+      "poster": "/ceG9VzoRAVGwivFU403Wc3AHRys.jpg",
+      "tmdb_id": 85,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 6.4,
+      "imdb_id": "tt0082971"
+    },
+    {
       "title": "Past Lives",
       "year": 2023,
       "imdb": 7.8,
@@ -3057,7 +3069,7 @@
       "imdb": 8.1,
       "poster": "/qvktm0BHcnmDpul4Hz01GIazWPr.jpg",
       "tmdb_id": 218,
-      "Mohammad": 7,
+      "Mohammad": 7.8,
       "Mohannad": null,
       "Albandary": null,
       "Jory": 8,
@@ -4319,10 +4331,10 @@
       "imdb": 8.6,
       "poster": "/jFTVD4XoWQTcg7wdyJKa8PEds5q.jpg",
       "tmdb_id": 280,
-      "Mohammad": 4,
+      "Mohammad": 8,
       "Mohannad": 6.4,
       "Albandary": null,
-      "Jory": null,
+      "Jory": 8.6,
       "imdb_id": "tt0103064"
     },
     {
