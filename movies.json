@@ -7,6 +7,18 @@
   ],
   "movies": [
     {
+      "title": "Network",
+      "year": 1976,
+      "imdb": 8.1,
+      "poster": "/qZomlHsaALUtkFeMDwdYmwS2Pbo.jpg",
+      "tmdb_id": 10774,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 7.6,
+      "imdb_id": "tt0074958"
+    },
+    {
       "title": "Raiders of the Lost Ark",
       "year": 1981,
       "imdb": 8.4,
@@ -1411,7 +1423,7 @@
       "Mohammad": 7.8,
       "Mohannad": 8.6,
       "Albandary": null,
-      "Jory": 8.6,
+      "Jory": 9.3,
       "imdb_id": "tt0119488"
     },
     {
