@@ -7,6 +7,18 @@
   ],
   "movies": [
     {
+      "title": "The Promised Land",
+      "year": 2023,
+      "imdb": 7.7,
+      "poster": "/okVwls2laPGOsLKKhXQCEiTBwpw.jpg",
+      "tmdb_id": 980026,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 9,
+      "imdb_id": "tt20561198"
+    },
+    {
       "title": "Anger Management",
       "year": 2003,
       "imdb": 6.3,
