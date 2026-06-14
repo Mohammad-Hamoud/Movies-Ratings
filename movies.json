@@ -7,6 +7,17 @@
   ],
   "movies": [
     {
+      "title": "Obsession",
+      "year": 2026,
+      "imdb": 7.9,
+      "poster": "/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg",
+      "tmdb_id": 1339713,
+      "Mohammad": 7.1,
+      "Mohannad": 4.5,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
       "title": "inception",
       "year": 2010,
       "imdb": 8.8,
