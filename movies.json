@@ -7,6 +7,18 @@
   ],
   "movies": [
     {
+      "title": "Ocean's Eleven",
+      "year": 2001,
+      "imdb": 7.7,
+      "poster": "/hQQCdZrsHtZyR6NbKH2YyCqd2fR.jpg",
+      "tmdb_id": 161,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 7.5,
+      "imdb_id": "tt0240772"
+    },
+    {
       "title": "Legally Blonde",
       "year": 2001,
       "imdb": 6.5,
@@ -1327,7 +1339,7 @@
       "Mohammad": 7.9,
       "Mohannad": 7.8,
       "Albandary": null,
-      "Jory": null,
+      "Jory": 8.7,
       "imdb_id": "tt24820246"
     },
     {
