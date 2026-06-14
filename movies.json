@@ -7,6 +7,18 @@
   ],
   "movies": [
     {
+      "title": "Pirates of the Caribbean: Dead Man's Chest",
+      "year": 2006,
+      "imdb": 7.4,
+      "poster": "/uXEqmloGyP7UXAiphJUu2v2pcuE.jpg",
+      "tmdb_id": 58,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 7.7,
+      "imdb_id": "tt0383574"
+    },
+    {
       "title": "Pirates of the Caribbean: At World's End",
       "year": 2007,
       "imdb": 7.2,
