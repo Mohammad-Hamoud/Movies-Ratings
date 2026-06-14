@@ -14,7 +14,7 @@
       "tmdb_id": null,
       "Mohammad": 9.6,
       "Mohannad": 8.4,
-      "Albandary": 10,
+      "Albandary": 10.0,
       "Jory": 9.6
     },
     {
@@ -34,7 +34,7 @@
       "imdb": 8.8,
       "poster": null,
       "tmdb_id": null,
-      "Mohammad": 9,
+      "Mohammad": 9.0,
       "Mohannad": 9.3,
       "Albandary": null,
       "Jory": null
@@ -45,8 +45,8 @@
       "imdb": 8.5,
       "poster": null,
       "tmdb_id": null,
-      "Mohammad": 9,
-      "Mohannad": 9,
+      "Mohammad": 9.0,
+      "Mohannad": 9.0,
       "Albandary": null,
       "Jory": 9.5
     },
@@ -56,7 +56,7 @@
       "imdb": 8.2,
       "poster": null,
       "tmdb_id": null,
-      "Mohammad": 9,
+      "Mohammad": 9.0,
       "Mohannad": 7.8,
       "Albandary": null,
       "Jory": 7.8
@@ -68,9 +68,9 @@
       "poster": null,
       "tmdb_id": null,
       "Mohammad": 8.9,
-      "Mohannad": 8,
+      "Mohannad": 8.0,
       "Albandary": null,
-      "Jory": 8
+      "Jory": 8.0
     },
     {
       "title": "a beautiful mind",
@@ -79,20 +79,20 @@
       "poster": null,
       "tmdb_id": null,
       "Mohammad": 8.9,
-      "Mohannad": 10,
+      "Mohannad": 10.0,
       "Albandary": null,
-      "Jory": 9
+      "Jory": 9.0
     },
     {
       "title": "12 angry men",
       "year": 1957,
-      "imdb": 9,
+      "imdb": 9.0,
       "poster": null,
       "tmdb_id": null,
       "Mohammad": 8.8,
       "Mohannad": 8.8,
       "Albandary": null,
-      "Jory": 9
+      "Jory": 9.0
     },
     {
       "title": "the green mile",
@@ -123,8 +123,8 @@
       "poster": null,
       "tmdb_id": null,
       "Mohammad": 8.8,
-      "Mohannad": 8,
-      "Albandary": 10,
+      "Mohannad": 8.0,
+      "Albandary": 10.0,
       "Jory": 9.5
     },
     {
@@ -147,12 +147,12 @@
       "Mohammad": 8.8,
       "Mohannad": 9.4,
       "Albandary": null,
-      "Jory": 9
+      "Jory": 9.0
     },
     {
       "title": "mystic river",
       "year": 2003,
-      "imdb": 8,
+      "imdb": 8.0,
       "poster": null,
       "tmdb_id": null,
       "Mohammad": 8.8,
@@ -161,7 +161,7 @@
       "Jory": 8.4
     },
     {
-      "title": "birdman",
+      "title": "birdman or (the unexpected virtue of ignorance)",
       "year": 2014,
       "imdb": 7.8,
       "poster": null,
@@ -169,7 +169,7 @@
       "Mohammad": 8.8,
       "Mohannad": 6.4,
       "Albandary": null,
-      "Jory": 8
+      "Jory": 8.0
     },
     {
       "title": "Tarzan",
@@ -235,7 +235,7 @@
       "Mohammad": 8.7,
       "Mohannad": 7.5,
       "Albandary": null,
-      "Jory": 8
+      "Jory": 8.0
     },
     {
       "title": "life of pi",
@@ -255,9 +255,9 @@
       "poster": null,
       "tmdb_id": null,
       "Mohammad": 8.7,
-      "Mohannad": 8,
+      "Mohannad": 8.0,
       "Albandary": null,
-      "Jory": 9
+      "Jory": 9.0
     },
     {
       "title": "toy story 4",
@@ -306,7 +306,7 @@
     {
       "title": "the dark knight",
       "year": 2008,
-      "imdb": 9,
+      "imdb": 9.0,
       "poster": null,
       "tmdb_id": null,
       "Mohammad": 8.6,
@@ -323,7 +323,7 @@
       "Mohammad": 8.6,
       "Mohannad": 8.8,
       "Albandary": null,
-      "Jory": 9
+      "Jory": 9.0
     },
     {
       "title": "se7en",
@@ -365,8 +365,8 @@
       "poster": null,
       "tmdb_id": null,
       "Mohammad": 8.6,
-      "Mohannad": 8,
-      "Albandary": 10,
+      "Mohannad": 8.0,
+      "Albandary": 10.0,
       "Jory": 7.5
     },
     {
@@ -381,31 +381,31 @@
       "Jory": 8.3
     },
     {
-      "title": "monsters inc",
+      "title": "monsters, inc.",
       "year": 2001,
       "imdb": 8.1,
       "poster": null,
       "tmdb_id": null,
       "Mohammad": 8.6,
-      "Mohannad": 8,
+      "Mohannad": 8.0,
       "Albandary": null,
       "Jory": 9.6
     },
     {
       "title": "the sixth sense",
-      "year": 1999,
+      "year": 1993,
       "imdb": 8.1,
       "poster": null,
       "tmdb_id": null,
       "Mohammad": 8.6,
       "Mohannad": 8.6,
       "Albandary": null,
-      "Jory": 9
+      "Jory": 9.0
     },
     {
       "title": "shams al-ma'arif",
       "year": 2020,
-      "imdb": 8,
+      "imdb": 8.0,
       "poster": null,
       "tmdb_id": null,
       "Mohammad": 8.6,
@@ -433,7 +433,7 @@
       "Mohammad": 8.6,
       "Mohannad": 8.8,
       "Albandary": null,
-      "Jory": 9
+      "Jory": 9.0
     },
     {
       "title": "malcolm x",
@@ -444,7 +444,7 @@
       "Mohammad": 8.6,
       "Mohannad": 9.3,
       "Albandary": null,
-      "Jory": 8
+      "Jory": 8.0
     },
     {
       "title": "the hurricane",
@@ -453,12 +453,12 @@
       "poster": null,
       "tmdb_id": null,
       "Mohammad": 8.6,
-      "Mohannad": 9,
+      "Mohannad": 9.0,
       "Albandary": null,
       "Jory": null
     },
     {
-      "title": "perfume",
+      "title": "perfume: the story of a murderer",
       "year": 2006,
       "imdb": 7.5,
       "poster": null,
@@ -482,7 +482,7 @@
     {
       "title": "the pursuit of happyness",
       "year": 2006,
-      "imdb": 8,
+      "imdb": 8.0,
       "poster": null,
       "tmdb_id": null,
       "Mohammad": 8.5,
@@ -502,7 +502,7 @@
       "Jory": 7.6
     },
     {
-      "title": "once upon a time in hollywood",
+      "title": "once upon a time… in hollywood",
       "year": 2019,
       "imdb": 7.6,
       "poster": null,
@@ -554,12 +554,12 @@
       "Mohammad": 8.4,
       "Mohannad": null,
       "Albandary": null,
-      "Jory": 8
+      "Jory": 8.0
     },
     {
       "title": "Schindler's List",
       "year": 1993,
-      "imdb": 9,
+      "imdb": 9.0,
       "poster": null,
       "tmdb_id": null,
       "Mohammad": 8.3,
@@ -576,7 +576,7 @@
       "Mohammad": 8.3,
       "Mohannad": 7.4,
       "Albandary": null,
-      "Jory": 9
+      "Jory": 9.0
     },
     {
       "title": "django unchained",
@@ -620,12 +620,12 @@
       "Mohammad": 8.3,
       "Mohannad": 8.5,
       "Albandary": null,
-      "Jory": 8
+      "Jory": 8.0
     },
     {
       "title": "the revenant",
       "year": 2015,
-      "imdb": 8,
+      "imdb": 8.0,
       "poster": null,
       "tmdb_id": null,
       "Mohammad": 8.3,
@@ -640,7 +640,7 @@
       "poster": null,
       "tmdb_id": null,
       "Mohammad": 8.3,
-      "Mohannad": 8,
+      "Mohannad": 8.0,
       "Albandary": null,
       "Jory": null
     },
@@ -667,9 +667,9 @@
       "Jory": null
     },
     {
-      "title": "the godfather part II",
+      "title": "the godfather: part II",
       "year": 1974,
-      "imdb": 9,
+      "imdb": 9.0,
       "poster": null,
       "tmdb_id": null,
       "Mohammad": 8.2,
@@ -678,7 +678,7 @@
       "Jory": 8.4
     },
     {
-      "title": "spider-man no way home",
+      "title": "spider-man: no way home",
       "year": 2021,
       "imdb": 8.9,
       "poster": null,
@@ -717,7 +717,7 @@
       "poster": null,
       "tmdb_id": null,
       "Mohammad": 8.2,
-      "Mohannad": 8,
+      "Mohannad": 8.0,
       "Albandary": null,
       "Jory": 8.6
     },
@@ -741,16 +741,16 @@
       "Mohammad": 8.2,
       "Mohannad": 8.5,
       "Albandary": null,
-      "Jory": 8
+      "Jory": 8.0
     },
     {
       "title": "her",
       "year": 2013,
-      "imdb": 8,
+      "imdb": 8.0,
       "poster": null,
       "tmdb_id": null,
       "Mohammad": 8.2,
-      "Mohannad": 8,
+      "Mohannad": 8.0,
       "Albandary": null,
       "Jory": 7.8
     },
@@ -772,12 +772,12 @@
       "poster": null,
       "tmdb_id": null,
       "Mohammad": 8.2,
-      "Mohannad": 9,
+      "Mohannad": 9.0,
       "Albandary": null,
       "Jory": 7.5
     },
     {
-      "title": "x-men origins wolverine",
+      "title": "x-men origins: wolverine",
       "year": 2009,
       "imdb": 6.7,
       "poster": null,
@@ -838,7 +838,7 @@
       "poster": null,
       "tmdb_id": null,
       "Mohammad": 8.1,
-      "Mohannad": 8,
+      "Mohannad": 8.0,
       "Albandary": null,
       "Jory": null
     },
@@ -856,13 +856,13 @@
     {
       "title": "Slumdog Millionaire",
       "year": 2008,
-      "imdb": 8,
+      "imdb": 8.0,
       "poster": null,
       "tmdb_id": null,
       "Mohammad": 8.1,
       "Mohannad": 7.8,
       "Albandary": null,
-      "Jory": 8
+      "Jory": 8.0
     },
     {
       "title": "gravity",
@@ -893,9 +893,9 @@
       "poster": null,
       "tmdb_id": null,
       "Mohammad": 8.1,
-      "Mohannad": 8,
+      "Mohannad": 8.0,
       "Albandary": null,
-      "Jory": 7
+      "Jory": 7.0
     },
     {
       "title": "American Psycho",
@@ -904,9 +904,9 @@
       "poster": null,
       "tmdb_id": null,
       "Mohammad": 8.1,
-      "Mohannad": 8,
+      "Mohannad": 8.0,
       "Albandary": null,
-      "Jory": 8
+      "Jory": 8.0
     },
     {
       "title": "a time to kill",
@@ -917,10 +917,10 @@
       "Mohammad": 8.1,
       "Mohannad": 8.8,
       "Albandary": null,
-      "Jory": 9
+      "Jory": 9.0
     },
     {
-      "title": "Spider-Man Into the Spider-Verse",
+      "title": "Spider-Man: Into the Spider-Verse",
       "year": 2018,
       "imdb": 8.4,
       "poster": null,
@@ -928,7 +928,7 @@
       "Mohammad": 8.1,
       "Mohannad": null,
       "Albandary": null,
-      "Jory": 8
+      "Jory": 8.0
     },
     {
       "title": "gladiator",
@@ -947,7 +947,7 @@
       "imdb": 8.6,
       "poster": null,
       "tmdb_id": null,
-      "Mohammad": 8,
+      "Mohammad": 8.0,
       "Mohannad": 7.7,
       "Albandary": null,
       "Jory": 7.9
@@ -958,7 +958,7 @@
       "imdb": 8.4,
       "poster": null,
       "tmdb_id": null,
-      "Mohammad": 8,
+      "Mohammad": 8.0,
       "Mohannad": 8.4,
       "Albandary": null,
       "Jory": 8.4
@@ -969,8 +969,8 @@
       "imdb": 8.2,
       "poster": null,
       "tmdb_id": null,
-      "Mohammad": 8,
-      "Mohannad": 8,
+      "Mohammad": 8.0,
+      "Mohannad": 8.0,
       "Albandary": null,
       "Jory": 8.3
     },
@@ -980,10 +980,10 @@
       "imdb": 8.1,
       "poster": null,
       "tmdb_id": null,
-      "Mohammad": 8,
+      "Mohammad": 8.0,
       "Mohannad": 7.7,
       "Albandary": null,
-      "Jory": 8
+      "Jory": 8.0
     },
     {
       "title": "zack snyder's justice league",
@@ -991,7 +991,7 @@
       "imdb": 8.1,
       "poster": null,
       "tmdb_id": null,
-      "Mohammad": 8,
+      "Mohammad": 8.0,
       "Mohannad": 7.5,
       "Albandary": null,
       "Jory": null
@@ -999,11 +999,11 @@
     {
       "title": "Cinderella Man",
       "year": 2005,
-      "imdb": 8,
+      "imdb": 8.0,
       "poster": null,
       "tmdb_id": null,
-      "Mohammad": 8,
-      "Mohannad": 8,
+      "Mohammad": 8.0,
+      "Mohannad": 8.0,
       "Albandary": null,
       "Jory": null
     },
@@ -1013,7 +1013,7 @@
       "imdb": 7.9,
       "poster": null,
       "tmdb_id": null,
-      "Mohammad": 8,
+      "Mohammad": 8.0,
       "Mohannad": 8.2,
       "Albandary": null,
       "Jory": 7.8
@@ -1024,10 +1024,10 @@
       "imdb": 7.8,
       "poster": null,
       "tmdb_id": null,
-      "Mohammad": 8,
+      "Mohammad": 8.0,
       "Mohannad": 7.7,
       "Albandary": null,
-      "Jory": 8
+      "Jory": 8.0
     },
     {
       "title": "marriage story",
@@ -1035,7 +1035,7 @@
       "imdb": 7.8,
       "poster": null,
       "tmdb_id": null,
-      "Mohammad": 8,
+      "Mohammad": 8.0,
       "Mohannad": 7.6,
       "Albandary": null,
       "Jory": 7.8
@@ -1046,10 +1046,10 @@
       "imdb": 7.8,
       "poster": null,
       "tmdb_id": null,
-      "Mohammad": 8,
+      "Mohammad": 8.0,
       "Mohannad": 8.7,
       "Albandary": null,
-      "Jory": 8
+      "Jory": 8.0
     },
     {
       "title": "cast away",
@@ -1057,8 +1057,8 @@
       "imdb": 7.7,
       "poster": null,
       "tmdb_id": null,
-      "Mohammad": 8,
-      "Mohannad": 8,
+      "Mohammad": 8.0,
+      "Mohannad": 8.0,
       "Albandary": null,
       "Jory": 7.5
     },
@@ -1068,7 +1068,7 @@
       "imdb": 7.3,
       "poster": null,
       "tmdb_id": null,
-      "Mohammad": 8,
+      "Mohammad": 8.0,
       "Mohannad": 7.2,
       "Albandary": null,
       "Jory": 7.7
@@ -1079,7 +1079,7 @@
       "imdb": 7.8,
       "poster": null,
       "tmdb_id": null,
-      "Mohammad": 8,
+      "Mohammad": 8.0,
       "Mohannad": null,
       "Albandary": null,
       "Jory": null
@@ -1093,7 +1093,7 @@
       "Mohammad": 7.9,
       "Mohannad": 7.1,
       "Albandary": null,
-      "Jory": 6
+      "Jory": 6.0
     },
     {
       "title": "saving private ryan",
@@ -1113,7 +1113,7 @@
       "poster": null,
       "tmdb_id": null,
       "Mohammad": 7.9,
-      "Mohannad": 5,
+      "Mohannad": 5.0,
       "Albandary": null,
       "Jory": null
     },
@@ -1146,7 +1146,7 @@
       "poster": null,
       "tmdb_id": null,
       "Mohammad": 7.9,
-      "Mohannad": 8,
+      "Mohannad": 8.0,
       "Albandary": null,
       "Jory": 7.7
     },
@@ -1159,7 +1159,7 @@
       "Mohammad": 7.9,
       "Mohannad": 8.2,
       "Albandary": null,
-      "Jory": 8
+      "Jory": 8.0
     },
     {
       "title": "psycho",
@@ -1170,18 +1170,18 @@
       "Mohammad": 7.9,
       "Mohannad": 7.8,
       "Albandary": null,
-      "Jory": 8
+      "Jory": 8.0
     },
     {
       "title": "La La Land",
       "year": 2016,
-      "imdb": 8,
+      "imdb": 8.0,
       "poster": null,
       "tmdb_id": null,
       "Mohammad": 7.9,
       "Mohannad": 8.2,
       "Albandary": null,
-      "Jory": 8
+      "Jory": 8.0
     },
     {
       "title": "moon",
@@ -1214,7 +1214,18 @@
       "Mohammad": 7.9,
       "Mohannad": null,
       "Albandary": null,
-      "Jory": 8
+      "Jory": 8.0
+    },
+    {
+      "title": "The King of Comedy",
+      "year": 1982,
+      "imdb": 7.8,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.9,
+      "Mohannad": 7.0,
+      "Albandary": null,
+      "Jory": null
     },
     {
       "title": "whiplash",
@@ -1261,6 +1272,17 @@
       "Jory": 7.8
     },
     {
+      "title": "warriors",
+      "year": 2011,
+      "imdb": 8.2,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.8,
+      "Mohannad": 7.6,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
       "title": "room",
       "year": 2015,
       "imdb": 8.2,
@@ -1268,11 +1290,11 @@
       "tmdb_id": null,
       "Mohammad": 7.8,
       "Mohannad": 7.3,
-      "Albandary": 8,
-      "Jory": 8
+      "Albandary": 8.0,
+      "Jory": 8.0
     },
     {
-      "title": "eternal sunshine",
+      "title": "eternal sunshine of the spotless mind",
       "year": 2004,
       "imdb": 8.2,
       "poster": null,
@@ -1283,7 +1305,7 @@
       "Jory": 7.6
     },
     {
-      "title": "kill bill vol 1",
+      "title": "kill bill: vol. 1",
       "year": 2003,
       "imdb": 8.1,
       "poster": null,
@@ -1307,22 +1329,33 @@
     {
       "title": "the king's speech",
       "year": 2010,
-      "imdb": 8,
+      "imdb": 8.0,
       "poster": null,
       "tmdb_id": null,
       "Mohammad": 7.8,
       "Mohannad": 7.6,
       "Albandary": null,
-      "Jory": 8
+      "Jory": 8.0
     },
     {
-      "title": "pirates of the caribbean",
+      "title": "pirates of the caribbean: the curse of the black pearl",
       "year": 2003,
-      "imdb": 8,
+      "imdb": 8.0,
       "poster": null,
       "tmdb_id": null,
       "Mohammad": 7.8,
       "Mohannad": 7.6,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "kill bill: vol. 2",
+      "year": 2004,
+      "imdb": 8.0,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.8,
+      "Mohannad": 7.5,
       "Albandary": null,
       "Jory": null
     },
@@ -1335,7 +1368,7 @@
       "Mohammad": 7.8,
       "Mohannad": 8.3,
       "Albandary": null,
-      "Jory": 6
+      "Jory": 6.0
     },
     {
       "title": "Elvis",
@@ -1377,7 +1410,7 @@
       "poster": null,
       "tmdb_id": null,
       "Mohammad": 7.8,
-      "Mohannad": 8,
+      "Mohannad": 8.0,
       "Albandary": null,
       "Jory": 7.7
     },
@@ -1390,7 +1423,18 @@
       "Mohammad": 7.8,
       "Mohannad": 7.6,
       "Albandary": null,
-      "Jory": 8
+      "Jory": 8.0
+    },
+    {
+      "title": "the assassinaton of jesse james by the coward robert ford",
+      "year": 2007,
+      "imdb": 7.5,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.8,
+      "Mohannad": 7.7,
+      "Albandary": null,
+      "Jory": null
     },
     {
       "title": "the fall",
@@ -1437,6 +1481,17 @@
       "Jory": 7.3
     },
     {
+      "title": "clue",
+      "year": 1985,
+      "imdb": 7.2,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.8,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
       "title": "Nocturnal Animals",
       "year": 2016,
       "imdb": 7.4,
@@ -1459,7 +1514,18 @@
       "Jory": 7.4
     },
     {
-      "title": "Three Billboards",
+      "title": "my neighbor totoro",
+      "year": 1988,
+      "imdb": 8.1,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.8,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "Three Billboards Outside Ebbing, Missouri",
       "year": 2017,
       "imdb": 8.3,
       "poster": null,
@@ -1492,13 +1558,57 @@
       "Jory": null
     },
     {
-      "title": "the martian",
-      "year": 2015,
-      "imdb": 8,
+      "title": "vertigo",
+      "year": 1958,
+      "imdb": 8.4,
       "poster": null,
       "tmdb_id": null,
       "Mohammad": 7.7,
-      "Mohannad": 8,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "the martian",
+      "year": 2015,
+      "imdb": 8.0,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.7,
+      "Mohannad": 8.0,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "gandhi",
+      "year": 1982,
+      "imdb": 8.0,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.7,
+      "Mohannad": 7.7,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "Magnolia",
+      "year": 1999,
+      "imdb": 8.0,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.7,
+      "Mohannad": 5.9,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "the big lebowski",
+      "year": 1998,
+      "imdb": 8.2,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.7,
+      "Mohannad": null,
       "Albandary": null,
       "Jory": null
     },
@@ -1511,7 +1621,18 @@
       "Mohammad": 7.7,
       "Mohannad": null,
       "Albandary": null,
-      "Jory": 8
+      "Jory": 8.0
+    },
+    {
+      "title": "Road to Perdition",
+      "year": 2002,
+      "imdb": 7.7,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.7,
+      "Mohannad": 7.6,
+      "Albandary": null,
+      "Jory": null
     },
     {
       "title": "Primal Fear",
@@ -1522,12 +1643,23 @@
       "Mohammad": 7.7,
       "Mohannad": 7.7,
       "Albandary": null,
-      "Jory": 9
+      "Jory": 9.0
+    },
+    {
+      "title": "x-men 2",
+      "year": 2003,
+      "imdb": 7.5,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.7,
+      "Mohannad": 7.7,
+      "Albandary": null,
+      "Jory": null
     },
     {
       "title": "sin city",
       "year": 2005,
-      "imdb": 8,
+      "imdb": 8.0,
       "poster": null,
       "tmdb_id": null,
       "Mohammad": 7.7,
@@ -1555,7 +1687,7 @@
       "Mohammad": 7.7,
       "Mohannad": 7.1,
       "Albandary": null,
-      "Jory": 8
+      "Jory": 8.0
     },
     {
       "title": "the road",
@@ -1580,13 +1712,46 @@
       "Jory": null
     },
     {
-      "title": "x-men the last stand",
+      "title": "mask",
+      "year": 1994,
+      "imdb": 6.9,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.7,
+      "Mohannad": 7.5,
+      "Albandary": null,
+      "Jory": 6.5
+    },
+    {
+      "title": "x-men: the last stand",
       "year": 2006,
       "imdb": 6.7,
       "poster": null,
       "tmdb_id": null,
       "Mohammad": 7.7,
       "Mohannad": 7.5,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "groundhog day",
+      "year": 1993,
+      "imdb": 8.0,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.7,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "small soldiers",
+      "year": 1998,
+      "imdb": 6.2,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.7,
+      "Mohannad": 6.8,
       "Albandary": null,
       "Jory": null
     },
@@ -1602,9 +1767,20 @@
       "Jory": null
     },
     {
+      "title": "death becomes her",
+      "year": 1992,
+      "imdb": 6.6,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.7,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
       "title": "Juror #2",
       "year": 2024,
-      "imdb": 7,
+      "imdb": 7.0,
       "poster": null,
       "tmdb_id": null,
       "Mohammad": 7.7,
@@ -1620,6 +1796,17 @@
       "tmdb_id": null,
       "Mohammad": 7.7,
       "Mohannad": 7.4,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "it's a wonderful life",
+      "year": 1946,
+      "imdb": 8.6,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.6,
+      "Mohannad": null,
       "Albandary": null,
       "Jory": null
     },
@@ -1646,6 +1833,457 @@
       "Jory": 7.5
     },
     {
+      "title": "The English Patient",
+      "year": 1996,
+      "imdb": 7.4,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.6,
+      "Mohannad": 8.7,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "Full Metal Jacket",
+      "year": 1987,
+      "imdb": 8.3,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.6,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "the warriors",
+      "year": 1979,
+      "imdb": 7.6,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.6,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "Eyes wide shut",
+      "year": 1999,
+      "imdb": 7.4,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.6,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "onward",
+      "year": 2020,
+      "imdb": 7.4,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.6,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "The White Tiger",
+      "year": 2021,
+      "imdb": 7.1,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.6,
+      "Mohannad": 7.7,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "house of Gucci",
+      "year": 2021,
+      "imdb": 7.0,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.6,
+      "Mohannad": 7.6,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "The Passion of the Christ",
+      "year": 2004,
+      "imdb": 7.2,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.6,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "king kong",
+      "year": 2005,
+      "imdb": 7.2,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.6,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 7.3
+    },
+    {
+      "title": "the italian job",
+      "year": 2003,
+      "imdb": 7.0,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.6,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "the gift",
+      "year": 2015,
+      "imdb": 7.0,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.6,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "law abiding citizen",
+      "year": 2009,
+      "imdb": 7.4,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.5,
+      "Mohannad": 7.8,
+      "Albandary": null,
+      "Jory": 6.9
+    },
+    {
+      "title": "Everything Everywhere All at Once",
+      "year": 2022,
+      "imdb": 8.3,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.5,
+      "Mohannad": 8.1,
+      "Albandary": null,
+      "Jory": 8.0
+    },
+    {
+      "title": "the silence of the lambs",
+      "year": 1991,
+      "imdb": 8.6,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.5,
+      "Mohannad": 8.4,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "A separation",
+      "year": 2011,
+      "imdb": 8.3,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.5,
+      "Mohannad": 7.7,
+      "Albandary": null,
+      "Jory": 7.4
+    },
+    {
+      "title": "hacksaw ridge",
+      "year": 2016,
+      "imdb": 8.2,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.5,
+      "Mohannad": 8.4,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "downfall",
+      "year": 2004,
+      "imdb": 8.2,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.5,
+      "Mohannad": 7.8,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "x-men: days of future past",
+      "year": 2014,
+      "imdb": 8.0,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.5,
+      "Mohannad": 8.2,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "x-men: first class",
+      "year": 2011,
+      "imdb": 7.8,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.5,
+      "Mohannad": 7.4,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "the others",
+      "year": 2001,
+      "imdb": 7.6,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.5,
+      "Mohannad": 7.8,
+      "Albandary": null,
+      "Jory": 7.7
+    },
+    {
+      "title": "tenet",
+      "year": 2020,
+      "imdb": 7.4,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.5,
+      "Mohannad": 7.5,
+      "Albandary": null,
+      "Jory": 7.5
+    },
+    {
+      "title": "flight",
+      "year": 2012,
+      "imdb": 7.3,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.5,
+      "Mohannad": 7.6,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "analyze this",
+      "year": 1999,
+      "imdb": 6.7,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.5,
+      "Mohannad": 7.3,
+      "Albandary": null,
+      "Jory": 7.7
+    },
+    {
+      "title": "ace ventura: when nature calles",
+      "year": 1995,
+      "imdb": 6.3,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.5,
+      "Mohannad": 7.5,
+      "Albandary": null,
+      "Jory": 7.2
+    },
+    {
+      "title": "up",
+      "year": 2009,
+      "imdb": 8.2,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.5,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 6.0
+    },
+    {
+      "title": "Dirty Rotten Scoundrels",
+      "year": 1988,
+      "imdb": 7.4,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.5,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "one flew over the cuckoo's nest",
+      "year": 1975,
+      "imdb": 8.7,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.4,
+      "Mohannad": 8.1,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "into the wild",
+      "year": 2007,
+      "imdb": 8.1,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.4,
+      "Mohannad": 7.4,
+      "Albandary": null,
+      "Jory": 7.8
+    },
+    {
+      "title": "mad max: fury road",
+      "year": 2015,
+      "imdb": 8.1,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.4,
+      "Mohannad": 7.2,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "the game",
+      "year": 1997,
+      "imdb": 7.8,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.4,
+      "Mohannad": 7.5,
+      "Albandary": null,
+      "Jory": 7.6
+    },
+    {
+      "title": "the last of the mohicans",
+      "year": 1992,
+      "imdb": 7.8,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.4,
+      "Mohannad": 7.4,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "get out",
+      "year": 2017,
+      "imdb": 7.7,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.4,
+      "Mohannad": 7.9,
+      "Albandary": null,
+      "Jory": 7.7
+    },
+    {
+      "title": "ex machina",
+      "year": 2014,
+      "imdb": 7.7,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.4,
+      "Mohannad": 5.6,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "the town",
+      "year": 2010,
+      "imdb": 7.6,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.4,
+      "Mohannad": 8.1,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "king Richard",
+      "year": 2021,
+      "imdb": 7.6,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.4,
+      "Mohannad": 7.4,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "the shape of water",
+      "year": 2017,
+      "imdb": 7.3,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.4,
+      "Mohannad": 7.2,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "anthropoid",
+      "year": 2016,
+      "imdb": 7.2,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.4,
+      "Mohannad": 7.3,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "RRR",
+      "year": 2022,
+      "imdb": 8.0,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.4,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "The Suicide Squad",
+      "year": 2021,
+      "imdb": 7.5,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.4,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "You will die at 20",
+      "year": 2021,
+      "imdb": 7.1,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.4,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "Ready or Not",
+      "year": 2019,
+      "imdb": 6.9,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.4,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 6.0
+    },
+    {
       "title": "intouchables",
       "year": 2011,
       "imdb": 8.6,
@@ -1657,15 +2295,26 @@
       "Jory": null
     },
     {
-      "title": "Glass Onion",
+      "title": "Glass Onion: A Knives Out Mystery",
       "year": 2022,
-      "imdb": 8,
+      "imdb": 8.0,
       "poster": null,
       "tmdb_id": null,
       "Mohammad": 7.3,
       "Mohannad": 7.3,
       "Albandary": null,
       "Jory": null
+    },
+    {
+      "title": "The Book of Sun",
+      "year": 2020,
+      "imdb": 7.9,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.3,
+      "Mohannad": 7.6,
+      "Albandary": null,
+      "Jory": 7.5
     },
     {
       "title": "gentlemen",
@@ -1697,7 +2346,18 @@
       "tmdb_id": null,
       "Mohammad": 7.3,
       "Mohannad": 7.5,
-      "Albandary": 6,
+      "Albandary": 6.0,
+      "Jory": null
+    },
+    {
+      "title": "the godfather: part III",
+      "year": 1990,
+      "imdb": 7.6,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.3,
+      "Mohannad": 8.4,
+      "Albandary": null,
       "Jory": null
     },
     {
@@ -1710,6 +2370,2547 @@
       "Mohannad": 7.1,
       "Albandary": null,
       "Jory": null
+    },
+    {
+      "title": "My Cousin Vinny",
+      "year": 1992,
+      "imdb": 7.6,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.3,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "the power of the dog",
+      "year": 2021,
+      "imdb": 6.9,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.3,
+      "Mohannad": 6.5,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "mother!",
+      "year": 2017,
+      "imdb": 6.6,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.3,
+      "Mohannad": 6.9,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "mortal kombat",
+      "year": 2021,
+      "imdb": 6.2,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.3,
+      "Mohannad": 7.3,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "uncharted",
+      "year": 2022,
+      "imdb": 7.1,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.3,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 7.0
+    },
+    {
+      "title": "game night",
+      "year": 2018,
+      "imdb": 6.9,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.3,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "Top Gun: Maverick",
+      "year": 2022,
+      "imdb": 8.7,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.2,
+      "Mohannad": 7.5,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "jurassic park",
+      "year": 1993,
+      "imdb": 8.1,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.2,
+      "Mohannad": 5.9,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "argo",
+      "year": 2012,
+      "imdb": 7.7,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.2,
+      "Mohannad": 7.8,
+      "Albandary": null,
+      "Jory": 5.0
+    },
+    {
+      "title": "Chinatown",
+      "year": 1974,
+      "imdb": 8.2,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.2,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "midnight in Paris",
+      "year": 2011,
+      "imdb": 7.7,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.2,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 7.4
+    },
+    {
+      "title": "As good as it gets",
+      "year": 1997,
+      "imdb": 7.7,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.2,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "ace ventura: pet detective",
+      "year": 1994,
+      "imdb": 6.9,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.2,
+      "Mohannad": 6.2,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "Death on the nile",
+      "year": 2022,
+      "imdb": 6.5,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.2,
+      "Mohannad": 7.0,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "sleepers",
+      "year": 1996,
+      "imdb": 7.6,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.2,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "I am sam",
+      "year": 2001,
+      "imdb": 7.6,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.2,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 7.0
+    },
+    {
+      "title": "the wizard of oz",
+      "year": 1939,
+      "imdb": 8.1,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.2,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "howl's moving castle",
+      "year": 2004,
+      "imdb": 8.2,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.2,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "the help",
+      "year": 2011,
+      "imdb": 8.1,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.1,
+      "Mohannad": 7.6,
+      "Albandary": null,
+      "Jory": 7.0
+    },
+    {
+      "title": "our friend",
+      "year": 2019,
+      "imdb": 7.3,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.1,
+      "Mohannad": 7.3,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "don't look up",
+      "year": 2021,
+      "imdb": 7.3,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.1,
+      "Mohannad": 7.2,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "john wick 4",
+      "year": 2023,
+      "imdb": 8.2,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.1,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "the wolverine",
+      "year": 2013,
+      "imdb": 6.7,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.1,
+      "Mohannad": 7.1,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "Blue Streak",
+      "year": 1999,
+      "imdb": 6.3,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.1,
+      "Mohannad": 6.3,
+      "Albandary": null,
+      "Jory": 7.0
+    },
+    {
+      "title": "Thank You for Smoking",
+      "year": 2005,
+      "imdb": 7.5,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.1,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "the Unbearable Weight of Massive Talent",
+      "year": 2022,
+      "imdb": 7.0,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.1,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "Aladdin",
+      "year": 2019,
+      "imdb": 6.9,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.1,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 7.4
+    },
+    {
+      "title": "scarface",
+      "year": 1983,
+      "imdb": 8.3,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.0,
+      "Mohannad": 7.9,
+      "Albandary": null,
+      "Jory": 7.8
+    },
+    {
+      "title": "million dollar baby",
+      "year": 2004,
+      "imdb": 8.1,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.0,
+      "Mohannad": 6.8,
+      "Albandary": null,
+      "Jory": 8.4
+    },
+    {
+      "title": "twelve monkeys",
+      "year": 1995,
+      "imdb": 8.0,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.0,
+      "Mohannad": 8.4,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "lion",
+      "year": 2016,
+      "imdb": 8.0,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.0,
+      "Mohannad": 7.6,
+      "Albandary": null,
+      "Jory": 6.4
+    },
+    {
+      "title": "The Greatest Showman",
+      "year": 2017,
+      "imdb": 7.8,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.0,
+      "Mohannad": 7.7,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "hell or high water",
+      "year": 2016,
+      "imdb": 7.7,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.0,
+      "Mohannad": 6.3,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "hustle",
+      "year": 2022,
+      "imdb": 7.4,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.0,
+      "Mohannad": 7.7,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "before sunrise",
+      "year": 1995,
+      "imdb": 8.1,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.0,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 8.0
+    },
+    {
+      "title": "honey boy",
+      "year": 2019,
+      "imdb": 7.3,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.0,
+      "Mohannad": 6.9,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "Dumb and Dumber",
+      "year": 1994,
+      "imdb": 7.3,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.0,
+      "Mohannad": 8.4,
+      "Albandary": null,
+      "Jory": 7.6
+    },
+    {
+      "title": "The Terminator",
+      "year": 1984,
+      "imdb": 8.1,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.0,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 8.0
+    },
+    {
+      "title": "finch",
+      "year": 2021,
+      "imdb": 7.0,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.0,
+      "Mohannad": 6.6,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "Airplane!",
+      "year": 1980,
+      "imdb": 7.7,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.0,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "john wick 3",
+      "year": 2019,
+      "imdb": 7.4,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.0,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "ali",
+      "year": 2001,
+      "imdb": 6.8,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.0,
+      "Mohannad": 7.3,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "the lost city",
+      "year": 2022,
+      "imdb": 7.2,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.0,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "ad astra",
+      "year": 2019,
+      "imdb": 6.5,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.0,
+      "Mohannad": 6.7,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "passengers",
+      "year": 2016,
+      "imdb": 7.0,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.0,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "nope",
+      "year": 2022,
+      "imdb": 7.0,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.0,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "army of the dead",
+      "year": 2021,
+      "imdb": 6.2,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.0,
+      "Mohannad": 7.3,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "athena",
+      "year": 2022,
+      "imdb": 6.8,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.0,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "roman j. israel, esq.",
+      "year": 2017,
+      "imdb": 6.5,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.0,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "salt",
+      "year": 2010,
+      "imdb": 6.4,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.0,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "the boy",
+      "year": 2016,
+      "imdb": 6.0,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.0,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "Lion of the Desert",
+      "year": 1980,
+      "imdb": 8.2,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.0,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 7.4
+    },
+    {
+      "title": "you've got mail",
+      "year": 1998,
+      "imdb": 6.7,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.0,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 7.0
+    },
+    {
+      "title": "arrival",
+      "year": 2016,
+      "imdb": 8.0,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 6.9,
+      "Mohannad": 7.3,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "c'mon c'mon",
+      "year": 2021,
+      "imdb": 7.9,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 6.9,
+      "Mohannad": 6.9,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "babylon",
+      "year": 2022,
+      "imdb": 7.4,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 6.9,
+      "Mohannad": 7.1,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "Stonehearst Asylum",
+      "year": 2014,
+      "imdb": 6.8,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 6.9,
+      "Mohannad": 7.4,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "the wild robot",
+      "year": 2024,
+      "imdb": 8.3,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 6.9,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "john wick 2",
+      "year": 2017,
+      "imdb": 7.4,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 6.9,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "top gun",
+      "year": 1986,
+      "imdb": 6.9,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 6.9,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "the 'burbs",
+      "year": 1989,
+      "imdb": 6.7,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 6.9,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "wanted",
+      "year": 2008,
+      "imdb": 6.7,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 6.9,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "Little women",
+      "year": 2019,
+      "imdb": 7.8,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 6.8,
+      "Mohannad": 7.1,
+      "Albandary": null,
+      "Jory": 7.8
+    },
+    {
+      "title": "sully",
+      "year": 2016,
+      "imdb": 7.4,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 6.8,
+      "Mohannad": 6.6,
+      "Albandary": null,
+      "Jory": 7.2
+    },
+    {
+      "title": "don't breathe",
+      "year": 2016,
+      "imdb": 7.2,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 6.8,
+      "Mohannad": 7.2,
+      "Albandary": null,
+      "Jory": 8.3
+    },
+    {
+      "title": "Fever Dream",
+      "year": 2023,
+      "imdb": 7.2,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 6.8,
+      "Mohannad": 7.8,
+      "Albandary": null,
+      "Jory": 7.7
+    },
+    {
+      "title": "the boxer",
+      "year": 1997,
+      "imdb": 7.1,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 6.8,
+      "Mohannad": 8.0,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "spirited away",
+      "year": 2001,
+      "imdb": 8.6,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 6.8,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 7.3
+    },
+    {
+      "title": "Guillermo del Toro's Pinocchio",
+      "year": 2022,
+      "imdb": 7.8,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 6.8,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "The northman",
+      "year": 2022,
+      "imdb": 7.7,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 6.8,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "Late Night with the Devil",
+      "year": 2023,
+      "imdb": 7.0,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 6.8,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "before sunset",
+      "year": 2004,
+      "imdb": 8.0,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 6.7,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "the bone collector",
+      "year": 1999,
+      "imdb": 6.7,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 6.7,
+      "Mohannad": 6.7,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "Gi-eok-ui bam",
+      "year": 2017,
+      "imdb": 7.4,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 6.7,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 7.7
+    },
+    {
+      "title": "good time",
+      "year": 2017,
+      "imdb": 7.4,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 6.7,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "a serious man",
+      "year": 2009,
+      "imdb": 7.0,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 6.7,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "Bad Boys: Ride or Die",
+      "year": 2024,
+      "imdb": 7.0,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 6.7,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "godzilla vs. kong",
+      "year": 2021,
+      "imdb": 6.4,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 6.7,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "the pink panther",
+      "year": 2006,
+      "imdb": 5.6,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 6.7,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "the pink panther 2",
+      "year": 2009,
+      "imdb": 5.6,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 6.7,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "The Brutalist",
+      "year": 2024,
+      "imdb": 7.4,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 6.7,
+      "Mohannad": 7.3,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "black Adam",
+      "year": 2022,
+      "imdb": 7.2,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 6.6,
+      "Mohannad": 7.4,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "The Bikeriders",
+      "year": 2023,
+      "imdb": 7.2,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 6.6,
+      "Mohannad": 7.1,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "a clockwork orange",
+      "year": 1971,
+      "imdb": 8.3,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 6.6,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 9.0
+    },
+    {
+      "title": "The Substance",
+      "year": 2024,
+      "imdb": 7.3,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 6.6,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "hit man",
+      "year": 2023,
+      "imdb": 6.9,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 6.5,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "bad boys",
+      "year": 1995,
+      "imdb": 6.8,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 6.5,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "How to Lose a Guy in 10 Days",
+      "year": 2003,
+      "imdb": 6.5,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 6.5,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 7.0
+    },
+    {
+      "title": "quite place 2",
+      "year": 2020,
+      "imdb": 7.4,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 6.5,
+      "Mohannad": 7.3,
+      "Albandary": null,
+      "Jory": 7.2
+    },
+    {
+      "title": "Talk to Me",
+      "year": 2022,
+      "imdb": 7.1,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 6.5,
+      "Mohannad": null,
+      "Albandary": 7.0,
+      "Jory": 4.7
+    },
+    {
+      "title": "white noise",
+      "year": 2022,
+      "imdb": 5.7,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 6.4,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "Last night in Soho",
+      "year": 2021,
+      "imdb": 7.5,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 6.3,
+      "Mohannad": 6.8,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "requiem for a dream",
+      "year": 2000,
+      "imdb": 8.3,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 6.2,
+      "Mohannad": 8.1,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "old",
+      "year": 2022,
+      "imdb": 5.8,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 6.2,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "the book of eli",
+      "year": 2010,
+      "imdb": 6.8,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 6.2,
+      "Mohannad": 4.3,
+      "Albandary": null,
+      "Jory": 8.0
+    },
+    {
+      "title": "braveheart",
+      "year": 1995,
+      "imdb": 8.4,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 6.0,
+      "Mohannad": 7.6,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "the shining",
+      "year": 1980,
+      "imdb": 8.4,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 6.0,
+      "Mohannad": 7.2,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "dunkirk",
+      "year": 2017,
+      "imdb": 8.0,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 6.0,
+      "Mohannad": 8.1,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "Free Guy",
+      "year": 2021,
+      "imdb": 7.7,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 6.0,
+      "Mohannad": 6.8,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "the lighthouse",
+      "year": 2019,
+      "imdb": 7.5,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 6.0,
+      "Mohannad": 6.3,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "sonic the hedgehog 2",
+      "year": 2022,
+      "imdb": 6.9,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 6.0,
+      "Mohannad": 6.5,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "venom",
+      "year": 2018,
+      "imdb": 6.7,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 6.0,
+      "Mohannad": 4.0,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "Dumb and Dumber To",
+      "year": 2014,
+      "imdb": 5.6,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 6.0,
+      "Mohannad": 5.7,
+      "Albandary": null,
+      "Jory": 6.0
+    },
+    {
+      "title": "john wick",
+      "year": 2014,
+      "imdb": 7.4,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 6.0,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "Tropic Thunder",
+      "year": 2008,
+      "imdb": 7.1,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 6.0,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "black panther: wakanda forever",
+      "year": 2022,
+      "imdb": 6.9,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 6.0,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "venom: the last dance",
+      "year": 2024,
+      "imdb": 6.2,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 6.0,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "gladiator II",
+      "year": 2024,
+      "imdb": 6.7,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 6.0,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 7.6
+    },
+    {
+      "title": "Inside Llewyn Davis",
+      "year": 2013,
+      "imdb": 7.4,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 6.0,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "Knock at the Cabin",
+      "year": 2023,
+      "imdb": 6.1,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 6.0,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "the incredible hulk",
+      "year": 1977,
+      "imdb": 7.0,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 5.9,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "minority report",
+      "year": 2002,
+      "imdb": 7.6,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 5.8,
+      "Mohannad": 7.6,
+      "Albandary": null,
+      "Jory": 6.5
+    },
+    {
+      "title": "love potion no. 9",
+      "year": 1992,
+      "imdb": 5.7,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 5.8,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "Tar",
+      "year": 2022,
+      "imdb": 7.4,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 5.8,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "x-men: apocalypse",
+      "year": 2016,
+      "imdb": 7.0,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 5.7,
+      "Mohannad": 7.2,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "boyhood",
+      "year": 2014,
+      "imdb": 7.9,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 5.6,
+      "Mohannad": 6.4,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "cinderella",
+      "year": 2015,
+      "imdb": 6.9,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 5.6,
+      "Mohannad": 5.5,
+      "Albandary": null,
+      "Jory": 7.3
+    },
+    {
+      "title": "a complete unknown",
+      "year": 2024,
+      "imdb": 7.7,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 5.6,
+      "Mohannad": 6.3,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "Killers of the Flower Moon",
+      "year": 2023,
+      "imdb": 7.6,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 5.5,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 4.0
+    },
+    {
+      "title": "the equalizer",
+      "year": 2014,
+      "imdb": 7.2,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 5.4,
+      "Mohannad": 7.1,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "thor: love and thunder",
+      "year": 2022,
+      "imdb": 6.6,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 5.3,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "another round",
+      "year": 2020,
+      "imdb": 7.8,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 5.2,
+      "Mohannad": 6.8,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "aftersun",
+      "year": 2022,
+      "imdb": 7.8,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 5.2,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "in time",
+      "year": 2011,
+      "imdb": 6.7,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 5.2,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "you people",
+      "year": 2023,
+      "imdb": 5.5,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 5.2,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "wonder",
+      "year": 2017,
+      "imdb": 8.0,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 5.1,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 6.6
+    },
+    {
+      "title": "silver linings playbook",
+      "year": 2012,
+      "imdb": 7.8,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 5.0,
+      "Mohannad": 6.2,
+      "Albandary": null,
+      "Jory": 8.0
+    },
+    {
+      "title": "déjà vu",
+      "year": 2006,
+      "imdb": 7.0,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 5.0,
+      "Mohannad": 7.7,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "happy death day",
+      "year": 2017,
+      "imdb": 6.5,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 5.0,
+      "Mohannad": null,
+      "Albandary": 7.5,
+      "Jory": null
+    },
+    {
+      "title": "smile",
+      "year": 2022,
+      "imdb": 6.5,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 4.8,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 5.4
+    },
+    {
+      "title": "nomadland",
+      "year": 2020,
+      "imdb": 7.4,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 4.7,
+      "Mohannad": 7.1,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "mr. bean's holiday",
+      "year": 2007,
+      "imdb": 6.3,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 4.7,
+      "Mohannad": 7.0,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "justice league",
+      "year": 2017,
+      "imdb": 6.2,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 4.7,
+      "Mohannad": 6.9,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "sinners",
+      "year": 2025,
+      "imdb": 8.2,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 4.6,
+      "Mohannad": 4.8,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "district 9",
+      "year": 2009,
+      "imdb": 8.0,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 4.5,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "lightyear",
+      "year": 2022,
+      "imdb": 5.9,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 4.5,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "spotlight",
+      "year": 2015,
+      "imdb": 8.1,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 4.3,
+      "Mohannad": 5.2,
+      "Albandary": null,
+      "Jory": 8.0
+    },
+    {
+      "title": "cloud atlas",
+      "year": 2012,
+      "imdb": 7.5,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 4.3,
+      "Mohannad": 3.0,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "I'm thinking of Ending things",
+      "year": 2020,
+      "imdb": 6.6,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 4.3,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "from dusk till dawn",
+      "year": 1996,
+      "imdb": 7.2,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 4.2,
+      "Mohannad": 6.4,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "Mr. Monk's Last Case: A Monk Movie",
+      "year": 2022,
+      "imdb": 6.7,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 4.2,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "amelie",
+      "year": 2001,
+      "imdb": 8.4,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 4.1,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "blonde",
+      "year": 2022,
+      "imdb": 5.8,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 4.0,
+      "Mohannad": 6.0,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "terminator 2:judgment day",
+      "year": 1991,
+      "imdb": 8.5,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 4.0,
+      "Mohannad": 6.4,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "Joker: Folie à Deux",
+      "year": 2024,
+      "imdb": 5.3,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 4.0,
+      "Mohannad": 6.6,
+      "Albandary": 4.0,
+      "Jory": 4.5
+    },
+    {
+      "title": "city of god",
+      "year": 2002,
+      "imdb": 8.7,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 4.0,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "lucy",
+      "year": 2014,
+      "imdb": 6.4,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 4.0,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "Space Jam: A New Legacy",
+      "year": 2021,
+      "imdb": 4.4,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 4.0,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "the room",
+      "year": 2003,
+      "imdb": 3.6,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 4.0,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "f9",
+      "year": 2021,
+      "imdb": 5.6,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 3.7,
+      "Mohannad": 5.4,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "the box",
+      "year": 2009,
+      "imdb": 5.6,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 3.2,
+      "Mohannad": null,
+      "Albandary": 3.0,
+      "Jory": null
+    },
+    {
+      "title": "wonder woman 1984",
+      "year": 2020,
+      "imdb": 5.4,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 3.1,
+      "Mohannad": 4.8,
+      "Albandary": null,
+      "Jory": 4.8
+    },
+    {
+      "title": "mank",
+      "year": 2020,
+      "imdb": 6.9,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 3.0,
+      "Mohannad": 6.9,
+      "Albandary": null,
+      "Jory": 1.0
+    },
+    {
+      "title": "anchorman 2: the legend",
+      "year": 2013,
+      "imdb": 6.3,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 3.0,
+      "Mohannad": 2.4,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "rubber",
+      "year": 2010,
+      "imdb": 5.8,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 3.0,
+      "Mohannad": 0.4,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "donnie darko",
+      "year": 2001,
+      "imdb": 8.1,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 3.0,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "wadjda",
+      "year": 2012,
+      "imdb": 7.6,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 3.0,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "tekken: blood vengeance",
+      "year": 2011,
+      "imdb": 5.9,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 2.0,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "hunger",
+      "year": 2008,
+      "imdb": 7.6,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 1.5,
+      "Mohannad": 3.9,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "tekken",
+      "year": 2010,
+      "imdb": 4.8,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 1.5,
+      "Mohannad": 2.3,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "god's not dead",
+      "year": 2014,
+      "imdb": 4.8,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 1.0,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "keif al-hal",
+      "year": 2006,
+      "imdb": 3.8,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 0.5,
+      "Mohannad": 2.2,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "moonlight",
+      "year": 2016,
+      "imdb": 7.5,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 0.2,
+      "Mohannad": 6.7,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "fatin drives me crazy",
+      "year": 2012,
+      "imdb": 2.9,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 0.2,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "Singin' in the Rain",
+      "year": 1952,
+      "imdb": 8.3,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 9.0
+    },
+    {
+      "title": "Raging Bull",
+      "year": 1980,
+      "imdb": 8.2,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": 7.7,
+      "Albandary": null,
+      "Jory": 9.0
+    },
+    {
+      "title": "Life and a Day",
+      "year": 2016,
+      "imdb": 8.2,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 7.0
+    },
+    {
+      "title": "in the mood for love",
+      "year": 2000,
+      "imdb": 8.1,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 7.0
+    },
+    {
+      "title": "roman holiday",
+      "year": 1953,
+      "imdb": 8.0,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 8.0
+    },
+    {
+      "title": "I want to eat your pancreas",
+      "year": 2018,
+      "imdb": 8.0,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 9.0
+    },
+    {
+      "title": "jojo rabbit",
+      "year": 2019,
+      "imdb": 7.9,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": 7.6,
+      "Albandary": null,
+      "Jory": 7.7
+    },
+    {
+      "title": "sound of metal",
+      "year": 2020,
+      "imdb": 7.8,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": 7.4,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "Pride & Prejudice",
+      "year": 2005,
+      "imdb": 7.8,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 8.0
+    },
+    {
+      "title": "the last duel",
+      "year": 2021,
+      "imdb": 7.7,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": 8.0,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "Drive my car",
+      "year": 2021,
+      "imdb": 7.7,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": 6.1,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "triangle of sadness",
+      "year": 2022,
+      "imdb": 7.7,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": 7.6,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "The Color Purple",
+      "year": 1985,
+      "imdb": 7.7,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 6.0
+    },
+    {
+      "title": "A Star Is Born",
+      "year": 2018,
+      "imdb": 7.6,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": 7.3,
+      "Albandary": null,
+      "Jory": 7.7
+    },
+    {
+      "title": "the reader",
+      "year": 2008,
+      "imdb": 7.6,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": 7.7,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "west side Story",
+      "year": 2021,
+      "imdb": 7.6,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": 6.8,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "What We Do in the Shadows",
+      "year": 2014,
+      "imdb": 7.6,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 7.4
+    },
+    {
+      "title": "Tell Me Who I Am",
+      "year": 2019,
+      "imdb": 7.6,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 7.0
+    },
+    {
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "year": 2001,
+      "imdb": 7.6,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 8.0
+    },
+    {
+      "title": "judas and the black messiah",
+      "year": 2021,
+      "imdb": 7.5,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": 7.6,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "promising young woman",
+      "year": 2020,
+      "imdb": 7.5,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": 7.5,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "licorice pizza",
+      "year": 2021,
+      "imdb": 7.5,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": 6.6,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "tick tick boom",
+      "year": 2021,
+      "imdb": 7.5,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": 6.6,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "Me Before You",
+      "year": 2016,
+      "imdb": 7.4,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": 7.6,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "lincoln",
+      "year": 2012,
+      "imdb": 7.4,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": 7.1,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "BlackBerry",
+      "year": 2023,
+      "imdb": 7.4,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 8.0
+    },
+    {
+      "title": "the place beyond the pines",
+      "year": 2012,
+      "imdb": 7.3,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": 7.8,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "Belfast",
+      "year": 2021,
+      "imdb": 7.3,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": 6.7,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "bonse and all",
+      "year": 2022,
+      "imdb": 7.3,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": 4.9,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "10 Things I Hate About You",
+      "year": 1999,
+      "imdb": 7.3,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 6.0
+    },
+    {
+      "title": "Film sakafi",
+      "year": 2000,
+      "imdb": 7.3,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 6.0
+    },
+    {
+      "title": "The unforgivable",
+      "year": 2021,
+      "imdb": 7.2,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": 6.5,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "mean girls",
+      "year": 2004,
+      "imdb": 7.0,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 8.0
+    },
+    {
+      "title": "maleficent",
+      "year": 2014,
+      "imdb": 7.0,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 7.8
+    },
+    {
+      "title": "To All the Boys I've Loved Before",
+      "year": 2018,
+      "imdb": 7.0,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 6.0
+    },
+    {
+      "title": "The good nurse",
+      "year": 2022,
+      "imdb": 6.9,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": 6.9,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "run",
+      "year": 2020,
+      "imdb": 6.7,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 6.8
+    },
+    {
+      "title": "A Haunting in Venice",
+      "year": 2023,
+      "imdb": 6.5,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 5.0
+    },
+    {
+      "title": "17 Again",
+      "year": 2009,
+      "imdb": 6.4,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 5.6
+    },
+    {
+      "title": "Queenpins",
+      "year": 2021,
+      "imdb": 6.4,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 2.0
+    },
+    {
+      "title": "the guilty",
+      "year": 2021,
+      "imdb": 6.3,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": 6.8,
+      "Albandary": null,
+      "Jory": null
+    },
+    {
+      "title": "a fall from grace",
+      "year": 2020,
+      "imdb": 5.9,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 6.2
+    },
+    {
+      "title": "the wretched",
+      "year": 2019,
+      "imdb": 5.8,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 3.0
+    },
+    {
+      "title": "mulan",
+      "year": 2020,
+      "imdb": 5.7,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 7.4
+    },
+    {
+      "title": "Palm Springs",
+      "year": 2020,
+      "imdb": 7.4,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 6.0
+    },
+    {
+      "title": "Edward Scissorhands",
+      "year": 1990,
+      "imdb": 7.9,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 6.0
+    },
+    {
+      "title": "Perfect Blue",
+      "year": 1997,
+      "imdb": 8.0,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 8.5
+    },
+    {
+      "title": "small things like these",
+      "year": 2024,
+      "imdb": 6.8,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 6.5
+    },
+    {
+      "title": "silenced",
+      "year": 2011,
+      "imdb": 8.0,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 7.0
+    },
+    {
+      "title": "crazy stupid love",
+      "year": 2011,
+      "imdb": 7.4,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 7.0
+    },
+    {
+      "title": "closer",
+      "year": 2004,
+      "imdb": 7.2,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 6.6
+    },
+    {
+      "title": "When Harry Met Sally...",
+      "year": 1989,
+      "imdb": 7.7,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 6.5
+    },
+    {
+      "title": "where do we go now?",
+      "year": 2011,
+      "imdb": 7.4,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 7.4
+    },
+    {
+      "title": "Tonari no Totoro",
+      "year": 1988,
+      "imdb": 8.1,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 7.5
+    },
+    {
+      "title": "50/50",
+      "year": 2011,
+      "imdb": 7.6,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 6.0
+    },
+    {
+      "title": "an educational film",
+      "year": 2000,
+      "imdb": 7.3,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 6.0
+    },
+    {
+      "title": "Photocopy",
+      "year": 2017,
+      "imdb": 7.5,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 7.2
+    },
+    {
+      "title": "The Perks of Being a Wallflower",
+      "year": 2012,
+      "imdb": 7.9,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 7.0
+    },
+    {
+      "title": "Five Feet Apart",
+      "year": 2019,
+      "imdb": 7.2,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 7.5
+    },
+    {
+      "title": "what's eating gilbert gape",
+      "year": 1993,
+      "imdb": 7.7,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 7.6
+    },
+    {
+      "title": "let's be cope",
+      "year": 2014,
+      "imdb": 6.4,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 6.0
+    },
+    {
+      "title": "lover stalker killer",
+      "year": 2024,
+      "imdb": 7.0,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 7.0
+    },
+    {
+      "title": "rosemary's baby",
+      "year": 1968,
+      "imdb": 8.0,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 8.0
+    },
+    {
+      "title": "13 going on 30",
+      "year": 2004,
+      "imdb": 6.3,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": 7.5,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 8.0
+    },
+    {
+      "title": "coraline",
+      "year": 2009,
+      "imdb": 7.8,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 7.0
+    },
+    {
+      "title": "lady bird",
+      "year": 2017,
+      "imdb": 7.4,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 7.0
+    },
+    {
+      "title": "grave of the fireflies",
+      "year": 1988,
+      "imdb": 8.5,
+      "poster": null,
+      "tmdb_id": null,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 8.0
     },
     {
       "title": "the life of chuck",
@@ -1728,96 +4929,8 @@
       "imdb": 6.5,
       "poster": null,
       "tmdb_id": null,
-      "Mohammad": 4,
+      "Mohammad": 4.0,
       "Mohannad": null,
-      "Albandary": null,
-      "Jory": null
-    },
-    {
-      "title": "sinners",
-      "year": 2025,
-      "imdb": 8.2,
-      "poster": null,
-      "tmdb_id": null,
-      "Mohammad": 4.6,
-      "Mohannad": 4.8,
-      "Albandary": null,
-      "Jory": null
-    },
-    {
-      "title": "Joker Folie a Deux",
-      "year": 2024,
-      "imdb": 5.3,
-      "poster": null,
-      "tmdb_id": null,
-      "Mohammad": 4,
-      "Mohannad": 6.6,
-      "Albandary": 4,
-      "Jory": 4.5
-    },
-    {
-      "title": "Top Gun Maverick",
-      "year": 2022,
-      "imdb": 8.7,
-      "poster": null,
-      "tmdb_id": null,
-      "Mohammad": 7.2,
-      "Mohannad": 7.5,
-      "Albandary": null,
-      "Jory": null
-    },
-    {
-      "title": "Everything Everywhere All at Once",
-      "year": 2022,
-      "imdb": 8.3,
-      "poster": null,
-      "tmdb_id": null,
-      "Mohammad": 7.5,
-      "Mohannad": 8.1,
-      "Albandary": null,
-      "Jory": 8
-    },
-    {
-      "title": "scarface",
-      "year": 1983,
-      "imdb": 8.3,
-      "poster": null,
-      "tmdb_id": null,
-      "Mohammad": 7,
-      "Mohannad": 7.9,
-      "Albandary": null,
-      "Jory": 7.8
-    },
-    {
-      "title": "braveheart",
-      "year": 1995,
-      "imdb": 8.4,
-      "poster": null,
-      "tmdb_id": null,
-      "Mohammad": 6,
-      "Mohannad": 7.6,
-      "Albandary": null,
-      "Jory": null
-    },
-    {
-      "title": "the shining",
-      "year": 1980,
-      "imdb": 8.4,
-      "poster": null,
-      "tmdb_id": null,
-      "Mohammad": 6,
-      "Mohannad": 7.2,
-      "Albandary": null,
-      "Jory": null
-    },
-    {
-      "title": "moonlight",
-      "year": 2016,
-      "imdb": 7.5,
-      "poster": null,
-      "tmdb_id": null,
-      "Mohammad": 0.2,
-      "Mohannad": 6.7,
       "Albandary": null,
       "Jory": null
     }
