@@ -576,6 +576,21 @@ function pick(i){
   document.getElementById('sp-title').textContent=movie.title;
   document.getElementById('sp-meta').textContent=yr+(movie.vote_average?' · TMDb '+movie.vote_average.toFixed(1):'');
   if(movie.poster_path)document.getElementById('sp-img').src=TMDB_LG+movie.poster_path;
+  // Check for duplicate
+  const normTitle=movie.title.toLowerCase().trim();
+  const normYear=movie.release_date?parseInt(movie.release_date.slice(0,4)):null;
+  const dupIdx=data.movies.findIndex(m=>{
+    const sameTitle=m.title.toLowerCase().trim()===normTitle;
+    const sameYear=!normYear||!m.year||m.year===normYear;
+    return sameTitle&&sameYear;
+  });
+  if(dupIdx!==-1){
+    // Found duplicate — close add modal and open edit instead
+    closeAdd();
+    toast('Already in your list — opening it!','ok');
+    setTimeout(()=>openEdit(dupIdx),300);
+    return;
+  }
   document.getElementById('sel-prev').style.display='block';
   document.getElementById('add-r-sec').style.display='block';
   document.getElementById('add-r-fields').innerHTML=data.reviewers.map(r=>`
