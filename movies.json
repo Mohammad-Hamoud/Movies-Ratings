@@ -4945,5 +4945,11 @@
       "Albandary": null,
       "Jory": null
     }
-  ]
+  ],
+  "initials": {
+    "Mohammad": "Moh",
+    "Mohannad": "Mnd",
+    "Albandary": "Alb",
+    "Jory": "Jry"
+  }
 }
