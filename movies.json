@@ -7,6 +7,17 @@
   ],
   "movies": [
     {
+      "title": "Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan",
+      "year": 2006,
+      "imdb": null,
+      "poster": "/kfkyALfD4G1mlBJI1lOt2QCra4i.jpg",
+      "tmdb_id": 496,
+      "Mohammad": 4.5,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 3
+    },
+    {
       "title": "Paths of Glory",
       "year": 1957,
       "imdb": 8.4,
