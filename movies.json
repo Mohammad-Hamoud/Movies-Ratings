@@ -7,6 +7,18 @@
   ],
   "movies": [
     {
+      "title": "Legally Blonde",
+      "year": 2001,
+      "imdb": 6.5,
+      "poster": "/9ohlMrJHQqKhfUKh7Zr3JQqHNLZ.jpg",
+      "tmdb_id": 8835,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 6,
+      "imdb_id": "tt0250494"
+    },
+    {
       "title": "I Saw the Devil",
       "year": 2010,
       "imdb": 7.8,
