@@ -179,6 +179,7 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
     <div class="macts">
       <button class="btn-p" id="edit-save-btn" onclick="saveEdit()" style="display:none">Save</button>
       <button class="btn-s" onclick="closeEdit()">Close</button>
+      <button class="btn-d" id="edit-del-btn" onclick="deleteMovie()" style="display:none"><i class="ti ti-trash" style="font-size:13px"></i></button>
     </div>
   </div>
 </div>
@@ -519,7 +520,16 @@ function openEdit(idx){
     <div class="mrow"><span class="mrow-l">${r}</span>
     <input class="rinp" type="number" min="0" max="10" step="0.1" id="ei-${r}" value="${m[r]!=null?m[r]:''}" ${unlocked?'':'disabled style="opacity:.4"'}></div>`).join('');
   document.getElementById('edit-save-btn').style.display=unlocked?'flex':'none';
+  document.getElementById('edit-del-btn').style.display=unlocked?'flex':'none';
   document.getElementById('edit-ov').classList.add('show');
+}
+function deleteMovie(){
+  if(editIdx==null||!unlocked)return;
+  const title=data.movies[editIdx].title;
+  if(!confirm(`Delete "${title}"?`))return;
+  data.movies.splice(editIdx,1);
+  buildYearSel();render();closeEdit();
+  saveData('Delete: '+title);
 }
 function closeEdit(){document.getElementById('edit-ov').classList.remove('show');editIdx=null;}
 function saveEdit(){
@@ -569,14 +579,7 @@ async function doSearch(q){
 
 function pick(i){
   const movie=tmdbCache[i]; if(!movie)return;
-  tmdbSel=movie;
-  document.querySelectorAll('.tc').forEach(c=>c.classList.remove('sel'));
-  const c=document.getElementById('tc-'+i); if(c)c.classList.add('sel');
-  const yr=movie.release_date?movie.release_date.slice(0,4):'';
-  document.getElementById('sp-title').textContent=movie.title;
-  document.getElementById('sp-meta').textContent=yr+(movie.vote_average?' · TMDb '+movie.vote_average.toFixed(1):'');
-  if(movie.poster_path)document.getElementById('sp-img').src=TMDB_LG+movie.poster_path;
-  // Check for duplicate
+  // Check duplicate FIRST before anything else
   const normTitle=movie.title.toLowerCase().trim();
   const normYear=movie.release_date?parseInt(movie.release_date.slice(0,4)):null;
   const dupIdx=data.movies.findIndex(m=>{
@@ -585,12 +588,18 @@ function pick(i){
     return sameTitle&&sameYear;
   });
   if(dupIdx!==-1){
-    // Found duplicate — close add modal and open edit instead
     closeAdd();
-    toast('Already in your list — opening it!','ok');
-    setTimeout(()=>openEdit(dupIdx),300);
+    toast('موجود في قائمتك — فاتح للتعديل','ok');
+    setTimeout(()=>openEdit(dupIdx),350);
     return;
   }
+  tmdbSel=movie;
+  document.querySelectorAll('.tc').forEach(c=>c.classList.remove('sel'));
+  const c=document.getElementById('tc-'+i); if(c)c.classList.add('sel');
+  const yr=movie.release_date?movie.release_date.slice(0,4):'';
+  document.getElementById('sp-title').textContent=movie.title;
+  document.getElementById('sp-meta').textContent=yr+(movie.vote_average?' · TMDb '+movie.vote_average.toFixed(1):'');
+  if(movie.poster_path)document.getElementById('sp-img').src=TMDB_LG+movie.poster_path;
   document.getElementById('sel-prev').style.display='block';
   document.getElementById('add-r-sec').style.display='block';
   document.getElementById('add-r-fields').innerHTML=data.reviewers.map(r=>`
