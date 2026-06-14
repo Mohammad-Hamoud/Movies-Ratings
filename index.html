@@ -248,6 +248,7 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
 
 <script>
 const TMDB_KEY='feee1f259210d0919278ac13da4acae3';
+const OMDB_KEY='9a4f2bed';
 const TMDB_IMG='https://image.tmdb.org/t/p/w92';
 const TMDB_LG='https://image.tmdb.org/t/p/w185';
 // Public read URL — no token needed
@@ -313,7 +314,10 @@ async function loadData(admin){
     document.getElementById('loading').style.display='none';
     if(!data.initials)data.initials={};
 buildYearSel(); buildChips(); render();
-    if(admin) setTimeout(fetchMissingPosters, 2000);
+    if(admin){
+    setTimeout(fetchMissingPosters, 2000);
+    setTimeout(updateImdbRatings, 4000);
+  }
   }catch(e){
     document.getElementById('loading').innerHTML='<i class="ti ti-wifi-off" style="font-size:28px;display:block;margin-bottom:8px"></i>Connection error<br><button onclick="location.reload()" style="margin-top:12px;padding:8px 16px;background:var(--bg3);border:1px solid var(--border);border-radius:8px;color:var(--text);cursor:pointer">Retry</button>';
   }
@@ -372,6 +376,28 @@ async function fetchMissingPosters(){
     bar.classList.remove('show');
   }
   posterFetchActive=false;
+}
+
+// Background IMDb rating updater
+async function updateImdbRatings(){
+  if(!isAdmin)return;
+  const toUpdate=data.movies.filter(m=>!m.imdb_id); // only those without confirmed imdb_id
+  if(!toUpdate.length)return;
+  let updated=0;
+  for(const m of toUpdate){
+    try{
+      const q=encodeURIComponent(m.title);
+      const yrParam=m.year?`&y=${m.year}`:'';
+      const r=await fetch(`https://www.omdbapi.com/?t=${q}${yrParam}&apikey=${OMDB_KEY}`);
+      const d=await r.json();
+      if(d.Response==='True'){
+        if(d.imdbRating&&d.imdbRating!=='N/A'){m.imdb=parseFloat(d.imdbRating);updated++;}
+        if(d.imdbID)m.imdb_id=d.imdbID;
+      }
+    }catch(e){}
+    await new Promise(res=>setTimeout(res,200));
+  }
+  if(updated>0){render();saveData('Update IMDb ratings');}
 }
 
 // ── Toast ──────────────────────────────────────────────
@@ -554,16 +580,25 @@ function pick(i){
     <input class="rinp" type="number" min="0" max="10" step="0.1" id="ai-${r}" placeholder="—"></div>`).join('');
 }
 
-function saveNew(){
+async function saveNew(){
   if(!tmdbSel)return;
   const yr=tmdbSel.release_date?parseInt(tmdbSel.release_date.slice(0,4)):null;
   const m={
     title:tmdbSel.title, year:yr,
-    imdb:tmdbSel.vote_average?+tmdbSel.vote_average.toFixed(1):null,
+    imdb:null,
     poster:tmdbSel.poster_path||null,
     tmdb_id:tmdbSel.id
   };
   data.reviewers.forEach(r=>{const v=parseFloat(document.getElementById('ai-'+r).value);m[r]=isNaN(v)?null:v;});
+  // Fetch real IMDb rating from OMDb
+  try{
+    const q=encodeURIComponent(tmdbSel.title);
+    const yrParam=yr?`&y=${yr}`:'';
+    const r=await fetch(`https://www.omdbapi.com/?t=${q}${yrParam}&apikey=${OMDB_KEY}`);
+    const d=await r.json();
+    if(d.imdbRating&&d.imdbRating!=='N/A')m.imdb=parseFloat(d.imdbRating);
+    if(d.imdbID)m.imdb_id=d.imdbID;
+  }catch(e){}
   data.movies.unshift(m);
   buildYearSel(); closeAdd(); render(); saveData('Add: '+m.title);
 }
