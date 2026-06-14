@@ -7,6 +7,18 @@
   ],
   "movies": [
     {
+      "title": "I Saw the Devil",
+      "year": 2010,
+      "imdb": 7.8,
+      "poster": "/zp5NrmYp80axIGiEiYPmm1CW6uH.jpg",
+      "tmdb_id": 49797,
+      "Mohammad": 7.2,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 5.7,
+      "imdb_id": "tt1588170"
+    },
+    {
       "title": "Bugonia",
       "year": 2025,
       "imdb": 7.4,
@@ -1387,7 +1399,7 @@
       "Mohammad": 7.9,
       "Mohannad": 8.9,
       "Albandary": null,
-      "Jory": null,
+      "Jory": 7.4,
       "imdb_id": "tt0106519"
     },
     {
@@ -3093,10 +3105,10 @@
       "imdb": 7.3,
       "poster": "/4LdpBXiCyGKkR8FGHgjKlphrfUc.jpg",
       "tmdb_id": 8467,
-      "Mohammad": 7,
+      "Mohammad": 8,
       "Mohannad": 8.4,
       "Albandary": null,
-      "Jory": 7.6,
+      "Jory": 6.5,
       "imdb_id": "tt0109686"
     },
     {
