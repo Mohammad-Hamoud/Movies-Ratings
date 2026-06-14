@@ -7,6 +7,18 @@
   ],
   "movies": [
     {
+      "title": "21 Jump Street",
+      "year": 2012,
+      "imdb": 7.2,
+      "poster": "/8v3Sqv9UcIUC4ebmpKWROqPBINZ.jpg",
+      "tmdb_id": 64688,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 7.3,
+      "imdb_id": "tt1232829"
+    },
+    {
       "title": "Network",
       "year": 1976,
       "imdb": 8.1,
@@ -764,7 +776,7 @@
       "Mohammad": 8.3,
       "Mohannad": 7.7,
       "Albandary": null,
-      "Jory": null,
+      "Jory": 6.3,
       "imdb_id": "tt2397535"
     },
     {
