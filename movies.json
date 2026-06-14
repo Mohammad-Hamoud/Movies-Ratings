@@ -7,6 +7,18 @@
   ],
   "movies": [
     {
+      "title": "The Theory of Everything",
+      "year": 2014,
+      "imdb": 7.7,
+      "poster": "/7kwcLFNt887saoQAL7EY0XnW7VI.jpg",
+      "tmdb_id": 266856,
+      "Mohammad": 7.2,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 7.6,
+      "imdb_id": "tt2980516"
+    },
+    {
       "title": "Steve",
       "year": 2025,
       "imdb": 6.4,
