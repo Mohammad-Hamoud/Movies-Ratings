@@ -7,6 +7,18 @@
   ],
   "movies": [
     {
+      "title": "Bugonia",
+      "year": 2025,
+      "imdb": 7.4,
+      "poster": "/oxgsAQDAAxA92mFGYCZllgWkH9J.jpg",
+      "tmdb_id": 701387,
+      "Mohammad": 7.8,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 7.4,
+      "imdb_id": "tt12300742"
+    },
+    {
       "title": "21 Jump Street",
       "year": 2012,
       "imdb": 7.2,
