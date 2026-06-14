@@ -7,6 +7,18 @@
   ],
   "movies": [
     {
+      "title": "Past Lives",
+      "year": 2023,
+      "imdb": 7.8,
+      "poster": "/k3waqVXSnvCZWfJYNtdamTgTtTA.jpg",
+      "tmdb_id": 666277,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 7.1,
+      "imdb_id": "tt13238346"
+    },
+    {
       "title": "The Man from Earth",
       "year": 2007,
       "imdb": 7.8,
@@ -1315,7 +1327,7 @@
       "Mohammad": 7.9,
       "Mohannad": 7.6,
       "Albandary": null,
-      "Jory": null,
+      "Jory": 8,
       "imdb_id": "tt1182345"
     },
     {
