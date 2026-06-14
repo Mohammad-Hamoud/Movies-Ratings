@@ -7,6 +7,18 @@
   ],
   "movies": [
     {
+      "title": "F1",
+      "year": 2025,
+      "imdb": 7.6,
+      "poster": "/9PXZIUsSDh4alB80jheWX4fhZmy.jpg",
+      "tmdb_id": 911430,
+      "Mohammad": 7.1,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 7.8,
+      "imdb_id": "tt16311594"
+    },
+    {
       "title": "My Best Friend's Wedding",
       "year": 1997,
       "imdb": 6.4,
@@ -1590,7 +1602,7 @@
       "Mohammad": 7.9,
       "Mohannad": 5,
       "Albandary": null,
-      "Jory": null,
+      "Jory": 6.9,
       "imdb_id": "tt0169547"
     },
     {
@@ -1842,7 +1854,7 @@
       "Mohammad": 7.8,
       "Mohannad": 7.6,
       "Albandary": null,
-      "Jory": null,
+      "Jory": 7.7,
       "imdb_id": "tt0325980"
     },
     {
@@ -4337,7 +4349,7 @@
       "Mohammad": 5.6,
       "Mohannad": 6.4,
       "Albandary": null,
-      "Jory": null,
+      "Jory": 6,
       "imdb_id": "tt1065073"
     },
     {
