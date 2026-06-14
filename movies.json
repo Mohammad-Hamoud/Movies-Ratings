@@ -7,6 +7,18 @@
   ],
   "movies": [
     {
+      "title": "Steve",
+      "year": 2025,
+      "imdb": 6.4,
+      "poster": "/wmLoMyofbseLfxiGgk1Iz5H97c3.jpg",
+      "tmdb_id": 1242404,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 4,
+      "imdb_id": "tt32985279"
+    },
+    {
       "title": "Dial M for Murder",
       "year": 1954,
       "imdb": 8.1,
