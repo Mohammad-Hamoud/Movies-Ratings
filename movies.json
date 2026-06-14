@@ -7,6 +7,18 @@
   ],
   "movies": [
     {
+      "title": "The Terminator",
+      "year": 1984,
+      "imdb": 8.1,
+      "poster": "/qvktm0BHcnmDpul4Hz01GIazWPr.jpg",
+      "tmdb_id": 218,
+      "Mohammad": 7.8,
+      "Mohannad": null,
+      "Albandary": 2,
+      "Jory": 8,
+      "imdb_id": "tt0088247"
+    },
+    {
       "title": "Raiders of the Lost Ark",
       "year": 1981,
       "imdb": 8.4,
