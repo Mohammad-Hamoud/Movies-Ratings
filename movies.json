@@ -7,6 +7,18 @@
   ],
   "movies": [
     {
+      "title": "The Roses",
+      "year": 2025,
+      "imdb": 6.6,
+      "poster": "/99O8HLHklXGzvF2TqiRqr7WddzT.jpg",
+      "tmdb_id": 1267905,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 4,
+      "imdb_id": "tt31973693"
+    },
+    {
       "title": "Fury",
       "year": 2014,
       "imdb": 7.6,
