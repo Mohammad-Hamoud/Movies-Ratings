@@ -539,7 +539,8 @@ function saveEdit(){
   const titleInp=document.getElementById('ei-title');
   if(titleInp&&titleInp.value.trim())data.movies[editIdx].title=titleInp.value.trim();
   data.reviewers.forEach(r=>{const v=parseFloat(document.getElementById('ei-'+r).value);data.movies[editIdx][r]=isNaN(v)?null:v;});
-  render(); closeEdit(); saveData('Update: '+data.movies[editIdx].title);
+  const savedTitle=data.movies[editIdx].title;
+  render(); closeEdit(); saveData('Update: '+savedTitle);
 }
 
 // ── Add ────────────────────────────────────────────────
