@@ -447,11 +447,15 @@ function lock(){
 document.getElementById('pin-inp').addEventListener('keydown',e=>{if(e.key==='Enter')checkPin();});
 
 // ── Filters ────────────────────────────────────────────
-function setSort(m){sortMode=m;document.querySelectorAll('.sort-btn').forEach(b=>b.classList.remove('active'));document.getElementById('s-'+m).classList.add('active');render();}
-function setReviewer(r,el){filterReviewer=r;document.querySelectorAll('#reviewer-chips .chip').forEach(b=>b.classList.remove('active'));el.classList.add('active');render();}
-function setYear(v){filterYear=v;filterDecade='';document.querySelectorAll('[data-d]').forEach(b=>b.classList.remove('active'));document.querySelector('[data-d=""]').classList.add('active');render();}
-function setDecade(d,el){filterDecade=d;filterYear='';document.getElementById('year-sel').value='';document.querySelectorAll('[data-d]').forEach(b=>b.classList.remove('active'));el.classList.add('active');render();}
-document.getElementById('search-inp').addEventListener('input',e=>{searchQ=e.target.value.toLowerCase();render();});
+function setSort(m){sortMode=m;renderLimit=50;document.querySelectorAll('.sort-btn').forEach(b=>b.classList.remove('active'));document.getElementById('s-'+m).classList.add('active');render();}
+function setReviewer(r,el){filterReviewer=r;renderLimit=50;document.querySelectorAll('#reviewer-chips .chip').forEach(b=>b.classList.remove('active'));el.classList.add('active');render();}
+function setYear(v){filterYear=v;renderLimit=50;filterDecade='';document.querySelectorAll('[data-d]').forEach(b=>b.classList.remove('active'));document.querySelector('[data-d=""]').classList.add('active');render();}
+function setDecade(d,el){filterDecade=d;filterYear='';renderLimit=50;document.getElementById('year-sel').value='';document.querySelectorAll('[data-d]').forEach(b=>b.classList.remove('active'));el.classList.add('active');render();}
+let _sTO=null;
+document.getElementById('search-inp').addEventListener('input',e=>{
+  clearTimeout(_sTO);
+  _sTO=setTimeout(()=>{searchQ=e.target.value.toLowerCase();renderLimit=50;render();},250);
+});
 
 function buildYearSel(){
   const years=[...new Set(data.movies.map(m=>m.year).filter(Boolean))].sort((a,b)=>b-a);
@@ -493,7 +497,8 @@ function render(){
   document.getElementById('rc').textContent=list.length+' movies';
   const el=document.getElementById('movie-list');
   if(!list.length){el.innerHTML='<div class="empty"><i class="ti ti-movie-off" style="font-size:28px;display:block;margin-bottom:8px"></i>No results</div>';return;}
-  el.innerHTML=list.map(m=>{
+  const slice=list.slice(0,renderLimit);
+  el.innerHTML=slice.map(m=>{
     const idx=data.movies.indexOf(m);
     const avg=calcAvg(m);
     const pills=data.reviewers.filter(r=>m[r]!=null&&!isNaN(m[r])).map(r=>`<span class="rpill">${(data.initials&&data.initials[r])||r.slice(0,3)}: ${m[r]}</span>`).join('');
@@ -508,6 +513,26 @@ function render(){
       </div>
     </div>`;
   }).join('');
+  // Sentinel for infinite scroll
+  if(list.length>renderLimit){
+    el.innerHTML+='<div id="scroll-sentinel" style="height:1px"></div>';
+    observeSentinel(list);
+  }
+}
+
+let _sentinelObs=null;
+function observeSentinel(list){
+  if(_sentinelObs)_sentinelObs.disconnect();
+  const el=document.getElementById('scroll-sentinel');
+  if(!el)return;
+  _sentinelObs=new IntersectionObserver(entries=>{
+    if(entries[0].isIntersecting){
+      _sentinelObs.disconnect();
+      renderLimit+=50;
+      render();
+    }
+  },{rootMargin:'200px'});
+  _sentinelObs.observe(el);
 }
 
 // ── Edit ───────────────────────────────────────────────
