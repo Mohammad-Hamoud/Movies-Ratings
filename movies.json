@@ -8,6 +8,19 @@
   ],
   "movies": [
     {
+      "title": "Buried",
+      "year": 2010,
+      "imdb": 7,
+      "poster": "/lQP2sZngXzjh3NDIWzo9OVK5YVh.jpg",
+      "tmdb_id": 26388,
+      "Mohammad": 7,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 7,
+      "Moayad": null,
+      "imdb_id": "tt1462758"
+    },
+    {
       "title": "Casino",
       "year": 1995,
       "imdb": 8.2,
