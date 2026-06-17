@@ -8,6 +8,19 @@
   ],
   "movies": [
     {
+      "title": "The Call",
+      "year": 2020,
+      "imdb": 7.1,
+      "poster": "/22olUUiyt5CHWZUgATipg4N9wbn.jpg",
+      "tmdb_id": 575604,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 7.4,
+      "Moayad": null,
+      "imdb_id": "tt10530176"
+    },
+    {
       "title": "Buried",
       "year": 2010,
       "imdb": 7,
