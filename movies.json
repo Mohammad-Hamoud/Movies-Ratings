@@ -8,6 +8,19 @@
   ],
   "movies": [
     {
+      "title": "Hugo",
+      "year": 2011,
+      "imdb": 7.5,
+      "poster": "/1dxRq3o3l3bVWNRvvSb7rRf68qp.jpg",
+      "tmdb_id": 44826,
+      "Mohammad": 7.7,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null,
+      "Moayad": null,
+      "imdb_id": "tt0970179"
+    },
+    {
       "title": "Doctor Zhivago",
       "year": 1965,
       "imdb": 7.9,
