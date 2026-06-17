@@ -8,6 +8,19 @@
   ],
   "movies": [
     {
+      "title": "A Bronx Tale",
+      "year": 1993,
+      "imdb": 7.8,
+      "poster": "/sDbO6LmLYtyqAoFTPpRcMgPSCEO.jpg",
+      "tmdb_id": 1607,
+      "Mohammad": 8.4,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 8.2,
+      "Moayad": null,
+      "imdb_id": "tt0106489"
+    },
+    {
       "title": "No Escape",
       "year": 2015,
       "imdb": 6.8,
