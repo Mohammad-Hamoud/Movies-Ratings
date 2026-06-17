@@ -8,6 +8,19 @@
   ],
   "movies": [
     {
+      "title": "A Man Called Otto",
+      "year": 2022,
+      "imdb": 7.5,
+      "poster": "/130H1gap9lFfiTF9iDrqNIkFvC9.jpg",
+      "tmdb_id": 937278,
+      "Mohammad": 7.2,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 7.2,
+      "Moayad": null,
+      "imdb_id": "tt7405458"
+    },
+    {
       "title": "The Goat Life",
       "year": 2024,
       "imdb": 7.1,
