@@ -8,6 +8,19 @@
   ],
   "movies": [
     {
+      "title": "A Bug's Life",
+      "year": 1998,
+      "imdb": 7.2,
+      "poster": "/Ah3J9OJVc2CNCuH2zMydXy9fmIC.jpg",
+      "tmdb_id": 9487,
+      "Mohammad": 7.7,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 7.9,
+      "Moayad": null,
+      "imdb_id": "tt0120623"
+    },
+    {
       "title": "Hugo",
       "year": 2011,
       "imdb": 7.5,
