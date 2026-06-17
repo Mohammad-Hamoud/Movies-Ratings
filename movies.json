@@ -8,6 +8,19 @@
   ],
   "movies": [
     {
+      "title": "Born a King",
+      "year": 2019,
+      "imdb": 7.3,
+      "poster": "/hx3aLmbP9mBDaS5gQpO1fssMOC6.jpg",
+      "tmdb_id": 501591,
+      "Mohammad": 7,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 6.3,
+      "Moayad": null,
+      "imdb_id": "tt6718730"
+    },
+    {
       "title": "Shazam!",
       "year": 2019,
       "imdb": 7,
