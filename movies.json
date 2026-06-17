@@ -8,6 +8,19 @@
   ],
   "movies": [
     {
+      "title": "Talk to Me",
+      "year": 2023,
+      "imdb": null,
+      "poster": "/kdPMUMJzyYAc4roD52qavX0nLIC.jpg",
+      "tmdb_id": 1008042,
+      "Mohammad": 6.5,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 5,
+      "Moayad": null,
+      "imdb_id": "tt27173489"
+    },
+    {
       "title": "A Man Called Otto",
       "year": 2022,
       "imdb": 7.5,
