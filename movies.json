@@ -8,6 +8,19 @@
   ],
   "movies": [
     {
+      "title": "The Gray Man",
+      "year": 2022,
+      "imdb": 6.5,
+      "poster": "/8cXbitsS6dWQ5gfMTZdorpAAzEH.jpg",
+      "tmdb_id": 725201,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 6,
+      "Moayad": null,
+      "imdb_id": "tt1649418"
+    },
+    {
       "title": "Barbie",
       "year": 2023,
       "imdb": 6.8,
