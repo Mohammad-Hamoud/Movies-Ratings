@@ -8,6 +8,18 @@
   ],
   "movies": [
     {
+      "title": "Anatomy of a Fall",
+      "year": 2023,
+      "imdb": null,
+      "poster": "/1ho0d4LNZw3Y0voeKmSvPSgJOJ2.jpg",
+      "tmdb_id": 915935,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 7,
+      "Moayad": null
+    },
+    {
       "title": "A Bronx Tale",
       "year": 1993,
       "imdb": 7.8,
