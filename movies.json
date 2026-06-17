@@ -8,6 +8,19 @@
   ],
   "movies": [
     {
+      "title": "Shazam!",
+      "year": 2019,
+      "imdb": 7,
+      "poster": "/xnopI5Xtky18MPhK40cZAGAOVeV.jpg",
+      "tmdb_id": 287947,
+      "Mohammad": 6.8,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 6.5,
+      "Moayad": null,
+      "imdb_id": "tt0448115"
+    },
+    {
       "title": "The Life of David Gale",
       "year": 2003,
       "imdb": 7.5,
