@@ -8,6 +8,19 @@
   ],
   "movies": [
     {
+      "title": "Naga",
+      "year": 2023,
+      "imdb": 5.9,
+      "poster": "/5QOYVE6zS0tyQ3qeGaECD7WWoaF.jpg",
+      "tmdb_id": 1160025,
+      "Mohammad": 2.5,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 6,
+      "Moayad": null,
+      "imdb_id": "tt28554013"
+    },
+    {
       "title": "Pretty Woman",
       "year": 1990,
       "imdb": 7.1,
