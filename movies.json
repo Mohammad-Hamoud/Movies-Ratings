@@ -8,6 +8,19 @@
   ],
   "movies": [
     {
+      "title": "The Upside",
+      "year": 2019,
+      "imdb": null,
+      "poster": "/hPZ2caow1PCND6qnerfgn6RTXdm.jpg",
+      "tmdb_id": 440472,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 7,
+      "Moayad": null,
+      "imdb_id": "tt9730752"
+    },
+    {
       "title": "Born a King",
       "year": 2019,
       "imdb": 7.3,
