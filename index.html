@@ -348,7 +348,7 @@ async function fetchMissingPosters(){
   if(!missing.length)return;
   posterFetchActive=true;
   const bar=document.getElementById('poster-bar');
-  bar.classList.add('show');
+  // bar.classList.add('show');
   let done=0, fetched=0, total=missing.length;
   document.getElementById('poster-count').textContent=`0/${total}`;
   for(const m of missing){
