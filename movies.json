@@ -8,6 +8,19 @@
   ],
   "movies": [
     {
+      "title": "Coco",
+      "year": 2017,
+      "imdb": 8.4,
+      "poster": "/6Ryitt95xrO8KXuqRGm1fUuNwqF.jpg",
+      "tmdb_id": 354912,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 9,
+      "Moayad": null,
+      "imdb_id": "tt2380307"
+    },
+    {
       "title": "Anatomy of a Fall",
       "year": 2023,
       "imdb": null,
