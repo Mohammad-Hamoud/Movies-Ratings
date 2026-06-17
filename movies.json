@@ -8,6 +8,19 @@
   ],
   "movies": [
     {
+      "title": "Princess Mononoke",
+      "year": 1997,
+      "imdb": 8.3,
+      "poster": "/cMYCDADoLKLbB83g4WnJegaZimC.jpg",
+      "tmdb_id": 128,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 8.3,
+      "Moayad": null,
+      "imdb_id": "tt0119698"
+    },
+    {
       "title": "A Bug's Life",
       "year": 1998,
       "imdb": 7.2,
