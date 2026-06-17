@@ -8,6 +8,19 @@
   ],
   "movies": [
     {
+      "title": "Barbie",
+      "year": 2023,
+      "imdb": 6.8,
+      "poster": "/iuFNMS8U5cb6xfzi51Dbkovj7vM.jpg",
+      "tmdb_id": 346698,
+      "Mohammad": 4,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 5.3,
+      "Moayad": null,
+      "imdb_id": "tt1517268"
+    },
+    {
       "title": "The Call",
       "year": 2020,
       "imdb": 7.1,
