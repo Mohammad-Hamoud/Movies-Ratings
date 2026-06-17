@@ -8,6 +8,19 @@
   ],
   "movies": [
     {
+      "title": "The Goat Life",
+      "year": 2024,
+      "imdb": 7.1,
+      "poster": "/vwRkVhvJuAFz4i8udXMNkcJCztc.jpg",
+      "tmdb_id": 472221,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 6,
+      "Moayad": null,
+      "imdb_id": "tt5525650"
+    },
+    {
       "title": "The Deep End of the Ocean",
       "year": 1999,
       "imdb": 6.3,
