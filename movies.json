@@ -8,6 +8,19 @@
   ],
   "movies": [
     {
+      "title": "Society of the Snow",
+      "year": 2023,
+      "imdb": 7.8,
+      "poster": "/2e853FDVSIso600RqAMunPxiZjq.jpg",
+      "tmdb_id": 906126,
+      "Mohammad": 7.3,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 7.6,
+      "Moayad": null,
+      "imdb_id": "tt16277242"
+    },
+    {
       "title": "Cleaner",
       "year": 2007,
       "imdb": 6.1,
