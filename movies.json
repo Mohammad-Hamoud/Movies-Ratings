@@ -8,6 +8,19 @@
   ],
   "movies": [
     {
+      "title": "Click",
+      "year": 2006,
+      "imdb": 6.4,
+      "poster": "/oL0k5JA53PyoHSZqKb3cNkhwBCE.jpg",
+      "tmdb_id": 9339,
+      "Mohammad": 6.2,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 6,
+      "Moayad": null,
+      "imdb_id": "tt0389860"
+    },
+    {
       "title": "The Roses",
       "year": 2025,
       "imdb": 6.6,
