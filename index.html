@@ -318,8 +318,8 @@ async function loadData(admin){
     if(!data.initials)data.initials={};
 buildYearSel(); buildChips(); render();
     if(admin){
-    setTimeout(fetchMissingPosters, 2000);
-    setTimeout(updateImdbRatings, 4000);
+    
+    
   }
   }catch(e){
     document.getElementById('loading').innerHTML='<i class="ti ti-wifi-off" style="font-size:28px;display:block;margin-bottom:8px"></i>Connection error<br><button onclick="location.reload()" style="margin-top:12px;padding:8px 16px;background:var(--bg3);border:1px solid var(--border);border-radius:8px;color:var(--text);cursor:pointer">Retry</button>';
