@@ -14,14 +14,18 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
 #sidebar{display:contents}
 #content{display:contents}
 @media(min-width:860px){
-  #app{max-width:1100px;padding:0}
+  #app{max-width:1200px;padding:0}
   .app-header{padding:16px 28px;border-bottom:1px solid var(--border);background:var(--bg2);position:sticky;top:0;z-index:50}
   #pin-bar{margin:0;border-radius:0;border-left:none;border-right:none;border-top:none}
   #main-layout{display:flex;height:calc(100vh - 57px)}
-  #sidebar{width:300px;flex-shrink:0;padding:20px;border-right:1px solid var(--border);overflow-y:auto;display:flex;flex-direction:column;gap:0;position:sticky;top:57px;height:calc(100vh - 57px)}
+  #sidebar{width:280px;flex-shrink:0;padding:16px 20px;border-right:1px solid var(--border);overflow-y:auto;display:flex;flex-direction:column;gap:10px;height:calc(100vh - 57px)}
   #content{flex:1;padding:20px;overflow-y:auto;height:calc(100vh - 57px)}
-  .chips-row{flex-wrap:wrap;overflow-x:visible}
-  .year-row{flex-wrap:wrap;overflow-x:visible}
+  .chips-row{flex-wrap:wrap;overflow-x:visible;gap:6px}
+  .year-row{flex-wrap:wrap;overflow-x:visible;gap:6px}
+  .sort-row{flex-wrap:wrap}
+  #search-wrap{margin-bottom:0}
+  .stats-row{margin-bottom:0}
+  #add-btn{margin-bottom:0}
 }
 
 .app-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px}
@@ -146,6 +150,11 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
   </div>
 
   <div class="chips-row" id="reviewer-chips"></div>
+      <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px">
+        <select id="director-sel" onchange="setDirector(this.value)" style="flex:1;height:28px;background:var(--bg2);border:1px solid var(--border);border-radius:20px;color:var(--text2);padding:0 8px;font-size:12px;cursor:pointer">
+          <option value="">All Directors</option>
+        </select>
+      </div>
 
   <div class="year-row">
     <select id="year-sel" onchange="setYear(this.value)"><option value="">All Years</option></select>
@@ -155,6 +164,7 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
     <button class="chip" data-d="2000" onclick="setDecade('2000',this)">2000s</button>
     <button class="chip" data-d="1990" onclick="setDecade('1990',this)">90s</button>
     <button class="chip" data-d="old" onclick="setDecade('old',this)">Older</button>
+    <button class="chip" id="oscar-chip" onclick="toggleOscar(this)" style="border-color:#e2b616">🏆 Oscar</button>
   </div>
 
   <div class="sort-row">
@@ -334,7 +344,7 @@ async function loadData(admin){
     }
     document.getElementById('loading').style.display='none';
     if(!data.initials)data.initials={};
-buildYearSel(); buildChips(); render();
+buildYearSel(); buildDirectorSel(); buildChips(); render();
     if(admin){
     
     
@@ -465,6 +475,8 @@ function lock(){
 document.getElementById('pin-inp').addEventListener('keydown',e=>{if(e.key==='Enter')checkPin();});
 
 // ── Filters ────────────────────────────────────────────
+function toggleOscar(el){filterOscar=!filterOscar;el.classList.toggle('active');renderLimit=50;render();}
+function setDirector(v){filterDirector=v;renderLimit=50;render();}
 function setSort(m){sortMode=m;renderLimit=50;document.querySelectorAll('.sort-btn').forEach(b=>b.classList.remove('active'));document.getElementById('s-'+m).classList.add('active');render();}
 function setReviewer(r,el){filterReviewer=r;renderLimit=50;document.querySelectorAll('#reviewer-chips .chip').forEach(b=>b.classList.remove('active'));el.classList.add('active');render();}
 function setYear(v){filterYear=v;renderLimit=50;filterDecade='';document.querySelectorAll('[data-d]').forEach(b=>b.classList.remove('active'));document.querySelector('[data-d=""]').classList.add('active');render();}
@@ -475,6 +487,13 @@ document.getElementById('search-inp').addEventListener('input',e=>{
   _sTO=setTimeout(()=>{searchQ=e.target.value.toLowerCase();renderLimit=50;render();},250);
 });
 
+function buildDirectorSel(){
+  const dirs=[...new Set(data.movies.map(m=>m.director).filter(Boolean))].sort();
+  const sel=document.getElementById('director-sel');
+  if(!sel)return;
+  const cur=filterDirector;
+  sel.innerHTML='<option value="">All Directors</option>'+dirs.map(d=>`<option value="${d}" ${d===cur?'selected':''}>${d}</option>`).join('');
+}
 function buildYearSel(){
   const years=[...new Set(data.movies.map(m=>m.year).filter(Boolean))].sort((a,b)=>b-a);
   document.getElementById('year-sel').innerHTML='<option value="">All Years</option>'+years.map(y=>`<option value="${y}">${y}</option>`).join('');
@@ -499,6 +518,8 @@ function getFiltered(){
       if(filterDecade==='old'){if(m.year>=1990)return false;}
       else{const d=parseInt(filterDecade);if(!m.year||m.year<d||m.year>=d+10)return false;}
     }
+    if(filterOscar&&!m.oscar_best_picture)return false;
+    if(filterDirector&&m.director!==filterDirector)return false;
     return true;
   });
   if(sortMode==='avg')list.sort((a,b)=>(calcAvg(b)||0)-(calcAvg(a)||0));
@@ -526,7 +547,7 @@ function render(){
       ${poster}${ph}
       <div class="mbody">
         <div class="mtop"><div class="mtitle">${m.title}</div>${avg!=null?`<span class="mavg">${avg.toFixed(1)}</span>`:''}</div>
-        <div class="mmeta">${m.year?`<span>${m.year}</span>`:''} ${m.imdb?`<span class="imdb-b">IMDb ${m.imdb}</span>`:''}</div>
+        <div class="mmeta">${m.year?`<span>${m.year}</span>`:''} ${m.imdb?`<span class="imdb-b">IMDb ${m.imdb}</span>`:''} ${m.oscar_best_picture?'<span title="Best Picture Oscar">🏆</span>':''} ${m.director?`<span style="color:var(--text3)">${m.director}</span>`:''}</div>
         <div class="rpills">${pills||'<span style="font-size:11px;color:var(--text3)">No ratings yet</span>'}</div>
       </div>
     </div>`;
@@ -663,7 +684,7 @@ async function saveNew(){
     tmdb_id:tmdbSel.id
   };
   data.reviewers.forEach(r=>{const v=parseFloat(document.getElementById('ai-'+r).value);m[r]=isNaN(v)?null:v;});
-  // Fetch real IMDb rating from OMDb
+  // Fetch real IMDb rating + director + oscar from OMDb
   try{
     const q=encodeURIComponent(tmdbSel.title);
     const yrParam=yr?`&y=${yr}`:'';
@@ -671,6 +692,12 @@ async function saveNew(){
     const d=await r.json();
     if(d.imdbRating&&d.imdbRating!=='N/A')m.imdb=parseFloat(d.imdbRating);
     if(d.imdbID)m.imdb_id=d.imdbID;
+    if(d.Director&&d.Director!=='N/A')m.director=d.Director.split(',')[0].trim();
+    if(d.Awards&&d.Awards!=='N/A'){
+      const awards=d.Awards.toLowerCase();
+      m.oscar_best_picture=(awards.includes('won')&&awards.includes('best picture'))||
+        (awards.includes('won')&&awards.includes('outstanding motion picture'));
+    }
   }catch(e){}
   data.movies.unshift(m);
   buildYearSel(); closeAdd(); render(); saveData('Add: '+m.title);
