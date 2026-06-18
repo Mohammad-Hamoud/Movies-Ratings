@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Movie Ratings</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
 <style>
@@ -10,65 +10,60 @@
 *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
 body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;min-height:100vh}
 #app{max-width:480px;margin:0 auto;padding:14px}
-.app-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px}
-.app-title{font-size:18px;font-weight:700;letter-spacing:-.3px}
+.hdr{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px}
+.hdr-title{font-size:18px;font-weight:700}
 .hdr-btns{display:flex;gap:8px}
-.icon-btn{width:36px;height:36px;border-radius:var(--rs);border:1px solid var(--border);background:var(--bg2);color:var(--text2);cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:16px;transition:.15s}
-.icon-btn.unlocked{color:var(--accent);border-color:var(--accent)}
-#pin-bar{background:var(--bg2);border:1px solid var(--border);border-radius:var(--rs);padding:8px 12px;margin-bottom:12px;display:none;gap:8px;align-items:center}
+.icon-btn{width:36px;height:36px;border-radius:var(--rs);border:1px solid var(--border);background:var(--bg2);color:var(--text2);cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:16px}
+.icon-btn.on{color:var(--accent);border-color:var(--accent)}
+#pin-bar{display:none;gap:8px;align-items:center;background:var(--bg2);border:1px solid var(--border);border-radius:var(--rs);padding:8px 12px;margin-bottom:12px}
 #pin-bar.show{display:flex}
-#pin-inp{flex:1;height:34px;background:var(--bg3);border:1px solid var(--border);border-radius:var(--rs);color:var(--text);padding:0 10px;font-size:16px;letter-spacing:6px;text-align:center}
+#pin-inp{flex:1;height:34px;background:var(--bg3);border:1px solid var(--border);border-radius:var(--rs);color:var(--text);text-align:center;font-size:16px;letter-spacing:6px}
 #pin-inp:focus{outline:none}
-.pin-ok{height:34px;padding:0 14px;background:var(--accent);border:none;border-radius:var(--rs);color:#000;font-weight:700;cursor:pointer;font-size:13px}
+.pin-ok{height:34px;padding:0 14px;background:var(--accent);border:none;border-radius:var(--rs);color:#000;font-weight:700;cursor:pointer}
 #pin-msg{font-size:12px}
 #pin-msg.ok{color:var(--green)}
 #pin-msg.err{color:var(--red)}
-#search-wrap{position:relative;margin-bottom:10px}
-#search-inp{width:100%;height:42px;background:var(--bg2);border:1px solid var(--border);border-radius:var(--r);color:var(--text);padding:0 12px 0 38px;font-size:15px}
-#search-inp:focus{outline:none}
-.si{position:absolute;left:12px;top:50%;transform:translateY(-50%);color:var(--text3);pointer-events:none}
-.chips-row{display:flex;gap:6px;overflow-x:auto;padding-bottom:2px;margin-bottom:8px;scrollbar-width:none}
-.chips-row::-webkit-scrollbar{display:none}
-.chip{flex-shrink:0;padding:5px 12px;border-radius:20px;border:1px solid var(--border);background:transparent;color:var(--text2);font-size:12px;cursor:pointer;white-space:nowrap;transition:.15s}
-.chip.active{border-color:var(--accent);color:var(--accent);background:rgba(226,182,22,.08)}
-.year-row{display:flex;gap:6px;overflow-x:auto;padding-bottom:2px;margin-bottom:8px;scrollbar-width:none;align-items:center}
-.year-row::-webkit-scrollbar{display:none}
-#year-sel{height:28px;background:var(--bg2);border:1px solid var(--border);border-radius:20px;color:var(--text2);padding:0 8px;font-size:12px;cursor:pointer;flex-shrink:0}
+.sw{position:relative;margin-bottom:10px}
+.sw input{width:100%;height:42px;background:var(--bg2);border:1px solid var(--border);border-radius:var(--r);color:var(--text);padding:0 12px 0 38px;font-size:15px}
+.sw input:focus{outline:none}
+.sw i{position:absolute;left:12px;top:50%;transform:translateY(-50%);color:var(--text3);pointer-events:none}
+.chips{display:flex;gap:6px;overflow-x:auto;margin-bottom:8px;padding-bottom:2px;scrollbar-width:none}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex-shrink:0;padding:5px 12px;border-radius:20px;border:1px solid var(--border);background:transparent;color:var(--text2);font-size:12px;cursor:pointer;white-space:nowrap}
+.chip.on{border-color:var(--accent);color:var(--accent);background:rgba(226,182,22,.08)}
+.yr-row{display:flex;gap:6px;overflow-x:auto;margin-bottom:8px;padding-bottom:2px;align-items:center;scrollbar-width:none}
+.yr-row::-webkit-scrollbar{display:none}
+select.yr{height:28px;background:var(--bg2);border:1px solid var(--border);border-radius:20px;color:var(--text2);padding:0 8px;font-size:12px;cursor:pointer;flex-shrink:0}
+select.dir{width:100%;height:32px;background:var(--bg2);border:1px solid var(--border);border-radius:var(--rs);color:var(--text2);padding:0 10px;font-size:13px;cursor:pointer;margin-bottom:10px}
 .sort-row{display:flex;gap:6px;margin-bottom:12px;align-items:center}
-.sort-lbl{font-size:12px;color:var(--text3);flex-shrink:0}
+.sort-lbl{font-size:12px;color:var(--text3)}
 .sort-btn{padding:4px 10px;border-radius:20px;border:1px solid var(--border);background:transparent;color:var(--text2);font-size:12px;cursor:pointer}
-.sort-btn.active{border-color:var(--border2);color:var(--text)}
-.stats-row{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:12px}
-.stat-card{background:var(--bg2);border-radius:var(--rs);padding:10px 12px;border:1px solid var(--border)}
+.sort-btn.on{border-color:var(--border2);color:var(--text)}
+.stats{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:12px}
+.stat{background:var(--bg2);border-radius:var(--rs);padding:10px 12px;border:1px solid var(--border)}
 .stat-lbl{font-size:11px;color:var(--text2);margin-bottom:2px}
 .stat-val{font-size:20px;font-weight:600}
 #add-btn{width:100%;height:42px;margin-bottom:12px;border-radius:var(--r);border:1px solid var(--accent);background:rgba(226,182,22,.08);color:var(--accent);font-size:14px;font-weight:500;cursor:pointer;display:none;align-items:center;justify-content:center;gap:6px}
-#add-btn.visible{display:flex}
-#poster-bar{background:var(--bg2);border:1px solid var(--border);border-radius:var(--rs);padding:7px 12px;margin-bottom:10px;display:none;align-items:center;gap:10px;font-size:12px;color:var(--text2)}
-#poster-bar.show{display:flex}
-#poster-progress{flex:1;height:4px;background:var(--bg3);border-radius:2px;overflow:hidden}
-#poster-fill{height:100%;background:var(--accent);width:0%;transition:width .3s}
 .rc{font-size:12px;color:var(--text3);margin-bottom:8px}
-#movie-list{display:flex;flex-direction:column;gap:8px}
-.movie-card{background:var(--bg2);border:1px solid var(--border);border-radius:var(--r);padding:10px 12px;cursor:pointer;display:flex;gap:10px;align-items:flex-start;transition:.15s}
-.movie-card:hover{border-color:var(--border2)}
+#list{display:flex;flex-direction:column;gap:8px}
+.card{background:var(--bg2);border:1px solid var(--border);border-radius:var(--r);padding:10px 12px;cursor:pointer;display:flex;gap:10px;align-items:flex-start}
 .mposter{width:38px;height:56px;border-radius:6px;object-fit:cover;flex-shrink:0;background:var(--bg3)}
 .mph{width:38px;height:56px;border-radius:6px;flex-shrink:0;background:var(--bg3);display:flex;align-items:center;justify-content:center;color:var(--text3)}
-.mbody{flex:1;min-width:0}
-.mtop{display:flex;justify-content:space-between;align-items:flex-start;gap:6px;margin-bottom:3px}
-.mtitle{font-size:14px;font-weight:500;line-height:1.3;text-transform:capitalize}
-.mavg{font-size:16px;font-weight:700;flex-shrink:0}
-.mmeta{font-size:11px;color:var(--text2);margin-bottom:5px;display:flex;gap:6px;align-items:center}
+.cbody{flex:1;min-width:0}
+.ctop{display:flex;justify-content:space-between;align-items:flex-start;gap:6px;margin-bottom:3px}
+.ctitle{font-size:14px;font-weight:500;line-height:1.3;text-transform:capitalize}
+.cavg{font-size:16px;font-weight:700;flex-shrink:0}
+.cmeta{font-size:11px;color:var(--text2);margin-bottom:5px;display:flex;gap:5px;align-items:center;flex-wrap:wrap}
 .imdb-b{background:#e2b616;color:#000;padding:1px 5px;border-radius:4px;font-size:10px;font-weight:700}
-.rpills{display:flex;gap:5px;flex-wrap:wrap}
-.rpill{font-size:10px;padding:2px 6px;border-radius:10px;background:rgba(255,255,255,.06);color:var(--text2);font-weight:500}
+.pills{display:flex;gap:5px;flex-wrap:wrap}
+.pill{font-size:10px;padding:2px 6px;border-radius:10px;background:rgba(255,255,255,.06);color:var(--text2);font-weight:500}
 .empty{text-align:center;padding:3rem 1rem;color:var(--text2)}
 #loading{text-align:center;padding:3rem;color:var(--text2)}
 .ov{display:none;position:fixed;inset:0;background:rgba(0,0,0,.75);z-index:100;align-items:flex-end;justify-content:center}
 .ov.show{display:flex}
 .modal{background:var(--bg2);border-radius:var(--r) var(--r) 0 0;width:100%;max-width:480px;padding:20px;max-height:88vh;overflow-y:auto;border-top:1px solid var(--border)}
 .mhdr{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;gap:10px}
-.mhdr-info{display:flex;gap:10px;align-items:center;flex:1;min-width:0}
+.mhdr-l{display:flex;gap:10px;align-items:center;flex:1;min-width:0}
 .mhdr-poster{width:42px;height:62px;border-radius:6px;object-fit:cover;display:none;flex-shrink:0}
 .mhdr-t{font-size:15px;font-weight:600;text-transform:capitalize}
 .mhdr-s{font-size:12px;color:var(--text2);margin-top:2px}
@@ -83,13 +78,13 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
 .macts{display:flex;gap:8px;margin-top:16px}
 .btn-p{flex:1;height:40px;background:var(--accent);border:none;border-radius:var(--rs);color:#000;font-size:14px;font-weight:700;cursor:pointer}
 .btn-s{height:40px;padding:0 16px;background:transparent;border:1px solid var(--border);border-radius:var(--rs);color:var(--text2);font-size:14px;cursor:pointer}
-.btn-d{height:30px;padding:0 10px;background:transparent;border:1px solid var(--border);border-radius:var(--rs);color:var(--red);font-size:12px;cursor:pointer}
+#del-btn{width:100%;height:36px;margin-top:8px;background:transparent;border:1px solid var(--red);border-radius:var(--rs);color:var(--red);font-size:13px;cursor:pointer;display:none}
 .slbl{font-size:12px;color:var(--text2);margin:10px 0 6px}
 #tmdb-inp{width:100%;height:40px;background:var(--bg3);border:1px solid var(--border);border-radius:var(--rs);color:var(--text);padding:0 12px;font-size:14px;margin-bottom:10px}
 #tmdb-inp:focus{outline:none}
-#tmdb-results{display:flex;flex-direction:column;gap:6px;margin-bottom:10px}
-.tc{display:flex;gap:10px;align-items:center;padding:8px;border-radius:var(--rs);border:1px solid var(--border);cursor:pointer;background:var(--bg3);transition:.15s}
-.tc:hover,.tc.sel{border-color:var(--accent)}
+#tmdb-res{display:flex;flex-direction:column;gap:6px;margin-bottom:10px}
+.tc{display:flex;gap:10px;align-items:center;padding:8px;border-radius:var(--rs);border:1px solid var(--border);cursor:pointer;background:var(--bg3)}
+.tc.on,.tc:active{border-color:var(--accent)}
 .tcp{width:30px;height:44px;border-radius:4px;object-fit:cover;background:var(--bg2);flex-shrink:0}
 .tct{font-size:13px;font-weight:500}
 .tcs{font-size:11px;color:var(--text2);margin-top:2px}
@@ -100,98 +95,73 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
 #toast.show{display:block}
 #toast.ok{color:var(--green);border-color:var(--green)}
 #toast.err{color:var(--red);border-color:var(--red)}
-/* Setup modal */
-#setup-ov{display:none;position:fixed;inset:0;background:rgba(0,0,0,.9);z-index:200;align-items:center;justify-content:center;padding:20px}
-#setup-ov.show{display:flex}
-.setup-box{background:var(--bg2);border-radius:var(--r);width:100%;max-width:340px;padding:24px;border:1px solid var(--border)}
 </style>
 </head>
 <body>
 <div id="app">
-  <div class="app-header">
-    <div class="app-title">🎬 Movie Ratings</div>
+  <div class="hdr">
+    <div class="hdr-title">🎬 Movie Ratings</div>
     <div class="hdr-btns">
       <button class="icon-btn" id="rev-btn" onclick="openRevModal()" style="display:none"><i class="ti ti-users"></i></button>
       <button class="icon-btn" id="lock-btn" onclick="togglePin()"><i class="ti ti-lock" id="lock-icon"></i></button>
     </div>
   </div>
-
   <div id="pin-bar">
     <input id="pin-inp" type="password" maxlength="4" placeholder="PIN" inputmode="numeric">
     <button class="pin-ok" onclick="checkPin()">OK</button>
     <span id="pin-msg"></span>
   </div>
-
-  <div id="search-wrap">
-    <i class="ti ti-search si"></i>
-    <input id="search-inp" type="text" placeholder="Search movies...">
-  </div>
-
-  <div class="chips-row" id="reviewer-chips"></div>
-
-  <div class="year-row">
-    <select id="year-sel" onchange="setYear(this.value)"><option value="">All Years</option></select>
-    <button class="chip active" data-d="" onclick="setDecade('',this)">All</button>
+  <div class="sw"><i class="ti ti-search"></i><input id="search-inp" type="text" placeholder="Search movies..."></div>
+  <div class="chips" id="reviewer-chips"></div>
+  <div class="yr-row">
+    <select class="yr" id="year-sel" onchange="setYear(this.value)"><option value="">All Years</option></select>
+    <button class="chip on" data-d="" onclick="setDecade('',this)">All</button>
     <button class="chip" data-d="2020" onclick="setDecade('2020',this)">2020s</button>
     <button class="chip" data-d="2010" onclick="setDecade('2010',this)">2010s</button>
     <button class="chip" data-d="2000" onclick="setDecade('2000',this)">2000s</button>
     <button class="chip" data-d="1990" onclick="setDecade('1990',this)">90s</button>
     <button class="chip" data-d="old" onclick="setDecade('old',this)">Older</button>
+    <button class="chip" id="oscar-btn" onclick="toggleOscar(this)">🏆</button>
   </div>
-
+  <select class="dir" id="dir-sel" onchange="setDirector(this.value)"><option value="">All Directors</option></select>
   <div class="sort-row">
     <span class="sort-lbl">Sort:</span>
-    <button class="sort-btn active" id="s-avg" onclick="setSort('avg')">Average</button>
+    <button class="sort-btn on" id="s-avg" onclick="setSort('avg')">Average</button>
     <button class="sort-btn" id="s-year" onclick="setSort('year')">Year</button>
     <button class="sort-btn" id="s-name" onclick="setSort('name')">Name</button>
   </div>
-
-  <div class="stats-row">
-    <div class="stat-card"><div class="stat-lbl">Total Movies</div><div class="stat-val" id="st-total">—</div></div>
-    <div class="stat-card"><div class="stat-lbl">Avg Rating</div><div class="stat-val" id="st-avg">—</div></div>
+  <div class="stats">
+    <div class="stat"><div class="stat-lbl">Total Movies</div><div class="stat-val" id="st-total">—</div></div>
+    <div class="stat"><div class="stat-lbl">Avg Rating</div><div class="stat-val" id="st-avg">—</div></div>
   </div>
-
   <button id="add-btn" onclick="openAdd()"><i class="ti ti-plus"></i> Add Movie</button>
-
-  <div id="poster-bar">
-    <i class="ti ti-photo" style="flex-shrink:0"></i>
-    <span id="poster-txt">Fetching posters...</span>
-    <div id="poster-progress"><div id="poster-fill"></div></div>
-    <span id="poster-count" style="flex-shrink:0;font-size:11px"></span>
-  </div>
-
   <div class="rc" id="rc"></div>
   <div id="loading"><i class="ti ti-loader" style="font-size:28px;display:block;margin-bottom:8px"></i>Loading...</div>
-  <div id="movie-list"></div>
+  <div id="list"></div>
 </div>
 
-<!-- Edit modal -->
+<!-- Edit -->
 <div class="ov" id="edit-ov">
   <div class="modal">
     <div class="mhdr">
-      <div class="mhdr-info">
-        <img class="mhdr-poster" id="ep-img" src="" alt="">
-        <div><div class="mhdr-t" id="ep-title"></div><div class="mhdr-s" id="ep-sub"></div></div>
-      </div>
+      <div class="mhdr-l"><img class="mhdr-poster" id="ep-img" src="" alt=""><div><div class="mhdr-t" id="ep-title"></div><div class="mhdr-s" id="ep-sub"></div></div></div>
       <button class="close-x" onclick="closeEdit()">×</button>
     </div>
     <div id="edit-fields"></div>
     <div class="macts">
-      <button class="btn-p" id="edit-save-btn" onclick="saveEdit()" style="display:none">Save</button>
+      <button class="btn-p" id="edit-save" onclick="saveEdit()" style="display:none">Save</button>
       <button class="btn-s" onclick="closeEdit()">Close</button>
     </div>
+    <button id="del-btn" onclick="deleteMovie()"><i class="ti ti-trash" style="font-size:13px"></i> Delete Movie</button>
   </div>
 </div>
 
-<!-- Add modal -->
+<!-- Add -->
 <div class="ov" id="add-ov">
   <div class="modal">
-    <div class="mhdr" style="margin-bottom:12px">
-      <span style="font-size:15px;font-weight:600">Add Movie</span>
-      <button class="close-x" onclick="closeAdd()">×</button>
-    </div>
+    <div class="mhdr" style="margin-bottom:12px"><span style="font-size:15px;font-weight:600">Add Movie</span><button class="close-x" onclick="closeAdd()">×</button></div>
     <input id="tmdb-inp" type="text" placeholder="Search by title...">
-    <div id="tmdb-results"><div class="hint">Start typing to search TMDb</div></div>
+    <div id="tmdb-res"><div class="hint">Start typing to search</div></div>
     <div id="sel-prev">
       <div style="display:flex;gap:10px;align-items:center">
         <img id="sp-img" style="width:40px;height:58px;border-radius:6px;object-fit:cover" src="" alt="">
@@ -201,46 +171,22 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
     <div id="add-r-sec">
       <div class="slbl">Your ratings (optional):</div>
       <div id="add-r-fields"></div>
-      <div class="macts">
-        <button class="btn-p" onclick="saveNew()">Add to List</button>
-        <button class="btn-s" onclick="closeAdd()">Cancel</button>
-      </div>
+      <div class="macts"><button class="btn-p" onclick="saveNew()">Add to List</button><button class="btn-s" onclick="closeAdd()">Cancel</button></div>
     </div>
   </div>
 </div>
 
-<!-- Reviewers modal -->
+<!-- Reviewers -->
 <div class="ov" id="rev-ov">
   <div class="modal">
-    <div class="mhdr">
-      <span style="font-size:15px;font-weight:600">Manage Reviewers</span>
-      <button class="close-x" onclick="closeRevModal()">×</button>
-    </div>
-    <div id="rev-list" style="margin-bottom:14px"></div>
+    <div class="mhdr"><span style="font-size:15px;font-weight:600">Manage Reviewers</span><button class="close-x" onclick="closeRevModal()">×</button></div>
+    <div id="rev-list-wrap" style="margin-bottom:14px"></div>
     <div class="slbl">Add new reviewer:</div>
     <div style="display:flex;gap:8px;margin-top:6px">
       <input class="tinp" id="new-rev-inp" placeholder="Name..." maxlength="20">
       <button class="btn-p" style="flex:0;padding:0 16px" onclick="addReviewer()">Add</button>
     </div>
-    <div class="macts" style="margin-top:16px">
-      <button class="btn-p" onclick="closeRevModal()">Done</button>
-    </div>
-  </div>
-</div>
-
-<!-- Setup modal — only shown when no token stored (admin only) -->
-<div id="setup-ov">
-  <div class="setup-box">
-    <div style="font-size:16px;font-weight:700;margin-bottom:6px">🎬 Admin Setup</div>
-    <div style="font-size:13px;color:var(--text2);margin-bottom:20px">One-time setup for editing access. Stored on this device only.</div>
-    <div class="mrow"><span class="mrow-l">GitHub Token</span><input class="rinp" style="width:180px;font-size:11px;letter-spacing:0" type="password" id="s-token" placeholder="ghp_..."></div>
-    <div class="mrow"><span class="mrow-l">GitHub Owner</span><input class="rinp" style="width:180px;font-size:12px;letter-spacing:0" type="text" id="s-owner" value="Mohammad-Hamoud"></div>
-    <div class="mrow"><span class="mrow-l">PIN</span><input class="rinp" type="password" id="s-pin" placeholder="4 digits" maxlength="4" inputmode="numeric"></div>
-    <div style="margin-top:16px;display:flex;gap:8px">
-      <button class="btn-p" onclick="saveSetup()">Connect</button>
-      <button class="btn-s" onclick="skipSetup()">View Only</button>
-    </div>
-    <div id="setup-err" style="font-size:12px;color:var(--red);margin-top:8px;display:none"></div>
+    <div class="macts" style="margin-top:16px"><button class="btn-p" onclick="closeRevModal()">Done</button></div>
   </div>
 </div>
 
@@ -248,205 +194,105 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
 
 <script>
 const TMDB_KEY='feee1f259210d0919278ac13da4acae3';
+const OMDB_KEY='9a4f2bed';
 const TMDB_IMG='https://image.tmdb.org/t/p/w92';
 const TMDB_LG='https://image.tmdb.org/t/p/w185';
-// Public read URL — no token needed
 const GH_RAW='https://raw.githubusercontent.com/Mohammad-Hamoud/Movies-Ratings/main/movies.json';
 const GH_API='https://api.github.com/repos/Mohammad-Hamoud/Movies-Ratings/contents/movies.json';
 
-let GH_TOKEN='', PIN='';
-let data={reviewers:[],movies:[]}, fileSha=null;
-let unlocked=false, isAdmin=false;
-let sortMode='avg', filterReviewer='all', filterYear='', filterDecade='', searchQ='';
-let editIdx=null, tmdbSel=null, tmdbTO=null, tmdbCache=[];
-let posterFetchActive=false;
+let GH_TOKEN='',PIN='';
+let data={reviewers:[],movies:[],initials:{}},fileSha=null,isAdmin=false,unlocked=false;
+let sortMode='avg',filterReviewer='all',filterYear='',filterDecade='',filterOscar=false,filterDirector='',searchQ='';
+let editIdx=null,tmdbSel=null,tmdbTO=null,tmdbCache=[],renderLimit=50,sentinelObs=null;
 
-// ── Setup ──────────────────────────────────────────────
-function checkSetup(){
+window.onload=function(){
   GH_TOKEN=localStorage.getItem('mr_token')||'';
   PIN=localStorage.getItem('mr_pin')||'';
-  if(GH_TOKEN&&PIN){
-    isAdmin=true;
-    document.getElementById('setup-ov').classList.remove('show');
-    loadData(true);
-  } else {
-    // Show setup so admin can log in, but offer "View Only"
-    document.getElementById('setup-ov').classList.add('show');
-  }
-}
+  if(GH_TOKEN&&PIN)isAdmin=true;
+  loadData();
+};
 
-function skipSetup(){
-  // Guest: read-only via public raw URL
-  document.getElementById('setup-ov').classList.remove('show');
-  loadData(false);
-}
-
-async function saveSetup(){
-  const t=document.getElementById('s-token').value.trim();
-  const p=document.getElementById('s-pin').value.trim();
-  const err=document.getElementById('setup-err');
-  if(!t||!p){err.textContent='Please fill all fields.';err.style.display='block';return;}
-  err.style.display='none';
+async function loadData(){
   try{
-    const r=await fetch(GH_API,{headers:{Authorization:`token ${t}`,Accept:'application/vnd.github.v3+json'}});
-    if(!r.ok)throw new Error('Invalid token or repo not found');
-    localStorage.setItem('mr_token',t);
-    localStorage.setItem('mr_pin',p);
-    location.reload();
-  }catch(e){err.textContent=e.message;err.style.display='block';}
-}
-
-// ── Data loading ───────────────────────────────────────
-async function loadData(admin){
-  try{
-    if(admin){
-      // Admin: use API to get SHA for later writes
-      const r=await fetch(GH_API,{headers:{Authorization:`token ${GH_TOKEN}`,Accept:'application/vnd.github.v3+json'}});
-      const j=await r.json();
-      fileSha=j.sha;
-      data=JSON.parse(atob(j.content.replace(/\n/g,'')));
-    } else {
-      // Guest: read from public raw URL directly
-      const r=await fetch(GH_RAW+'?t='+Date.now());
-      data=await r.json();
-    }
+    const r=await fetch(GH_RAW+'?t='+Date.now());
+    if(!r.ok)throw new Error('HTTP '+r.status);
+    data=await r.json();
+    if(!data.initials)data.initials={};
     document.getElementById('loading').style.display='none';
-    buildYearSel(); buildChips(); render();
-    if(admin) setTimeout(fetchMissingPosters, 2000);
+    if(isAdmin&&GH_TOKEN){
+      fetch(GH_API,{headers:{Authorization:'token '+GH_TOKEN,Accept:'application/vnd.github.v3+json'}})
+        .then(r=>r.json()).then(j=>{fileSha=j.sha;}).catch(()=>{isAdmin=false;});
+    }
+    buildAll();render();
   }catch(e){
-    document.getElementById('loading').innerHTML='<i class="ti ti-wifi-off" style="font-size:28px;display:block;margin-bottom:8px"></i>Connection error<br><button onclick="location.reload()" style="margin-top:12px;padding:8px 16px;background:var(--bg3);border:1px solid var(--border);border-radius:8px;color:var(--text);cursor:pointer">Retry</button>';
+    document.getElementById('loading').innerHTML='<i class="ti ti-wifi-off" style="font-size:28px;display:block;margin-bottom:8px"></i>Connection error<br><button onclick="loadData()" style="margin-top:12px;padding:8px 16px;background:var(--bg3);border:1px solid var(--border);border-radius:8px;color:var(--text);cursor:pointer">Retry</button>';
   }
 }
 
-async function saveData(msg='Update'){
-  if(!isAdmin)return;
+async function saveData(msg){
+  if(!isAdmin||!fileSha)return;
   toast('Saving...');
   try{
     const content=btoa(unescape(encodeURIComponent(JSON.stringify(data,null,2))));
-    const r=await fetch(GH_API,{
-      method:'PUT',
-      headers:{Authorization:`token ${GH_TOKEN}`,Accept:'application/vnd.github.v3+json','Content-Type':'application/json'},
-      body:JSON.stringify({message:msg,content,sha:fileSha})
-    });
-    const j=await r.json();
-    fileSha=j.content.sha;
-    toast('Saved ✓','ok');
+    const r=await fetch(GH_API,{method:'PUT',headers:{Authorization:'token '+GH_TOKEN,Accept:'application/vnd.github.v3+json','Content-Type':'application/json'},body:JSON.stringify({message:msg,content,sha:fileSha})});
+    const j=await r.json();fileSha=j.content.sha;toast('Saved ✓','ok');
   }catch(e){toast('Save failed!','err');}
 }
 
-// ── Background poster fetch (admin only) ──────────────
-async function fetchMissingPosters(){
-  const missing=data.movies.filter(m=>!m.poster);
-  if(!missing.length)return;
-  posterFetchActive=true;
-  const bar=document.getElementById('poster-bar');
-  bar.classList.add('show');
-  let done=0, fetched=0, total=missing.length;
-  document.getElementById('poster-count').textContent=`0/${total}`;
-  for(const m of missing){
-    if(!posterFetchActive)break;
-    try{
-      const q=encodeURIComponent(m.title);
-      const yr=m.year?`&year=${m.year}`:'';
-      const r=await fetch(`https://api.themoviedb.org/3/search/movie?api_key=${TMDB_KEY}&query=${q}${yr}&language=en-US`);
-      const d=await r.json();
-      const res=d.results||[];
-      if(res.length){
-        if(res[0].poster_path){m.poster=res[0].poster_path;fetched++;}
-        if(!m.tmdb_id)m.tmdb_id=res[0].id;
-      }
-    }catch(e){}
-    done++;
-    document.getElementById('poster-fill').style.width=Math.round(done/total*100)+'%';
-    document.getElementById('poster-count').textContent=`${done}/${total}`;
-    if(done%20===0)render();
-    await new Promise(res=>setTimeout(res,150));
-  }
-  render();
-  if(fetched>0){
-    document.getElementById('poster-txt').textContent=`✓ ${fetched} posters loaded`;
-    await saveData('Auto-fetch posters');
-    setTimeout(()=>bar.classList.remove('show'),3000);
-  } else {
-    bar.classList.remove('show');
-  }
-  posterFetchActive=false;
-}
+function toast(msg,cls){const el=document.getElementById('toast');el.textContent=msg;el.className='show'+(cls?' '+cls:'');clearTimeout(el._t);el._t=setTimeout(()=>el.className='',2500);}
 
-// ── Toast ──────────────────────────────────────────────
-function toast(msg,cls=''){
-  const el=document.getElementById('toast');
-  el.textContent=msg; el.className='show'+(cls?' '+cls:'');
-  clearTimeout(el._t); el._t=setTimeout(()=>el.className='',2500);
-}
-
-// ── PIN / lock ─────────────────────────────────────────
 function togglePin(){
-  if(!isAdmin){toast('Admin access required','err');return;}
-  if(unlocked){lock();return;}
-  const bar=document.getElementById('pin-bar');
-  bar.classList.toggle('show');
+  if(!isAdmin){const t=prompt('GitHub Token:');if(!t)return;const p=prompt('PIN:');if(!p)return;localStorage.setItem('mr_token',t);localStorage.setItem('mr_pin',p);location.reload();return;}
+  if(unlocked){setUnlocked(false);return;}
+  const bar=document.getElementById('pin-bar');bar.classList.toggle('show');
   if(bar.classList.contains('show'))setTimeout(()=>document.getElementById('pin-inp').focus(),100);
 }
 function checkPin(){
-  const v=document.getElementById('pin-inp').value;
-  const msg=document.getElementById('pin-msg');
-  if(v===PIN){
-    unlocked=true;
-    document.getElementById('lock-icon').className='ti ti-lock-open';
-    document.getElementById('lock-btn').classList.add('unlocked');
-    document.getElementById('add-btn').classList.add('visible');
-    document.getElementById('rev-btn').style.display='flex';
-    document.getElementById('pin-inp').value='';
-    msg.textContent='✓ Unlocked'; msg.className='ok';
-    buildChips();
-    setTimeout(()=>{document.getElementById('pin-bar').classList.remove('show');msg.textContent='';},1200);
-  }else{
-    msg.textContent='✗ Wrong PIN'; msg.className='err';
-    document.getElementById('pin-inp').value='';
-  }
+  const v=document.getElementById('pin-inp').value,msg=document.getElementById('pin-msg');
+  if(v===PIN){setUnlocked(true);document.getElementById('pin-inp').value='';msg.textContent='✓ Unlocked';msg.className='ok';setTimeout(()=>{document.getElementById('pin-bar').classList.remove('show');msg.textContent='';},1200);}
+  else{msg.textContent='✗ Wrong PIN';msg.className='err';document.getElementById('pin-inp').value='';}
 }
-function lock(){
-  unlocked=false;
-  document.getElementById('lock-icon').className='ti ti-lock';
-  document.getElementById('lock-btn').classList.remove('unlocked');
-  document.getElementById('add-btn').classList.remove('visible');
-  document.getElementById('rev-btn').style.display='none';
-  buildChips();
+function setUnlocked(on){
+  unlocked=on;
+  document.getElementById('lock-icon').className=on?'ti ti-lock-open':'ti ti-lock';
+  document.getElementById('lock-btn').className='icon-btn'+(on?' on':'');
+  document.getElementById('add-btn').style.display=on?'flex':'none';
+  document.getElementById('rev-btn').style.display=on?'flex':'none';
 }
 document.getElementById('pin-inp').addEventListener('keydown',e=>{if(e.key==='Enter')checkPin();});
 
-// ── Filters ────────────────────────────────────────────
-function setSort(m){sortMode=m;document.querySelectorAll('.sort-btn').forEach(b=>b.classList.remove('active'));document.getElementById('s-'+m).classList.add('active');render();}
-function setReviewer(r,el){filterReviewer=r;document.querySelectorAll('#reviewer-chips .chip').forEach(b=>b.classList.remove('active'));el.classList.add('active');render();}
-function setYear(v){filterYear=v;filterDecade='';document.querySelectorAll('[data-d]').forEach(b=>b.classList.remove('active'));document.querySelector('[data-d=""]').classList.add('active');render();}
-function setDecade(d,el){filterDecade=d;filterYear='';document.getElementById('year-sel').value='';document.querySelectorAll('[data-d]').forEach(b=>b.classList.remove('active'));el.classList.add('active');render();}
-document.getElementById('search-inp').addEventListener('input',e=>{searchQ=e.target.value.toLowerCase();render();});
-
-function buildYearSel(){
+function buildAll(){
   const years=[...new Set(data.movies.map(m=>m.year).filter(Boolean))].sort((a,b)=>b-a);
   document.getElementById('year-sel').innerHTML='<option value="">All Years</option>'+years.map(y=>`<option value="${y}">${y}</option>`).join('');
+  const dirs=[...new Set(data.movies.map(m=>m.director).filter(Boolean))].sort();
+  document.getElementById('dir-sel').innerHTML='<option value="">All Directors</option>'+dirs.map(d=>`<option value="${d}">${d}</option>`).join('');
+  buildChips();
 }
 function buildChips(){
   const row=document.getElementById('reviewer-chips');
-  const all=`<button class="chip ${filterReviewer==='all'?'active':''}" onclick="setReviewer('all',this)">All</button>`;
-  const chips=data.reviewers.map(r=>`<button class="chip ${filterReviewer===r?'active':''}" onclick="setReviewer('${r}',this)">${r}</button>`).join('');
-  row.innerHTML=all+chips;
+  row.innerHTML=`<button class="chip ${filterReviewer==='all'?'on':''}" onclick="setReviewer('all',this)">All</button>`+
+    data.reviewers.map(r=>`<button class="chip ${filterReviewer===r?'on':''}" onclick="setReviewer('${r}',this)">${r}</button>`).join('');
 }
 
-function calcAvg(m){
-  const v=data.reviewers.map(r=>m[r]).filter(x=>x!=null&&!isNaN(x));
-  return v.length?+(v.reduce((a,b)=>a+b,0)/v.length).toFixed(2):null;
-}
+function setSort(m){sortMode=m;renderLimit=50;document.querySelectorAll('.sort-btn').forEach(b=>b.classList.remove('on'));document.getElementById('s-'+m).classList.add('on');render();}
+function setReviewer(r,el){filterReviewer=r;renderLimit=50;document.querySelectorAll('#reviewer-chips .chip').forEach(b=>b.classList.remove('on'));el.classList.add('on');render();}
+function setYear(v){filterYear=v;filterDecade='';renderLimit=50;document.querySelectorAll('[data-d]').forEach(b=>b.classList.remove('on'));document.querySelector('[data-d=""]').classList.add('on');render();}
+function setDecade(d,el){filterDecade=d;filterYear='';renderLimit=50;document.getElementById('year-sel').value='';document.querySelectorAll('[data-d]').forEach(b=>b.classList.remove('on'));el.classList.add('on');render();}
+function setDirector(v){filterDirector=v;renderLimit=50;render();}
+function toggleOscar(el){filterOscar=!filterOscar;el.classList.toggle('on');renderLimit=50;render();}
+let _sTO=null;
+document.getElementById('search-inp').addEventListener('input',e=>{clearTimeout(_sTO);_sTO=setTimeout(()=>{searchQ=e.target.value.toLowerCase();renderLimit=50;render();},250);});
+
+function calcAvg(m){const v=data.reviewers.map(r=>m[r]).filter(x=>x!=null&&!isNaN(x));return v.length?+(v.reduce((a,b)=>a+b,0)/v.length).toFixed(2):null;}
+
 function getFiltered(){
   let list=data.movies.filter(m=>{
     if(searchQ&&!m.title.toLowerCase().includes(searchQ))return false;
     if(filterReviewer!=='all'&&(m[filterReviewer]==null||isNaN(m[filterReviewer])))return false;
     if(filterYear&&m.year!=filterYear)return false;
-    if(filterDecade){
-      if(filterDecade==='old'){if(m.year>=1990)return false;}
-      else{const d=parseInt(filterDecade);if(!m.year||m.year<d||m.year>=d+10)return false;}
-    }
+    if(filterDecade){if(filterDecade==='old'){if(m.year>=1990)return false;}else{const d=parseInt(filterDecade);if(!m.year||m.year<d||m.year>=d+10)return false;}}
+    if(filterOscar&&!m.oscar_best_picture)return false;
+    if(filterDirector&&m.director!==filterDirector)return false;
     return true;
   });
   if(sortMode==='avg')list.sort((a,b)=>(calcAvg(b)||0)-(calcAvg(a)||0));
@@ -461,132 +307,130 @@ function render(){
   const avgs=data.movies.map(m=>calcAvg(m)).filter(Boolean);
   document.getElementById('st-avg').textContent=avgs.length?(avgs.reduce((a,b)=>a+b,0)/avgs.length).toFixed(1):'—';
   document.getElementById('rc').textContent=list.length+' movies';
-  const el=document.getElementById('movie-list');
+  const el=document.getElementById('list');
   if(!list.length){el.innerHTML='<div class="empty"><i class="ti ti-movie-off" style="font-size:28px;display:block;margin-bottom:8px"></i>No results</div>';return;}
-  el.innerHTML=list.map(m=>{
-    const idx=data.movies.indexOf(m);
-    const avg=calcAvg(m);
-    const pills=data.reviewers.filter(r=>m[r]!=null&&!isNaN(m[r])).map(r=>`<span class="rpill">${r.slice(0,3)}: ${m[r]}</span>`).join('');
+  const ini=data.initials||{};
+  el.innerHTML=list.slice(0,renderLimit).map(m=>{
+    const idx=data.movies.indexOf(m),avg=calcAvg(m);
+    const pills=data.reviewers.filter(r=>m[r]!=null&&!isNaN(m[r])).map(r=>`<span class="pill">${ini[r]||r.slice(0,3)}: ${m[r]}</span>`).join('');
     const poster=m.poster?`<img class="mposter" src="${TMDB_IMG}${m.poster}" alt="" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">`:'' ;
     const ph=`<div class="mph" ${m.poster?'style="display:none"':''}><i class="ti ti-movie" style="font-size:16px"></i></div>`;
-    return `<div class="movie-card" onclick="openEdit(${idx})">
-      ${poster}${ph}
-      <div class="mbody">
-        <div class="mtop"><div class="mtitle">${m.title}</div>${avg!=null?`<span class="mavg">${avg.toFixed(1)}</span>`:''}</div>
-        <div class="mmeta">${m.year?`<span>${m.year}</span>`:''} ${m.imdb?`<span class="imdb-b">IMDb ${m.imdb}</span>`:''}</div>
-        <div class="rpills">${pills||'<span style="font-size:11px;color:var(--text3)">No ratings yet</span>'}</div>
-      </div>
-    </div>`;
+    return `<div class="card" onclick="openEdit(${idx})">${poster}${ph}<div class="cbody">
+      <div class="ctop"><div class="ctitle">${m.title}</div>${avg!=null?`<span class="cavg">${avg.toFixed(1)}</span>`:''}</div>
+      <div class="cmeta">${m.year?`<span>${m.year}</span>`:''} ${m.imdb?`<span class="imdb-b">IMDb ${m.imdb}</span>`:''} ${m.oscar_best_picture?'<span>🏆</span>':''} ${m.director?`<span style="color:var(--text3);font-size:10px">${m.director}</span>`:''}</div>
+      <div class="pills">${pills||'<span style="font-size:11px;color:var(--text3)">No ratings yet</span>'}</div>
+    </div></div>`;
   }).join('');
+  if(list.length>renderLimit){
+    el.innerHTML+='<div id="sentinel" style="height:1px"></div>';
+    if(sentinelObs)sentinelObs.disconnect();
+    sentinelObs=new IntersectionObserver(e=>{if(e[0].isIntersecting){sentinelObs.disconnect();renderLimit+=50;render();}},{rootMargin:'200px'});
+    sentinelObs.observe(document.getElementById('sentinel'));
+  }
 }
 
-// ── Edit ───────────────────────────────────────────────
 function openEdit(idx){
-  editIdx=idx; const m=data.movies[idx];
+  editIdx=idx;const m=data.movies[idx];
   document.getElementById('ep-title').textContent=m.title;
-  document.getElementById('ep-sub').textContent=(m.year||'')+(m.imdb?' · IMDb '+m.imdb:'');
+  document.getElementById('ep-sub').textContent=(m.year||'')+(m.imdb?' · IMDb '+m.imdb:'')+(m.director?' · '+m.director:'');
   const img=document.getElementById('ep-img');
   if(m.poster){img.src=TMDB_LG+m.poster;img.style.display='block';}else img.style.display='none';
-  document.getElementById('edit-fields').innerHTML=data.reviewers.map(r=>`
-    <div class="mrow"><span class="mrow-l">${r}</span>
-    <input class="rinp" type="number" min="0" max="10" step="0.1" id="ei-${r}" value="${m[r]!=null?m[r]:''}" ${unlocked?'':'disabled style="opacity:.4"'}></div>`).join('');
-  document.getElementById('edit-save-btn').style.display=unlocked?'flex':'none';
+  document.getElementById('edit-fields').innerHTML=
+    (unlocked?`<div class="mrow"><span class="mrow-l">Title</span><input class="tinp" id="ei-title" value="${m.title.replace(/"/g,'&quot;')}"></div>`:'')+
+    data.reviewers.map(r=>`<div class="mrow"><span class="mrow-l">${r}</span><input class="rinp" type="number" min="0" max="10" step="0.1" id="ei-${r}" value="${m[r]!=null?m[r]:''}" ${unlocked?'':'disabled style="opacity:.4"'}></div>`).join('');
+  document.getElementById('edit-save').style.display=unlocked?'flex':'none';
+  document.getElementById('del-btn').style.display=unlocked?'block':'none';
   document.getElementById('edit-ov').classList.add('show');
 }
 function closeEdit(){document.getElementById('edit-ov').classList.remove('show');editIdx=null;}
 function saveEdit(){
   if(!unlocked||editIdx==null)return;
+  const ti=document.getElementById('ei-title');
+  if(ti&&ti.value.trim())data.movies[editIdx].title=ti.value.trim();
   data.reviewers.forEach(r=>{const v=parseFloat(document.getElementById('ei-'+r).value);data.movies[editIdx][r]=isNaN(v)?null:v;});
-  render(); closeEdit(); saveData('Update ratings');
+  const title=data.movies[editIdx].title;
+  render();closeEdit();saveData('Update: '+title);
+}
+function deleteMovie(){
+  if(!unlocked||editIdx==null)return;
+  const title=data.movies[editIdx].title;
+  if(!confirm(`Delete "${title}"?`))return;
+  data.movies.splice(editIdx,1);buildAll();render();closeEdit();saveData('Delete: '+title);
 }
 
-// ── Add ────────────────────────────────────────────────
 function openAdd(){
-  if(!unlocked)return;
-  tmdbSel=null;
-  document.getElementById('tmdb-inp').value='';
-  document.getElementById('tmdb-results').innerHTML='<div class="hint">Start typing to search</div>';
-  document.getElementById('sel-prev').style.display='none';
-  document.getElementById('add-r-sec').style.display='none';
+  tmdbSel=null;document.getElementById('tmdb-inp').value='';
+  document.getElementById('tmdb-res').innerHTML='<div class="hint">Start typing to search</div>';
+  document.getElementById('sel-prev').style.display='none';document.getElementById('add-r-sec').style.display='none';
   document.getElementById('add-ov').classList.add('show');
   setTimeout(()=>document.getElementById('tmdb-inp').focus(),100);
 }
 function closeAdd(){document.getElementById('add-ov').classList.remove('show');tmdbSel=null;}
-
 document.getElementById('tmdb-inp').addEventListener('input',e=>{
-  clearTimeout(tmdbTO); const q=e.target.value.trim();
-  if(q.length<2){document.getElementById('tmdb-results').innerHTML='<div class="hint">Start typing to search</div>';return;}
-  document.getElementById('tmdb-results').innerHTML='<div class="hint">Searching...</div>';
+  clearTimeout(tmdbTO);const q=e.target.value.trim();
+  if(q.length<2){document.getElementById('tmdb-res').innerHTML='<div class="hint">Start typing to search</div>';return;}
+  document.getElementById('tmdb-res').innerHTML='<div class="hint">Searching...</div>';
   tmdbTO=setTimeout(()=>doSearch(q),500);
 });
-
 async function doSearch(q){
   try{
     const r=await fetch(`https://api.themoviedb.org/3/search/movie?api_key=${TMDB_KEY}&query=${encodeURIComponent(q)}&language=en-US`);
-    const d=await r.json();
-    const res=(d.results||[]).slice(0,6);
-    tmdbCache=res;
-    const el=document.getElementById('tmdb-results');
+    const d=await r.json();const res=(d.results||[]).slice(0,6);tmdbCache=res;
+    const el=document.getElementById('tmdb-res');
     if(!res.length){el.innerHTML='<div class="hint">No results</div>';return;}
     el.innerHTML=res.map((m,i)=>{
       const yr=m.release_date?m.release_date.slice(0,4):'';
-      const rat=m.vote_average?'⭐ '+m.vote_average.toFixed(1):'';
-      const img=m.poster_path?`<img class="tcp" src="${TMDB_IMG}${m.poster_path}" alt="">`:`<div class="tcp" style="display:flex;align-items:center;justify-content:center;color:var(--text3);font-size:11px">?</div>`;
-      return `<div class="tc" id="tc-${i}" onclick="pick(${i})">${img}<div><div class="tct">${m.title}</div><div class="tcs">${yr} ${rat}</div></div></div>`;
+      const img=m.poster_path?`<img class="tcp" src="${TMDB_IMG}${m.poster_path}" alt="">`:`<div class="tcp" style="display:flex;align-items:center;justify-content:center;color:var(--text3)">?</div>`;
+      return `<div class="tc" id="tc-${i}" onclick="pick(${i})">${img}<div><div class="tct">${m.title}</div><div class="tcs">${yr}${m.vote_average?' · ⭐ '+m.vote_average.toFixed(1):''}</div></div></div>`;
     }).join('');
-  }catch(e){document.getElementById('tmdb-results').innerHTML='<div class="hint">Connection error</div>';}
+  }catch(e){document.getElementById('tmdb-res').innerHTML='<div class="hint">Connection error</div>';}
 }
-
 function pick(i){
-  const movie=tmdbCache[i]; if(!movie)return;
+  const movie=tmdbCache[i];if(!movie)return;
+  const norm=movie.title.toLowerCase().trim();
+  const yr=movie.release_date?parseInt(movie.release_date.slice(0,4)):null;
+  const dup=data.movies.findIndex(m=>m.title.toLowerCase().trim()===norm&&(!yr||!m.year||m.year===yr));
+  if(dup!==-1){closeAdd();toast('Already in list — opening it!','ok');setTimeout(()=>openEdit(dup),350);return;}
   tmdbSel=movie;
-  document.querySelectorAll('.tc').forEach(c=>c.classList.remove('sel'));
-  const c=document.getElementById('tc-'+i); if(c)c.classList.add('sel');
-  const yr=movie.release_date?movie.release_date.slice(0,4):'';
+  document.querySelectorAll('.tc').forEach(c=>c.classList.remove('on'));
+  const c=document.getElementById('tc-'+i);if(c)c.classList.add('on');
+  const yr2=movie.release_date?movie.release_date.slice(0,4):'';
   document.getElementById('sp-title').textContent=movie.title;
-  document.getElementById('sp-meta').textContent=yr+(movie.vote_average?' · TMDb '+movie.vote_average.toFixed(1):'');
+  document.getElementById('sp-meta').textContent=yr2+(movie.vote_average?' · TMDb '+movie.vote_average.toFixed(1):'');
   if(movie.poster_path)document.getElementById('sp-img').src=TMDB_LG+movie.poster_path;
-  document.getElementById('sel-prev').style.display='block';
-  document.getElementById('add-r-sec').style.display='block';
-  document.getElementById('add-r-fields').innerHTML=data.reviewers.map(r=>`
-    <div class="mrow"><span class="mrow-l">${r}</span>
-    <input class="rinp" type="number" min="0" max="10" step="0.1" id="ai-${r}" placeholder="—"></div>`).join('');
+  document.getElementById('sel-prev').style.display='block';document.getElementById('add-r-sec').style.display='block';
+  document.getElementById('add-r-fields').innerHTML=data.reviewers.map(r=>`<div class="mrow"><span class="mrow-l">${r}</span><input class="rinp" type="number" min="0" max="10" step="0.1" id="ai-${r}" placeholder="—"></div>`).join('');
 }
-
-function saveNew(){
+async function saveNew(){
   if(!tmdbSel)return;
   const yr=tmdbSel.release_date?parseInt(tmdbSel.release_date.slice(0,4)):null;
-  const m={
-    title:tmdbSel.title, year:yr,
-    imdb:tmdbSel.vote_average?+tmdbSel.vote_average.toFixed(1):null,
-    poster:tmdbSel.poster_path||null,
-    tmdb_id:tmdbSel.id
-  };
+  const m={title:tmdbSel.title,year:yr,imdb:null,poster:tmdbSel.poster_path||null,tmdb_id:tmdbSel.id};
   data.reviewers.forEach(r=>{const v=parseFloat(document.getElementById('ai-'+r).value);m[r]=isNaN(v)?null:v;});
-  data.movies.unshift(m);
-  buildYearSel(); closeAdd(); render(); saveData('Add: '+m.title);
+  try{
+    const q=encodeURIComponent(tmdbSel.title);const yp=yr?`&y=${yr}`:'';
+    const r=await fetch(`https://www.omdbapi.com/?t=${q}${yp}&apikey=${OMDB_KEY}`);
+    const d=await r.json();
+    if(d.imdbRating&&d.imdbRating!=='N/A')m.imdb=parseFloat(d.imdbRating);
+    if(d.imdbID)m.imdb_id=d.imdbID;
+    if(d.Director&&d.Director!=='N/A')m.director=d.Director.split(',')[0].trim();
+    if(d.Awards&&d.Awards!=='N/A'){const aw=d.Awards.toLowerCase();m.oscar_best_picture=aw.includes('won')&&aw.includes('best picture');}
+  }catch(e){}
+  data.movies.unshift(m);buildAll();closeAdd();render();saveData('Add: '+m.title);
 }
 
-// ── Reviewers ──────────────────────────────────────────
 function openRevModal(){renderRevList();document.getElementById('new-rev-inp').value='';document.getElementById('rev-ov').classList.add('show');}
-function closeRevModal(){document.getElementById('rev-ov').classList.remove('show');buildChips();render();}
+function closeRevModal(){document.getElementById('rev-ov').classList.remove('show');buildChips();render();saveData('Update reviewers');}
 function renderRevList(){
-  document.getElementById('rev-list').innerHTML=data.reviewers.map((r,i)=>`
+  if(!data.initials)data.initials={};
+  document.getElementById('rev-list-wrap').innerHTML=data.reviewers.map((r,i)=>`
     <div class="mrow"><span class="mrow-l">${r}</span>
-    <button class="btn-d" onclick="removeReviewer(${i})"><i class="ti ti-trash" style="font-size:11px"></i> Remove</button></div>`).join('');
+    <div style="display:flex;gap:6px;align-items:center">
+      <input class="rinp" style="width:52px;font-size:12px" type="text" maxlength="4" value="${data.initials[r]||r.slice(0,3)}" oninput="data.initials['${r}']=this.value.trim()">
+      <button class="btn-s" style="height:30px;padding:0 10px;color:var(--red);border-color:var(--red);font-size:12px" onclick="removeReviewer(${i})"><i class="ti ti-trash" style="font-size:11px"></i></button>
+    </div></div>`).join('');
 }
-function addReviewer(){
-  const inp=document.getElementById('new-rev-inp');
-  const name=inp.value.trim();
-  if(!name||data.reviewers.includes(name))return;
-  data.reviewers.push(name); inp.value=''; renderRevList(); saveData('Add reviewer: '+name);
-}
-function removeReviewer(i){
-  if(!confirm(`Remove "${data.reviewers[i]}"?`))return;
-  data.reviewers.splice(i,1); renderRevList(); saveData('Remove reviewer');
-}
-
-checkSetup();
+function addReviewer(){const inp=document.getElementById('new-rev-inp');const name=inp.value.trim();if(!name||data.reviewers.includes(name))return;data.reviewers.push(name);inp.value='';renderRevList();}
+function removeReviewer(i){if(!confirm(`Remove "${data.reviewers[i]}"?`))return;data.reviewers.splice(i,1);renderRevList();}
 </script>
 </body>
 </html>
