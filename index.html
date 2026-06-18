@@ -275,12 +275,9 @@ function checkSetup(){
   PIN=localStorage.getItem('mr_pin')||'';
   if(GH_TOKEN&&PIN){
     isAdmin=true;
-    document.getElementById('setup-ov').classList.remove('show');
-    loadData(true);
-  } else {
-    // Show setup so admin can log in, but offer "View Only"
-    document.getElementById('setup-ov').classList.add('show');
   }
+  // Always load data immediately from public URL
+  loadData(isAdmin);
 }
 
 function skipSetup(){
