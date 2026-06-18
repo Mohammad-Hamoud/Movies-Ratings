@@ -18,7 +18,14 @@
       "Albandary": null,
       "Jory": 9.3,
       "Moayad": null,
-      "imdb_id": "tt0382932"
+      "imdb_id": "tt0382932",
+      "director": "Brad Bird",
+      "genre": [
+        "Animation",
+        "Adventure",
+        "Comedy"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "The Upside",
@@ -31,7 +38,11 @@
       "Albandary": null,
       "Jory": 7,
       "Moayad": null,
-      "imdb_id": "tt9730752"
+      "imdb_id": "tt9730752",
+      "director": "Nikhil Newse",
+      "genre": [
+        "Short"
+      ]
     },
     {
       "title": "Born a King",
@@ -44,7 +55,13 @@
       "Albandary": null,
       "Jory": 6.3,
       "Moayad": null,
-      "imdb_id": "tt6718730"
+      "imdb_id": "tt6718730",
+      "director": "Agustí Villaronga",
+      "genre": [
+        "Drama",
+        "History"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Shazam!",
@@ -57,7 +74,14 @@
       "Albandary": null,
       "Jory": 6.5,
       "Moayad": null,
-      "imdb_id": "tt0448115"
+      "imdb_id": "tt0448115",
+      "director": "David F. Sandberg",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Comedy"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "The Life of David Gale",
@@ -70,7 +94,14 @@
       "Albandary": null,
       "Jory": 8.4,
       "Moayad": null,
-      "imdb_id": "tt0289992"
+      "imdb_id": "tt0289992",
+      "director": "Alan Parker",
+      "genre": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "The Best of Me",
@@ -83,7 +114,12 @@
       "Albandary": null,
       "Jory": 1,
       "Moayad": null,
-      "imdb_id": "tt1972779"
+      "imdb_id": "tt1972779",
+      "director": "Michael Hoffman",
+      "genre": [
+        "Drama",
+        "Romance"
+      ]
     },
     {
       "title": "Incendies",
@@ -96,7 +132,14 @@
       "Albandary": null,
       "Jory": 8.6,
       "Moayad": null,
-      "imdb_id": "tt1255953"
+      "imdb_id": "tt1255953",
+      "director": "Denis Villeneuve",
+      "genre": [
+        "Drama",
+        "Mystery",
+        "War"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Revolutionary Road",
@@ -109,7 +152,13 @@
       "Albandary": null,
       "Jory": 8,
       "Moayad": null,
-      "imdb_id": "tt0959337"
+      "imdb_id": "tt0959337",
+      "director": "Sam Mendes",
+      "genre": [
+        "Drama",
+        "Romance"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "In the Heart of the Sea",
@@ -122,7 +171,14 @@
       "Albandary": null,
       "Jory": null,
       "Moayad": null,
-      "imdb_id": "tt1390411"
+      "imdb_id": "tt1390411",
+      "director": "Ron Howard",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Biography"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Princess Mononoke",
@@ -135,7 +191,14 @@
       "Albandary": null,
       "Jory": 8.3,
       "Moayad": null,
-      "imdb_id": "tt0119698"
+      "imdb_id": "tt0119698",
+      "director": "Hayao Miyazaki",
+      "genre": [
+        "Animation",
+        "Adventure",
+        "Fantasy"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "A Bug's Life",
@@ -148,7 +211,14 @@
       "Albandary": null,
       "Jory": 7.9,
       "Moayad": null,
-      "imdb_id": "tt0120623"
+      "imdb_id": "tt0120623",
+      "director": "John Lasseter",
+      "genre": [
+        "Animation",
+        "Adventure",
+        "Comedy"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Hugo",
@@ -161,7 +231,14 @@
       "Albandary": null,
       "Jory": null,
       "Moayad": null,
-      "imdb_id": "tt0970179"
+      "imdb_id": "tt0970179",
+      "director": "Martin Scorsese",
+      "genre": [
+        "Adventure",
+        "Drama",
+        "Family"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Doctor Zhivago",
@@ -174,7 +251,14 @@
       "Albandary": null,
       "Jory": 7.4,
       "Moayad": null,
-      "imdb_id": "tt0059113"
+      "imdb_id": "tt0059113",
+      "director": "David Lean",
+      "genre": [
+        "Drama",
+        "Romance",
+        "War"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "The Florida Project",
@@ -187,7 +271,12 @@
       "Albandary": null,
       "Jory": null,
       "Moayad": null,
-      "imdb_id": "tt5649144"
+      "imdb_id": "tt5649144",
+      "director": "Sean Baker",
+      "genre": [
+        "Drama"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "The Gray Man",
@@ -200,7 +289,14 @@
       "Albandary": null,
       "Jory": 6,
       "Moayad": null,
-      "imdb_id": "tt1649418"
+      "imdb_id": "tt1649418",
+      "director": "Anthony Russo",
+      "genre": [
+        "Action",
+        "Mystery",
+        "Thriller"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Barbie",
@@ -213,7 +309,14 @@
       "Albandary": null,
       "Jory": 5.3,
       "Moayad": null,
-      "imdb_id": "tt1517268"
+      "imdb_id": "tt1517268",
+      "director": "Greta Gerwig",
+      "genre": [
+        "Adventure",
+        "Comedy",
+        "Fantasy"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "The Call",
@@ -226,7 +329,14 @@
       "Albandary": null,
       "Jory": 7.4,
       "Moayad": null,
-      "imdb_id": "tt10530176"
+      "imdb_id": "tt10530176",
+      "director": "Chung-Hyun Lee",
+      "genre": [
+        "Crime",
+        "Horror",
+        "Mystery"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Buried",
@@ -239,7 +349,14 @@
       "Albandary": null,
       "Jory": 7,
       "Moayad": null,
-      "imdb_id": "tt1462758"
+      "imdb_id": "tt1462758",
+      "director": "Rodrigo Cortés",
+      "genre": [
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Casino",
@@ -252,7 +369,13 @@
       "Albandary": null,
       "Jory": 8,
       "Moayad": null,
-      "imdb_id": "tt0112641"
+      "imdb_id": "tt0112641",
+      "director": "Martin Scorsese",
+      "genre": [
+        "Crime",
+        "Drama"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Night Courier",
@@ -265,7 +388,14 @@
       "Albandary": null,
       "Jory": 7.8,
       "Moayad": null,
-      "imdb_id": "tt23642740"
+      "imdb_id": "tt23642740",
+      "director": "Ali Kalthami",
+      "genre": [
+        "Comedy",
+        "Crime",
+        "Drama"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Naga",
@@ -278,7 +408,13 @@
       "Albandary": null,
       "Jory": 6,
       "Moayad": null,
-      "imdb_id": "tt28554013"
+      "imdb_id": "tt28554013",
+      "director": "Meshal Al Jaser",
+      "genre": [
+        "Drama",
+        "Thriller"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Pretty Woman",
@@ -291,7 +427,13 @@
       "Albandary": null,
       "Jory": 8,
       "Moayad": null,
-      "imdb_id": "tt0100405"
+      "imdb_id": "tt0100405",
+      "director": "Garry Marshall",
+      "genre": [
+        "Comedy",
+        "Romance"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Society of the Snow",
@@ -304,7 +446,14 @@
       "Albandary": null,
       "Jory": 7.6,
       "Moayad": null,
-      "imdb_id": "tt16277242"
+      "imdb_id": "tt16277242",
+      "director": "J.A. Bayona",
+      "genre": [
+        "Adventure",
+        "Biography",
+        "Drama"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Cleaner",
@@ -317,7 +466,13 @@
       "Albandary": null,
       "Jory": 7,
       "Moayad": null,
-      "imdb_id": "tt0896798"
+      "imdb_id": "tt0896798",
+      "director": "Renny Harlin",
+      "genre": [
+        "Crime",
+        "Thriller"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "There's Something About Mary",
@@ -330,7 +485,13 @@
       "Albandary": null,
       "Jory": 5,
       "Moayad": null,
-      "imdb_id": "tt0129387"
+      "imdb_id": "tt0129387",
+      "director": "Bobby Farrelly",
+      "genre": [
+        "Comedy",
+        "Romance"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Coco",
@@ -343,7 +504,14 @@
       "Albandary": null,
       "Jory": 9,
       "Moayad": null,
-      "imdb_id": "tt2380307"
+      "imdb_id": "tt2380307",
+      "director": "Adrian Molina",
+      "genre": [
+        "Animation",
+        "Adventure",
+        "Drama"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Anatomy of a Fall",
@@ -368,7 +536,13 @@
       "Albandary": null,
       "Jory": 8.2,
       "Moayad": null,
-      "imdb_id": "tt0106489"
+      "imdb_id": "tt0106489",
+      "director": "Robert De Niro",
+      "genre": [
+        "Crime",
+        "Drama"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "No Escape",
@@ -381,7 +555,13 @@
       "Albandary": null,
       "Jory": 7.3,
       "Moayad": null,
-      "imdb_id": "tt1781922"
+      "imdb_id": "tt1781922",
+      "director": "John Erick Dowdle",
+      "genre": [
+        "Action",
+        "Thriller"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Civil War",
@@ -394,7 +574,14 @@
       "Albandary": null,
       "Jory": 7,
       "Moayad": null,
-      "imdb_id": "tt17279496"
+      "imdb_id": "tt17279496",
+      "director": "Alex Garland",
+      "genre": [
+        "Action",
+        "Thriller",
+        "War"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Talk to Me",
@@ -407,7 +594,11 @@
       "Albandary": null,
       "Jory": 5,
       "Moayad": null,
-      "imdb_id": "tt27173489"
+      "imdb_id": "tt27173489",
+      "director": "Etderick Bettie",
+      "genre": [
+        "Short"
+      ]
     },
     {
       "title": "A Man Called Otto",
@@ -420,7 +611,13 @@
       "Albandary": null,
       "Jory": 7.2,
       "Moayad": null,
-      "imdb_id": "tt7405458"
+      "imdb_id": "tt7405458",
+      "director": "Marc Forster",
+      "genre": [
+        "Comedy",
+        "Drama"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "The Goat Life",
@@ -433,7 +630,13 @@
       "Albandary": null,
       "Jory": 6,
       "Moayad": null,
-      "imdb_id": "tt5525650"
+      "imdb_id": "tt5525650",
+      "director": "Blessy",
+      "genre": [
+        "Adventure",
+        "Drama"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "The Deep End of the Ocean",
@@ -446,7 +649,12 @@
       "Albandary": null,
       "Jory": 6.4,
       "Moayad": null,
-      "imdb_id": "tt0120646"
+      "imdb_id": "tt0120646",
+      "director": "Ulu Grosbard",
+      "genre": [
+        "Drama"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Home Alone",
@@ -459,7 +667,13 @@
       "Albandary": null,
       "Jory": 7.8,
       "Moayad": null,
-      "imdb_id": "tt0099785"
+      "imdb_id": "tt0099785",
+      "director": "Chris Columbus",
+      "genre": [
+        "Comedy",
+        "Family"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Click",
@@ -472,7 +686,14 @@
       "Albandary": null,
       "Jory": 6,
       "Moayad": null,
-      "imdb_id": "tt0389860"
+      "imdb_id": "tt0389860",
+      "director": "Frank Coraci",
+      "genre": [
+        "Comedy",
+        "Drama",
+        "Fantasy"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "The Roses",
@@ -484,7 +705,11 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 4,
-      "imdb_id": "tt31973693"
+      "imdb_id": "tt31973693",
+      "director": "Jay Roach",
+      "genre": [
+        "Comedy"
+      ]
     },
     {
       "title": "Fury",
@@ -496,7 +721,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 7.7,
-      "imdb_id": "tt2713180"
+      "imdb_id": "tt2713180",
+      "director": "David Ayer",
+      "genre": [
+        "Action",
+        "Drama",
+        "War"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "3:10 to Yuma",
@@ -508,7 +740,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 8,
-      "imdb_id": "tt0381849"
+      "imdb_id": "tt0381849",
+      "director": "James Mangold",
+      "genre": [
+        "Action",
+        "Crime",
+        "Drama"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Modern Times",
@@ -521,7 +760,14 @@
       "Albandary": null,
       "Jory": 7.5,
       "imdb_id": "tt0027977",
-      "Moayad": null
+      "Moayad": null,
+      "director": "Charles Chaplin",
+      "genre": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Blind River",
@@ -545,7 +791,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 7.8,
-      "imdb_id": "tt16311594"
+      "imdb_id": "tt16311594",
+      "director": "Joseph Kosinski",
+      "genre": [
+        "Action",
+        "Drama",
+        "Sport"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "My Best Friend's Wedding",
@@ -557,7 +810,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 7.3,
-      "imdb_id": "tt0119738"
+      "imdb_id": "tt0119738",
+      "director": "P.J. Hogan",
+      "genre": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Pirates of the Caribbean: Dead Man's Chest",
@@ -569,7 +829,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 7.7,
-      "imdb_id": "tt0383574"
+      "imdb_id": "tt0383574",
+      "director": "Gore Verbinski",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Pirates of the Caribbean: At World's End",
@@ -581,7 +848,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt0449088"
+      "imdb_id": "tt0449088",
+      "director": "Gore Verbinski",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Taken",
@@ -593,7 +867,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 6.5,
-      "imdb_id": "tt0936501"
+      "imdb_id": "tt0936501",
+      "director": "Pierre Morel",
+      "genre": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Pirates of the Caribbean: On Stranger Tides",
@@ -605,7 +886,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 5,
-      "imdb_id": "tt1298650"
+      "imdb_id": "tt1298650",
+      "director": "Rob Marshall",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Edge of Tomorrow",
@@ -617,7 +905,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 6.6,
-      "imdb_id": "tt1631867"
+      "imdb_id": "tt1631867",
+      "director": "Doug Liman",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Inside Out 2",
@@ -630,7 +925,14 @@
       "Albandary": null,
       "Jory": 8,
       "imdb_id": "tt22022452",
-      "Moayad": null
+      "Moayad": null,
+      "director": "Kelsey Mann",
+      "genre": [
+        "Animation",
+        "Adventure",
+        "Comedy"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "The Theory of Everything",
@@ -642,7 +944,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 7.6,
-      "imdb_id": "tt2980516"
+      "imdb_id": "tt2980516",
+      "director": "James Marsh",
+      "genre": [
+        "Biography",
+        "Drama",
+        "Romance"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Steve",
@@ -654,7 +963,12 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 4,
-      "imdb_id": "tt32985279"
+      "imdb_id": "tt32985279",
+      "director": "Tim Mielants",
+      "genre": [
+        "Drama"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Dial M for Murder",
@@ -666,7 +980,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 7.3,
-      "imdb_id": "tt0046912"
+      "imdb_id": "tt0046912",
+      "director": "Alfred Hitchcock",
+      "genre": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Marrowbone",
@@ -678,7 +999,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 7.5,
-      "imdb_id": "tt5886440"
+      "imdb_id": "tt5886440",
+      "director": "Sergio G. Sánchez",
+      "genre": [
+        "Drama",
+        "Horror",
+        "Mystery"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan",
@@ -701,7 +1029,13 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 7,
-      "imdb_id": "tt0050825"
+      "imdb_id": "tt0050825",
+      "director": "Stanley Kubrick",
+      "genre": [
+        "Drama",
+        "War"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "All About Eve",
@@ -713,7 +1047,12 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 7.5,
-      "imdb_id": "tt0042192"
+      "imdb_id": "tt0042192",
+      "director": "Joseph L. Mankiewicz",
+      "genre": [
+        "Drama"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "The Karate Kid",
@@ -725,7 +1064,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 7.4,
-      "imdb_id": "tt0087538"
+      "imdb_id": "tt0087538",
+      "director": "John G. Avildsen",
+      "genre": [
+        "Action",
+        "Drama",
+        "Family"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Dallas Buyers Club",
@@ -737,7 +1083,13 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 8.3,
-      "imdb_id": "tt0790636"
+      "imdb_id": "tt0790636",
+      "director": "Jean-Marc Vallée",
+      "genre": [
+        "Biography",
+        "Drama"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "The Hangover",
@@ -749,7 +1101,12 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 6.3,
-      "imdb_id": "tt1119646"
+      "imdb_id": "tt1119646",
+      "director": "Todd Phillips",
+      "genre": [
+        "Comedy"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Where Is The Friend's House?",
@@ -762,7 +1119,14 @@
       "Albandary": null,
       "Jory": 7.3,
       "imdb_id": "tt0093342",
-      "Moayad": null
+      "Moayad": null,
+      "director": "Abbas Kiarostami",
+      "genre": [
+        "Adventure",
+        "Drama",
+        "Family"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Weapons",
@@ -774,7 +1138,13 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 7.4,
-      "imdb_id": "tt26581740"
+      "imdb_id": "tt26581740",
+      "director": "Zach Cregger",
+      "genre": [
+        "Horror",
+        "Mystery"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "The Promised Land",
@@ -786,7 +1156,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 9,
-      "imdb_id": "tt20561198"
+      "imdb_id": "tt20561198",
+      "director": "Nikolaj Arcel",
+      "genre": [
+        "Action",
+        "Biography",
+        "Drama"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Anger Management",
@@ -798,7 +1175,12 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 6.3,
-      "imdb_id": "tt0305224"
+      "imdb_id": "tt0305224",
+      "director": "Peter Segal",
+      "genre": [
+        "Comedy"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "The Favourite",
@@ -810,7 +1192,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 6.4,
-      "imdb_id": "tt5083738"
+      "imdb_id": "tt5083738",
+      "director": "Yorgos Lanthimos",
+      "genre": [
+        "Biography",
+        "Comedy",
+        "Drama"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Ocean's Eleven",
