@@ -10,24 +10,6 @@
 *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
 body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;min-height:100vh}
 #app{max-width:480px;margin:0 auto;padding:14px}
-#main-layout{display:block}
-#sidebar{display:block}
-#content{display:block}
-@media(min-width:860px){
-  #app{max-width:1200px;padding:0}
-  .app-header{padding:16px 28px;border-bottom:1px solid var(--border);background:var(--bg2);position:sticky;top:0;z-index:50}
-  #pin-bar{margin:0;border-radius:0;border-left:none;border-right:none;border-top:none}
-  #main-layout{display:flex;height:calc(100vh - 57px)}
-  #sidebar{width:280px;flex-shrink:0;padding:16px 20px;border-right:1px solid var(--border);overflow-y:auto;display:flex;flex-direction:column;gap:10px;height:calc(100vh - 57px)}
-  #content{flex:1;padding:20px;overflow-y:auto;height:calc(100vh - 57px)}
-  .chips-row{flex-wrap:wrap;overflow-x:visible;gap:6px}
-  .year-row{flex-wrap:wrap;overflow-x:visible;gap:6px}
-  .sort-row{flex-wrap:wrap}
-  #search-wrap{margin-bottom:0}
-  .stats-row{margin-bottom:0}
-  #add-btn{margin-bottom:0}
-}
-
 .app-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px}
 .app-title{font-size:18px;font-weight:700;letter-spacing:-.3px}
 .hdr-btns{display:flex;gap:8px}
@@ -85,10 +67,6 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
 .ov{display:none;position:fixed;inset:0;background:rgba(0,0,0,.75);z-index:100;align-items:flex-end;justify-content:center}
 .ov.show{display:flex}
 .modal{background:var(--bg2);border-radius:var(--r) var(--r) 0 0;width:100%;max-width:480px;padding:20px;max-height:88vh;overflow-y:auto;border-top:1px solid var(--border)}
-@media(min-width:600px){
-  .ov{align-items:center}
-  .modal{border-radius:var(--r);border:1px solid var(--border);max-height:80vh;border-top:1px solid var(--border)}
-}
 .mhdr{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;gap:10px}
 .mhdr-info{display:flex;gap:10px;align-items:center;flex:1;min-width:0}
 .mhdr-poster{width:42px;height:62px;border-radius:6px;object-fit:cover;display:none;flex-shrink:0}
@@ -150,9 +128,6 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
   </div>
 
   <div class="chips-row" id="reviewer-chips"></div>
-      <select id="director-sel" onchange="setDirector(this.value)" style="width:100%;height:30px;background:var(--bg2);border:1px solid var(--border);border-radius:20px;color:var(--text2);padding:0 10px;font-size:12px;cursor:pointer;margin-bottom:8px">
-        <option value="">All Directors</option>
-      </select>
 
   <div class="year-row">
     <select id="year-sel" onchange="setYear(this.value)"><option value="">All Years</option></select>
@@ -165,6 +140,9 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
     <button class="chip" id="oscar-chip" onclick="toggleOscar(this)">🏆 Oscar</button>
   </div>
 
+  <select id="director-sel" onchange="setDirector(this.value)" style="width:100%;height:32px;background:var(--bg2);border:1px solid var(--border);border-radius:var(--r);color:var(--text2);padding:0 12px;font-size:13px;cursor:pointer;margin-bottom:10px">
+    <option value="">All Directors</option>
+  </select>
   <div class="sort-row">
     <span class="sort-lbl">Sort:</span>
     <button class="sort-btn active" id="s-avg" onclick="setSort('avg')">Average</button>
@@ -191,9 +169,7 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
   <div id="movie-list"></div>
 </div>
 
-</div><!-- end #app -->
-
-<!-- Modals outside app to fix position:fixed in grid context -->
+<!-- Edit modal -->
 <div class="ov" id="edit-ov">
   <div class="modal">
     <div class="mhdr">
@@ -331,18 +307,20 @@ async function saveSetup(){
 // ── Data loading ───────────────────────────────────────
 async function loadData(admin){
   try{
-    // Always read from public raw URL — fast, no token needed
-    const r=await fetch(GH_RAW+'?t='+Date.now());
-    data=await r.json();
-    // If admin, also get SHA for writes
     if(admin){
-      const r2=await fetch(GH_API,{headers:{Authorization:`token ${GH_TOKEN}`,Accept:'application/vnd.github.v3+json'}});
-      const j2=await r2.json();
-      fileSha=j2.sha;
+      // Admin: use API to get SHA for later writes
+      const r=await fetch(GH_API,{headers:{Authorization:`token ${GH_TOKEN}`,Accept:'application/vnd.github.v3+json'}});
+      const j=await r.json();
+      fileSha=j.sha;
+      data=JSON.parse(atob(j.content.replace(/\n/g,'')));
+    } else {
+      // Guest: read from public raw URL directly
+      const r=await fetch(GH_RAW+'?t='+Date.now());
+      data=await r.json();
     }
     document.getElementById('loading').style.display='none';
     if(!data.initials)data.initials={};
-filterDirector='';buildYearSel(); buildDirectorSel(); buildChips(); render();
+buildYearSel(); buildDirectorSel(); buildChips(); render();
     if(admin){
     
     
@@ -475,6 +453,12 @@ document.getElementById('pin-inp').addEventListener('keydown',e=>{if(e.key==='En
 // ── Filters ────────────────────────────────────────────
 function toggleOscar(el){filterOscar=!filterOscar;el.classList.toggle('active');renderLimit=50;render();}
 function setDirector(v){filterDirector=v;renderLimit=50;render();}
+function buildDirectorSel(){
+  const dirs=[...new Set(data.movies.map(m=>m.director).filter(Boolean))].sort();
+  const sel=document.getElementById('director-sel');
+  if(!sel)return;
+  sel.innerHTML='<option value="">All Directors</option>'+dirs.map(d=>`<option value="${d}">${d}</option>`).join('');
+}
 function setSort(m){sortMode=m;renderLimit=50;document.querySelectorAll('.sort-btn').forEach(b=>b.classList.remove('active'));document.getElementById('s-'+m).classList.add('active');render();}
 function setReviewer(r,el){filterReviewer=r;renderLimit=50;document.querySelectorAll('#reviewer-chips .chip').forEach(b=>b.classList.remove('active'));el.classList.add('active');render();}
 function setYear(v){filterYear=v;renderLimit=50;filterDecade='';document.querySelectorAll('[data-d]').forEach(b=>b.classList.remove('active'));document.querySelector('[data-d=""]').classList.add('active');render();}
@@ -485,13 +469,6 @@ document.getElementById('search-inp').addEventListener('input',e=>{
   _sTO=setTimeout(()=>{searchQ=e.target.value.toLowerCase();renderLimit=50;render();},250);
 });
 
-function buildDirectorSel(){
-  const dirs=[...new Set(data.movies.map(m=>m.director).filter(Boolean))].sort();
-  const sel=document.getElementById('director-sel');
-  if(!sel)return;
-  const cur=filterDirector;
-  sel.innerHTML='<option value="">All Directors</option>'+dirs.map(d=>`<option value="${d}" ${d===cur?'selected':''}>${d}</option>`).join('');
-}
 function buildYearSel(){
   const years=[...new Set(data.movies.map(m=>m.year).filter(Boolean))].sort((a,b)=>b-a);
   document.getElementById('year-sel').innerHTML='<option value="">All Years</option>'+years.map(y=>`<option value="${y}">${y}</option>`).join('');
@@ -545,7 +522,7 @@ function render(){
       ${poster}${ph}
       <div class="mbody">
         <div class="mtop"><div class="mtitle">${m.title}</div>${avg!=null?`<span class="mavg">${avg.toFixed(1)}</span>`:''}</div>
-        <div class="mmeta">${m.year?`<span>${m.year}</span>`:''} ${m.imdb?`<span class="imdb-b">IMDb ${m.imdb}</span>`:''} ${m.oscar_best_picture?'<span title="Best Picture Oscar">🏆</span>':''} ${m.director?`<span style="color:var(--text3)">${m.director}</span>`:''}</div>
+        <div class="mmeta">${m.year?`<span>${m.year}</span>`:''} ${m.imdb?`<span class="imdb-b">IMDb ${m.imdb}</span>`:''} ${m.oscar_best_picture?'<span title="Best Picture Oscar">🏆</span>':''} ${m.director?`<span style="color:var(--text3);font-size:10px">${m.director}</span>`:''}</div>
         <div class="rpills">${pills||'<span style="font-size:11px;color:var(--text3)">No ratings yet</span>'}</div>
       </div>
     </div>`;
@@ -682,7 +659,7 @@ async function saveNew(){
     tmdb_id:tmdbSel.id
   };
   data.reviewers.forEach(r=>{const v=parseFloat(document.getElementById('ai-'+r).value);m[r]=isNaN(v)?null:v;});
-  // Fetch real IMDb rating + director + oscar from OMDb
+  // Fetch IMDb rating + director + oscar from OMDb
   try{
     const q=encodeURIComponent(tmdbSel.title);
     const yrParam=yr?`&y=${yr}`:'';
@@ -691,11 +668,7 @@ async function saveNew(){
     if(d.imdbRating&&d.imdbRating!=='N/A')m.imdb=parseFloat(d.imdbRating);
     if(d.imdbID)m.imdb_id=d.imdbID;
     if(d.Director&&d.Director!=='N/A')m.director=d.Director.split(',')[0].trim();
-    if(d.Awards&&d.Awards!=='N/A'){
-      const awards=d.Awards.toLowerCase();
-      m.oscar_best_picture=(awards.includes('won')&&awards.includes('best picture'))||
-        (awards.includes('won')&&awards.includes('outstanding motion picture'));
-    }
+    if(d.Awards&&d.Awards!=='N/A'){const aw=d.Awards.toLowerCase();m.oscar_best_picture=aw.includes('won')&&aw.includes('best picture');}
   }catch(e){}
   data.movies.unshift(m);
   buildYearSel(); closeAdd(); render(); saveData('Add: '+m.title);
