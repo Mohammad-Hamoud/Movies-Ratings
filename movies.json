@@ -8,6 +8,26 @@
   ],
   "movies": [
     {
+      "title": "Jackie Brown",
+      "year": 1997,
+      "imdb": 7.5,
+      "poster": "/rOUx7qg4KmEh1juEDwqzbDSL1Nr.jpg",
+      "tmdb_id": 184,
+      "Mohammad": 7.4,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null,
+      "Moayad": null,
+      "imdb_id": "tt0119396",
+      "director": "Quentin Tarantino",
+      "oscar_best_picture": false,
+      "genre": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ]
+    },
+    {
       "title": "Death Proof",
       "year": 2007,
       "imdb": 7,
