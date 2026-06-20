@@ -1389,7 +1389,13 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 7.1,
-      "imdb_id": "tt13238346"
+      "imdb_id": "tt13238346",
+      "director": "Celine Song",
+      "genre": [
+        "Drama",
+        "Romance"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "The Man from Earth",
@@ -1401,7 +1407,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 8,
-      "imdb_id": "tt0756683"
+      "imdb_id": "tt0756683",
+      "director": "Richard Schenkman",
+      "genre": [
+        "Drama",
+        "Fantasy",
+        "Mystery"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Obsession",
@@ -1413,7 +1426,14 @@
       "Mohannad": 4.5,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt37287335"
+      "imdb_id": "tt37287335",
+      "director": "Curry Barker",
+      "genre": [
+        "Horror",
+        "Romance",
+        "Thriller"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "inception",
@@ -1685,7 +1705,13 @@
       "Albandary": null,
       "Jory": 7.7,
       "imdb_id": "tt2562232",
-      "Moayad": null
+      "Moayad": null,
+      "director": "Alejandro G. Iñárritu",
+      "genre": [
+        "Comedy",
+        "Drama"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Tarzan",
@@ -2053,7 +2079,14 @@
       "Mohannad": 8,
       "Albandary": null,
       "Jory": 9.6,
-      "imdb_id": "tt0198781"
+      "imdb_id": "tt0198781",
+      "director": "Pete Docter",
+      "genre": [
+        "Animation",
+        "Adventure",
+        "Comedy"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "The Sixth Sense",
@@ -2175,7 +2208,14 @@
       "Mohannad": 7.3,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt0396171"
+      "imdb_id": "tt0396171",
+      "director": "Tom Tykwer",
+      "genre": [
+        "Crime",
+        "Drama",
+        "Fantasy"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "toy story 3",
@@ -2509,7 +2549,13 @@
       "Mohannad": 8.2,
       "Albandary": null,
       "Jory": 8.4,
-      "imdb_id": "tt0071562"
+      "imdb_id": "tt0071562",
+      "director": "Francis Ford Coppola",
+      "genre": [
+        "Crime",
+        "Drama"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "spider-man: no way home",
@@ -2522,7 +2568,14 @@
       "Albandary": null,
       "Jory": 8,
       "imdb_id": "tt10872600",
-      "Moayad": null
+      "Moayad": null,
+      "director": "Jon Watts",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "pulp fiction",
@@ -2682,7 +2735,13 @@
       "Mohannad": 7.7,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt0458525"
+      "imdb_id": "tt0458525",
+      "director": "Gavin Hood",
+      "genre": [
+        "Action",
+        "Sci-Fi"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "the last emperor",
@@ -2921,7 +2980,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 8,
-      "imdb_id": "tt4633694"
+      "imdb_id": "tt4633694",
+      "director": "Bob Persichetti",
+      "genre": [
+        "Animation",
+        "Action",
+        "Adventure"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "gladiator",
@@ -3048,7 +3114,14 @@
       "Mohannad": 8,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt0352248"
+      "imdb_id": "tt0352248",
+      "director": "Ron Howard",
+      "genre": [
+        "Biography",
+        "Drama",
+        "Romance"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "knives out",
@@ -3079,7 +3152,14 @@
       "Mohannad": 7.7,
       "Albandary": null,
       "Jory": 8,
-      "imdb_id": "tt0421715"
+      "imdb_id": "tt0421715",
+      "director": "David Fincher",
+      "genre": [
+        "Drama",
+        "Fantasy",
+        "Romance"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "marriage story",
@@ -3409,7 +3489,14 @@
       "Mohannad": 7,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt0085794"
+      "imdb_id": "tt0085794",
+      "director": "Martin Scorsese",
+      "genre": [
+        "Comedy",
+        "Crime",
+        "Drama"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "whiplash",
@@ -3496,7 +3583,11 @@
       "Mohannad": 7.6,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt3773238"
+      "imdb_id": "tt3773238",
+      "director": "Orlando Taylor",
+      "genre": [
+        "Short"
+      ]
     },
     {
       "title": "room",
@@ -3545,7 +3636,14 @@
       "Mohannad": 7.5,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt0266697"
+      "imdb_id": "tt0266697",
+      "director": "Quentin Tarantino",
+      "genre": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "the covenant",
@@ -3595,7 +3693,14 @@
       "Mohannad": 7.6,
       "Albandary": null,
       "Jory": 7.7,
-      "imdb_id": "tt0325980"
+      "imdb_id": "tt0325980",
+      "director": "Gore Verbinski",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "kill bill: vol. 2",
@@ -3607,7 +3712,14 @@
       "Mohannad": 7.5,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt0378194"
+      "imdb_id": "tt0378194",
+      "director": "Quentin Tarantino",
+      "genre": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Changeling",
@@ -3818,7 +3930,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt0088930"
+      "imdb_id": "tt0088930",
+      "director": "Jonathan Lynn",
+      "genre": [
+        "Comedy",
+        "Crime",
+        "Mystery"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Nocturnal Animals",
@@ -3867,7 +3986,14 @@
       "Albandary": null,
       "Jory": 7.6,
       "imdb_id": "tt0096283",
-      "Moayad": null
+      "Moayad": null,
+      "director": "Hayao Miyazaki",
+      "genre": [
+        "Animation",
+        "Adventure",
+        "Comedy"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Three Billboards Outside Ebbing, Missouri",
@@ -3973,7 +4099,14 @@
       "Mohannad": 7.7,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt0083987"
+      "imdb_id": "tt0083987",
+      "director": "Richard Attenborough",
+      "genre": [
+        "Biography",
+        "Drama",
+        "History"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Magnolia",
@@ -3985,7 +4118,12 @@
       "Mohannad": 5.9,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt0175880"
+      "imdb_id": "tt0175880",
+      "director": "Paul Thomas Anderson",
+      "genre": [
+        "Drama"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "the big lebowski",
@@ -4176,7 +4314,14 @@
       "Mohannad": 7.5,
       "Albandary": null,
       "Jory": 6.5,
-      "imdb_id": "tt0110475"
+      "imdb_id": "tt0110475",
+      "director": "Chuck Russell",
+      "genre": [
+        "Comedy",
+        "Crime",
+        "Fantasy"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "x-men: the last stand",
@@ -4188,7 +4333,14 @@
       "Mohannad": 7.5,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt0376994"
+      "imdb_id": "tt0376994",
+      "director": "Brett Ratner",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "groundhog day",
@@ -4200,7 +4352,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt0107048"
+      "imdb_id": "tt0107048",
+      "director": "Harold Ramis",
+      "genre": [
+        "Comedy",
+        "Drama",
+        "Fantasy"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "small soldiers",
@@ -4212,7 +4371,14 @@
       "Mohannad": 6.8,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt0122718"
+      "imdb_id": "tt0122718",
+      "director": "Joe Dante",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Comedy"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Bullet train",
@@ -4243,7 +4409,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt0104070"
+      "imdb_id": "tt0104070",
+      "director": "Robert Zemeckis",
+      "genre": [
+        "Comedy",
+        "Fantasy",
+        "Horror"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Juror #2",
@@ -4293,7 +4466,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt0038650"
+      "imdb_id": "tt0038650",
+      "director": "Frank Capra",
+      "genre": [
+        "Drama",
+        "Family",
+        "Fantasy"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "the imitation game",
@@ -4342,7 +4522,14 @@
       "Mohannad": 8.7,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt0116209"
+      "imdb_id": "tt0116209",
+      "director": "Anthony Minghella",
+      "genre": [
+        "Drama",
+        "Romance",
+        "War"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Full Metal Jacket",
@@ -4373,7 +4560,13 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt0080120"
+      "imdb_id": "tt0080120",
+      "director": "Walter Hill",
+      "genre": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ]
     },
     {
       "title": "Eyes wide shut",
@@ -4405,7 +4598,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt7146812"
+      "imdb_id": "tt7146812",
+      "director": "Dan Scanlon",
+      "genre": [
+        "Animation",
+        "Adventure",
+        "Comedy"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "The White Tiger",
@@ -4417,7 +4617,13 @@
       "Mohannad": 7.7,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt6571548"
+      "imdb_id": "tt6571548",
+      "director": "Ramin Bahrani",
+      "genre": [
+        "Crime",
+        "Drama"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "house of Gucci",
@@ -4429,7 +4635,14 @@
       "Mohannad": 7.6,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt11214590"
+      "imdb_id": "tt11214590",
+      "director": "Ridley Scott",
+      "genre": [
+        "Biography",
+        "Crime",
+        "Drama"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "The Passion of the Christ",
@@ -4441,7 +4654,12 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt0335345"
+      "imdb_id": "tt0335345",
+      "director": "Mel Gibson",
+      "genre": [
+        "Drama"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "king kong",
@@ -4453,7 +4671,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 7.3,
-      "imdb_id": "tt0360717"
+      "imdb_id": "tt0360717",
+      "director": "Peter Jackson",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Romance"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "the italian job",
@@ -4465,7 +4690,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt0317740"
+      "imdb_id": "tt0317740",
+      "director": "F. Gary Gray",
+      "genre": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "the gift",
@@ -4477,7 +4709,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt4178092"
+      "imdb_id": "tt4178092",
+      "director": "Joel Edgerton",
+      "genre": [
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "law abiding citizen",
@@ -4489,7 +4728,14 @@
       "Mohannad": 7.8,
       "Albandary": null,
       "Jory": 6.9,
-      "imdb_id": "tt1197624"
+      "imdb_id": "tt1197624",
+      "director": "F. Gary Gray",
+      "genre": [
+        "Action",
+        "Crime",
+        "Drama"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Everything Everywhere All at Once",
@@ -4539,7 +4785,12 @@
       "Mohannad": 7.7,
       "Albandary": null,
       "Jory": 7.4,
-      "imdb_id": "tt1832382"
+      "imdb_id": "tt1832382",
+      "director": "Asghar Farhadi",
+      "genre": [
+        "Drama"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "hacksaw ridge",
@@ -4551,7 +4802,14 @@
       "Mohannad": 8.4,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt2119532"
+      "imdb_id": "tt2119532",
+      "director": "Mel Gibson",
+      "genre": [
+        "Biography",
+        "Drama",
+        "History"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "downfall",
@@ -4563,7 +4821,14 @@
       "Mohannad": 7.8,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt0363163"
+      "imdb_id": "tt0363163",
+      "director": "Oliver Hirschbiegel",
+      "genre": [
+        "Biography",
+        "Drama",
+        "History"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "x-men: days of future past",
@@ -4575,7 +4840,14 @@
       "Mohannad": 8.2,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt1877832"
+      "imdb_id": "tt1877832",
+      "director": "Bryan Singer",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "x-men: first class",
@@ -4587,7 +4859,13 @@
       "Mohannad": 7.4,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt1270798"
+      "imdb_id": "tt1270798",
+      "director": "Matthew Vaughn",
+      "genre": [
+        "Action",
+        "Sci-Fi"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "the others",
@@ -4599,7 +4877,14 @@
       "Mohannad": 7.8,
       "Albandary": null,
       "Jory": 7.7,
-      "imdb_id": "tt0230600"
+      "imdb_id": "tt0230600",
+      "director": "Alejandro Amenábar",
+      "genre": [
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "tenet",
@@ -4631,7 +4916,13 @@
       "Mohannad": 7.6,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt1907668"
+      "imdb_id": "tt1907668",
+      "director": "Robert Zemeckis",
+      "genre": [
+        "Drama",
+        "Thriller"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "analyze this",
@@ -4643,7 +4934,13 @@
       "Mohannad": 7.3,
       "Albandary": null,
       "Jory": 7.7,
-      "imdb_id": "tt0122933"
+      "imdb_id": "tt0122933",
+      "director": "Harold Ramis",
+      "genre": [
+        "Comedy",
+        "Crime"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "ace ventura: when nature calles",
