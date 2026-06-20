@@ -8,6 +8,25 @@
   ],
   "movies": [
     {
+      "title": "Death Proof",
+      "year": 2007,
+      "imdb": 7,
+      "poster": "/vtu6H4NWnQVqEp3aanUq3hNeeot.jpg",
+      "tmdb_id": 1991,
+      "Mohammad": 7,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null,
+      "Moayad": null,
+      "imdb_id": "tt1028528",
+      "director": "Quentin Tarantino",
+      "oscar_best_picture": false,
+      "genre": [
+        "Drama",
+        "Thriller"
+      ]
+    },
+    {
       "title": "Ratatouille",
       "year": 2007,
       "imdb": 8.1,
