@@ -3433,7 +3433,7 @@
       "imdb": 8.3,
       "poster": "/xi8Iu6qyTfyZVDVy60raIOYJJmk.jpg",
       "tmdb_id": 500,
-      "Mohammad": 7.8,
+      "Mohammad": 8.2,
       "Mohannad": 8.5,
       "Albandary": null,
       "Jory": 7.8,
@@ -3444,7 +3444,8 @@
         "Drama",
         "Thriller"
       ],
-      "oscar_best_picture": false
+      "oscar_best_picture": false,
+      "Moayad": null
     },
     {
       "title": "warriors",
