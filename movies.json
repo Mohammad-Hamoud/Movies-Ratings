@@ -8,6 +8,26 @@
   ],
   "movies": [
     {
+      "title": "Toy Story 5",
+      "year": 2026,
+      "imdb": null,
+      "poster": "/7veGbEIL1nvtVXVwFlqCs62zsvc.jpg",
+      "tmdb_id": 1084244,
+      "Mohammad": 7.6,
+      "Mohannad": 7.4,
+      "Albandary": null,
+      "Jory": 8,
+      "Moayad": null,
+      "imdb_id": "tt29355505",
+      "director": "McKenna Harris",
+      "oscar_best_picture": false,
+      "genre": [
+        "Animation",
+        "Adventure",
+        "Comedy"
+      ]
+    },
+    {
       "title": "Jackie Brown",
       "year": 1997,
       "imdb": 7.5,
