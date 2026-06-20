@@ -2319,7 +2319,7 @@
       "imdb": 8.5,
       "poster": "/7oWY8VDWW7thTzWh3OKYRkWUlD5.jpg",
       "tmdb_id": 68718,
-      "Mohammad": 8.3,
+      "Mohammad": 8.5,
       "Mohannad": 8.6,
       "Albandary": null,
       "Jory": 8.7,
@@ -2329,7 +2329,8 @@
         "Drama",
         "Western"
       ],
-      "oscar_best_picture": false
+      "oscar_best_picture": false,
+      "Moayad": null
     },
     {
       "title": "the hunt",
