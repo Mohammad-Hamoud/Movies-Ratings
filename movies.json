@@ -7210,7 +7210,14 @@
       "Mohannad": 6.5,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt12412888"
+      "imdb_id": "tt12412888",
+      "director": "Jeff Fowler",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Comedy"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "venom",
@@ -7222,7 +7229,14 @@
       "Mohannad": 4,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt1270797"
+      "imdb_id": "tt1270797",
+      "director": "Ruben Fleischer",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Dumb and Dumber To",
@@ -7234,7 +7248,12 @@
       "Mohannad": 5.7,
       "Albandary": null,
       "Jory": 6,
-      "imdb_id": "tt2096672"
+      "imdb_id": "tt2096672",
+      "director": "Bobby Farrelly",
+      "genre": [
+        "Comedy"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "john wick",
@@ -7246,7 +7265,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt2911666"
+      "imdb_id": "tt2911666",
+      "director": "Chad Stahelski",
+      "genre": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Tropic Thunder",
@@ -7258,7 +7284,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt0942385"
+      "imdb_id": "tt0942385",
+      "director": "Ben Stiller",
+      "genre": [
+        "Action",
+        "Comedy",
+        "War"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "black panther: wakanda forever",
@@ -7270,7 +7303,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt9114286"
+      "imdb_id": "tt9114286",
+      "director": "Ryan Coogler",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Drama"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "venom: the last dance",
@@ -7282,7 +7322,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt16366836"
+      "imdb_id": "tt16366836",
+      "director": "Kelly Marcel",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Horror"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "gladiator II",
@@ -7294,7 +7341,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 7.6,
-      "imdb_id": "tt9218128"
+      "imdb_id": "tt9218128",
+      "director": "Ridley Scott",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Drama"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Inside Llewyn Davis",
@@ -7306,7 +7360,13 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt2042568"
+      "imdb_id": "tt2042568",
+      "director": "Ethan Coen",
+      "genre": [
+        "Drama",
+        "Music"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Knock at the Cabin",
@@ -7318,7 +7378,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt15679400"
+      "imdb_id": "tt15679400",
+      "director": "M. Night Shyamalan",
+      "genre": [
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "the incredible hulk",
@@ -7330,7 +7397,13 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt0077031"
+      "imdb_id": "tt0077031",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Drama"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "minority report",
@@ -7361,7 +7434,13 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt0102343"
+      "imdb_id": "tt0102343",
+      "director": "Dale Launer",
+      "genre": [
+        "Comedy",
+        "Fantasy",
+        "Romance"
+      ]
     },
     {
       "title": "Tar",
@@ -7373,7 +7452,10 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt27121260"
+      "imdb_id": "tt27121260",
+      "genre": [
+        "Drama"
+      ]
     },
     {
       "title": "x-men: apocalypse",
@@ -7385,7 +7467,14 @@
       "Mohannad": 7.2,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt3385516"
+      "imdb_id": "tt3385516",
+      "director": "Bryan Singer",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "boyhood",
@@ -7414,7 +7503,14 @@
       "Mohannad": 5.5,
       "Albandary": null,
       "Jory": 7.3,
-      "imdb_id": "tt1661199"
+      "imdb_id": "tt1661199",
+      "director": "Kenneth Branagh",
+      "genre": [
+        "Adventure",
+        "Drama",
+        "Family"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "a complete unknown",
@@ -7426,7 +7522,14 @@
       "Mohannad": 6.3,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt11563598"
+      "imdb_id": "tt11563598",
+      "director": "James Mangold",
+      "genre": [
+        "Biography",
+        "Drama",
+        "Music"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Killers of the Flower Moon",
@@ -7438,7 +7541,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 4,
-      "imdb_id": "tt5537002"
+      "imdb_id": "tt5537002",
+      "director": "Martin Scorsese",
+      "genre": [
+        "Crime",
+        "Drama",
+        "History"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "the equalizer",
@@ -7469,7 +7579,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt10648342"
+      "imdb_id": "tt10648342",
+      "director": "Taika Waititi",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Comedy"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "another round",
@@ -7498,7 +7615,12 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt19770238"
+      "imdb_id": "tt19770238",
+      "director": "Charlotte Wells",
+      "genre": [
+        "Drama"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "in time",
@@ -7510,7 +7632,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt1637688"
+      "imdb_id": "tt1637688",
+      "director": "Andrew Niccol",
+      "genre": [
+        "Action",
+        "Sci-Fi",
+        "Thriller"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "you people",
@@ -7522,7 +7651,13 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt14826022"
+      "imdb_id": "tt14826022",
+      "director": "Kenya Barris",
+      "genre": [
+        "Comedy",
+        "Romance"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "wonder",
@@ -7534,7 +7669,13 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 6.6,
-      "imdb_id": "tt2543472"
+      "imdb_id": "tt2543472",
+      "director": "Stephen Chbosky",
+      "genre": [
+        "Drama",
+        "Family"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "silver linings playbook",
@@ -7577,7 +7718,14 @@
       "Albandary": 7.5,
       "Jory": 5.7,
       "imdb_id": "tt5308322",
-      "Moayad": null
+      "Moayad": null,
+      "director": "Christopher Landon",
+      "genre": [
+        "Comedy",
+        "Horror",
+        "Mystery"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "smile",
@@ -7589,7 +7737,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 5.4,
-      "imdb_id": "tt15474916"
+      "imdb_id": "tt15474916",
+      "director": "Parker Finn",
+      "genre": [
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "nomadland",
@@ -7601,7 +7756,12 @@
       "Mohannad": 7.1,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt9770150"
+      "imdb_id": "tt9770150",
+      "director": "Chloé Zhao",
+      "genre": [
+        "Drama"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "mr. bean's holiday",
@@ -7624,7 +7784,14 @@
       "Mohannad": 6.9,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt0974015"
+      "imdb_id": "tt0974015",
+      "director": "Zack Snyder",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "sinners",
@@ -7654,7 +7821,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt1136608"
+      "imdb_id": "tt1136608",
+      "director": "Neill Blomkamp",
+      "genre": [
+        "Action",
+        "Sci-Fi",
+        "Thriller"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "lightyear",
@@ -7666,7 +7840,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt10298810"
+      "imdb_id": "tt10298810",
+      "director": "Angus MacLane",
+      "genre": [
+        "Animation",
+        "Action",
+        "Adventure"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "spotlight",
@@ -7697,7 +7878,14 @@
       "Mohannad": 3,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt1371111"
+      "imdb_id": "tt1371111",
+      "director": "Tom Tykwer",
+      "genre": [
+        "Drama",
+        "Mystery",
+        "Sci-Fi"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "I'm thinking of Ending things",
@@ -7709,7 +7897,13 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt7939766"
+      "imdb_id": "tt7939766",
+      "director": "Charlie Kaufman",
+      "genre": [
+        "Drama",
+        "Thriller"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "from dusk till dawn",
@@ -7768,7 +7962,13 @@
       "Mohannad": 6,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt1655389"
+      "imdb_id": "tt1655389",
+      "director": "Andrew Dominik",
+      "genre": [
+        "Drama",
+        "History"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "terminator 2:judgment day",
@@ -7780,7 +7980,14 @@
       "Mohannad": 6.4,
       "Albandary": null,
       "Jory": 8.6,
-      "imdb_id": "tt0103064"
+      "imdb_id": "tt0103064",
+      "director": "James Cameron",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Joker: Folie Deux",
@@ -7822,7 +8029,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt2872732"
+      "imdb_id": "tt2872732",
+      "director": "Luc Besson",
+      "genre": [
+        "Action",
+        "Sci-Fi",
+        "Thriller"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Space Jam: A New Legacy",
@@ -7834,7 +8048,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt3554046"
+      "imdb_id": "tt3554046",
+      "director": "Malcolm D. Lee",
+      "genre": [
+        "Animation",
+        "Adventure",
+        "Comedy"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "the room",
@@ -7846,7 +8067,12 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt0368226"
+      "imdb_id": "tt0368226",
+      "director": "Tommy Wiseau",
+      "genre": [
+        "Drama"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "f9",
@@ -7858,7 +8084,14 @@
       "Mohannad": 5.4,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt5433138"
+      "imdb_id": "tt5433138",
+      "director": "Justin Lin",
+      "genre": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "the box",
@@ -7870,7 +8103,14 @@
       "Mohannad": null,
       "Albandary": 3,
       "Jory": null,
-      "imdb_id": "tt0362478"
+      "imdb_id": "tt0362478",
+      "director": "Richard Kelly",
+      "genre": [
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "wonder woman 1984",
@@ -7882,7 +8122,14 @@
       "Mohannad": 4.8,
       "Albandary": null,
       "Jory": 4.8,
-      "imdb_id": "tt7126948"
+      "imdb_id": "tt7126948",
+      "director": "Patty Jenkins",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "mank",
@@ -7894,7 +8141,13 @@
       "Mohannad": 6.9,
       "Albandary": null,
       "Jory": 1,
-      "imdb_id": "tt10618286"
+      "imdb_id": "tt10618286",
+      "director": "David Fincher",
+      "genre": [
+        "Biography",
+        "Drama"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "anchorman 2: the legend",
@@ -7906,7 +8159,12 @@
       "Mohannad": 2.4,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt1229340"
+      "imdb_id": "tt1229340",
+      "director": "Adam McKay",
+      "genre": [
+        "Comedy"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "rubber",
@@ -7918,7 +8176,14 @@
       "Mohannad": 0.4,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt1612774"
+      "imdb_id": "tt1612774",
+      "director": "Quentin Dupieux",
+      "genre": [
+        "Comedy",
+        "Fantasy",
+        "Horror"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "donnie darko",
@@ -7930,7 +8195,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt0246578"
+      "imdb_id": "tt0246578",
+      "director": "Richard Kelly",
+      "genre": [
+        "Drama",
+        "Mystery",
+        "Sci-Fi"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "wadjda",
@@ -7942,7 +8214,13 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt2258858"
+      "imdb_id": "tt2258858",
+      "director": "Haifaa Al-Mansour",
+      "genre": [
+        "Comedy",
+        "Drama"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "tekken: blood vengeance",
@@ -7954,7 +8232,13 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt2005363"
+      "imdb_id": "tt2005363",
+      "director": "Yoichi Mouri",
+      "genre": [
+        "Animation",
+        "Action",
+        "Fantasy"
+      ]
     },
     {
       "title": "hunger",
@@ -7966,7 +8250,14 @@
       "Mohannad": 3.9,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt0986233"
+      "imdb_id": "tt0986233",
+      "director": "Steve McQueen",
+      "genre": [
+        "Biography",
+        "Crime",
+        "Drama"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "tekken",
@@ -7978,7 +8269,13 @@
       "Mohannad": 2.3,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt0411951"
+      "imdb_id": "tt0411951",
+      "director": "Dwight H. Little",
+      "genre": [
+        "Action",
+        "Crime",
+        "Drama"
+      ]
     },
     {
       "title": "god's not dead",
