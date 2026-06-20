@@ -9282,7 +9282,14 @@
       "Albandary": null,
       "Jory": 7.1,
       "imdb_id": "tt0098635",
-      "Moayad": null
+      "Moayad": null,
+      "director": "Rob Reiner",
+      "genre": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "where do we go now?",
@@ -9294,7 +9301,13 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 7.4,
-      "imdb_id": "tt1772424"
+      "imdb_id": "tt1772424",
+      "director": "Nadine Labaki",
+      "genre": [
+        "Comedy",
+        "Drama"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "50/50",
@@ -9306,7 +9319,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 6,
-      "imdb_id": "tt1306980"
+      "imdb_id": "tt1306980",
+      "director": "Jonathan Levine",
+      "genre": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "an educational film",
@@ -9318,7 +9338,12 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 6,
-      "imdb_id": "tt1400508"
+      "imdb_id": "tt1400508",
+      "director": "Mohamed Amin",
+      "genre": [
+        "Comedy"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Photocopy",
@@ -9330,7 +9355,12 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 7.2,
-      "imdb_id": "tt7464158"
+      "imdb_id": "tt7464158",
+      "director": "Tamer Ashry",
+      "genre": [
+        "Drama"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "The Perks of Being a Wallflower",
@@ -9360,7 +9390,13 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 7.5,
-      "imdb_id": "tt6472976"
+      "imdb_id": "tt6472976",
+      "director": "Justin Baldoni",
+      "genre": [
+        "Drama",
+        "Romance"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "what's eating gilbert gape",
@@ -9394,7 +9430,12 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 7,
-      "imdb_id": "tt30852970"
+      "imdb_id": "tt30852970",
+      "director": "Sam Hobkinson",
+      "genre": [
+        "Documentary",
+        "Crime"
+      ]
     },
     {
       "title": "rosemary's baby",
@@ -9406,7 +9447,13 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 8,
-      "imdb_id": "tt0063522"
+      "imdb_id": "tt0063522",
+      "director": "Roman Polanski",
+      "genre": [
+        "Drama",
+        "Horror"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "13 going on 30",
@@ -9418,7 +9465,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 8,
-      "imdb_id": "tt0337563"
+      "imdb_id": "tt0337563",
+      "director": "Gary Winick",
+      "genre": [
+        "Comedy",
+        "Fantasy",
+        "Romance"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "coraline",
@@ -9430,7 +9484,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 7,
-      "imdb_id": "tt0327597"
+      "imdb_id": "tt0327597",
+      "director": "Henry Selick",
+      "genre": [
+        "Animation",
+        "Drama",
+        "Family"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "lady bird",
@@ -9442,7 +9503,13 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 7,
-      "imdb_id": "tt4925292"
+      "imdb_id": "tt4925292",
+      "director": "Greta Gerwig",
+      "genre": [
+        "Comedy",
+        "Drama"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "grave of the fireflies",
@@ -9454,7 +9521,10 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 8,
-      "imdb_id": "tt30832933"
+      "imdb_id": "tt30832933",
+      "genre": [
+        "Talk-Show"
+      ]
     },
     {
       "title": "the life of chuck",
