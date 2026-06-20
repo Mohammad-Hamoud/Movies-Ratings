@@ -4982,7 +4982,13 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt0095031"
+      "imdb_id": "tt0095031",
+      "director": "Frank Oz",
+      "genre": [
+        "Comedy",
+        "Crime"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "one flew over the cuckoo's nest",
@@ -4994,7 +5000,12 @@
       "Mohannad": 8.1,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt0073486"
+      "imdb_id": "tt0073486",
+      "director": "Miloš Forman",
+      "genre": [
+        "Drama"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "into the wild",
@@ -5006,7 +5017,14 @@
       "Mohannad": 7.4,
       "Albandary": null,
       "Jory": 7.8,
-      "imdb_id": "tt0758758"
+      "imdb_id": "tt0758758",
+      "director": "Sean Penn",
+      "genre": [
+        "Adventure",
+        "Biography",
+        "Drama"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "mad max: fury road",
@@ -5018,7 +5036,14 @@
       "Mohannad": 7.2,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt1392190"
+      "imdb_id": "tt1392190",
+      "director": "George Miller",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "the game",
@@ -5030,7 +5055,14 @@
       "Mohannad": 7.5,
       "Albandary": null,
       "Jory": 7.6,
-      "imdb_id": "tt0119174"
+      "imdb_id": "tt0119174",
+      "director": "David Fincher",
+      "genre": [
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "the last of the mohicans",
@@ -5042,7 +5074,14 @@
       "Mohannad": 7.4,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt0104691"
+      "imdb_id": "tt0104691",
+      "director": "Michael Mann",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Drama"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "get out",
@@ -5054,7 +5093,14 @@
       "Mohannad": 7.9,
       "Albandary": null,
       "Jory": 7.7,
-      "imdb_id": "tt5052448"
+      "imdb_id": "tt5052448",
+      "director": "Jordan Peele",
+      "genre": [
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "ex machina",
@@ -5066,7 +5112,14 @@
       "Mohannad": 5.6,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt0470752"
+      "imdb_id": "tt0470752",
+      "director": "Alex Garland",
+      "genre": [
+        "Drama",
+        "Sci-Fi",
+        "Thriller"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "the town",
@@ -5078,7 +5131,14 @@
       "Mohannad": 8.1,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt0840361"
+      "imdb_id": "tt0840361",
+      "director": "Ben Affleck",
+      "genre": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "king Richard",
@@ -5090,7 +5150,14 @@
       "Mohannad": 7.4,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt9620288"
+      "imdb_id": "tt9620288",
+      "director": "Reinaldo Marcus Green",
+      "genre": [
+        "Biography",
+        "Drama",
+        "Sport"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "the shape of water",
@@ -5121,7 +5188,14 @@
       "Mohannad": 7.3,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt4190530"
+      "imdb_id": "tt4190530",
+      "director": "Sean Ellis",
+      "genre": [
+        "Action",
+        "Drama",
+        "History"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "RRR",
@@ -5133,7 +5207,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt8178634"
+      "imdb_id": "tt8178634",
+      "director": "S.S. Rajamouli",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Drama"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "The Suicide Squad",
@@ -5145,7 +5226,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt6334354"
+      "imdb_id": "tt6334354",
+      "director": "James Gunn",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Comedy"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "You will die at 20",
@@ -5169,7 +5257,14 @@
       "Albandary": null,
       "Jory": 6.3,
       "imdb_id": "tt7798634",
-      "Moayad": null
+      "Moayad": null,
+      "director": "Matt Bettinelli-Olpin",
+      "genre": [
+        "Action",
+        "Comedy",
+        "Horror"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "intouchables",
@@ -5213,7 +5308,11 @@
       "Mohannad": 7.6,
       "Albandary": null,
       "Jory": 7.5,
-      "imdb_id": "tt11833648"
+      "imdb_id": "tt11833648",
+      "director": "Faris Godus",
+      "genre": [
+        "Comedy"
+      ]
     },
     {
       "title": "gentlemen",
@@ -5283,7 +5382,13 @@
       "Mohannad": 8.4,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt0099674"
+      "imdb_id": "tt0099674",
+      "director": "Francis Ford Coppola",
+      "genre": [
+        "Crime",
+        "Drama"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "the menu",
@@ -5314,7 +5419,13 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt0104952"
+      "imdb_id": "tt0104952",
+      "director": "Jonathan Lynn",
+      "genre": [
+        "Comedy",
+        "Crime"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "the power of the dog",
@@ -5326,7 +5437,13 @@
       "Mohannad": 6.5,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt10293406"
+      "imdb_id": "tt10293406",
+      "director": "Jane Campion",
+      "genre": [
+        "Drama",
+        "Western"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "mother!",
@@ -5357,7 +5474,14 @@
       "Mohannad": 7.3,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt0293429"
+      "imdb_id": "tt0293429",
+      "director": "Simon McQuoid",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "uncharted",
@@ -5369,7 +5493,13 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 7,
-      "imdb_id": "tt1464335"
+      "imdb_id": "tt1464335",
+      "director": "Ruben Fleischer",
+      "genre": [
+        "Action",
+        "Adventure"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "game night",
@@ -5381,7 +5511,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt2704998"
+      "imdb_id": "tt2704998",
+      "director": "John Francis Daley",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Comedy"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Top Gun: Maverick",
@@ -5393,7 +5530,13 @@
       "Mohannad": 7.5,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt1745960"
+      "imdb_id": "tt1745960",
+      "director": "Joseph Kosinski",
+      "genre": [
+        "Action",
+        "Drama"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "jurassic park",
@@ -5425,7 +5568,14 @@
       "Albandary": null,
       "Jory": null,
       "imdb_id": "tt1024648",
-      "Moayad": null
+      "Moayad": null,
+      "director": "Ben Affleck",
+      "genre": [
+        "Biography",
+        "Drama",
+        "History"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Chinatown",
@@ -5456,7 +5606,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 7.4,
-      "imdb_id": "tt1605783"
+      "imdb_id": "tt1605783",
+      "director": "Woody Allen",
+      "genre": [
+        "Comedy",
+        "Fantasy",
+        "Romance"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "As good as it gets",
@@ -5468,7 +5625,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt0119822"
+      "imdb_id": "tt0119822",
+      "director": "James L. Brooks",
+      "genre": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "ace ventura: pet detective",
@@ -5481,7 +5645,12 @@
       "Albandary": null,
       "Jory": null,
       "imdb_id": "tt0109040",
-      "Moayad": null
+      "Moayad": null,
+      "director": "Tom Shadyac",
+      "genre": [
+        "Comedy"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Death on the nile",
@@ -5493,7 +5662,14 @@
       "Mohannad": 7,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt7657566"
+      "imdb_id": "tt7657566",
+      "director": "Kenneth Branagh",
+      "genre": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "sleepers",
@@ -5505,7 +5681,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt0117665"
+      "imdb_id": "tt0117665",
+      "director": "Barry Levinson",
+      "genre": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "I am sam",
@@ -5517,7 +5700,12 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 7,
-      "imdb_id": "tt0277027"
+      "imdb_id": "tt0277027",
+      "director": "Jessie Nelson",
+      "genre": [
+        "Drama"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "the wizard of oz",
@@ -5549,7 +5737,14 @@
       "Albandary": null,
       "Jory": 7.7,
       "imdb_id": "tt0347149",
-      "Moayad": null
+      "Moayad": null,
+      "director": "Hayao Miyazaki",
+      "genre": [
+        "Animation",
+        "Adventure",
+        "Family"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "the help",
@@ -5561,7 +5756,12 @@
       "Mohannad": 7.6,
       "Albandary": null,
       "Jory": 7,
-      "imdb_id": "tt1454029"
+      "imdb_id": "tt1454029",
+      "director": "Tate Taylor",
+      "genre": [
+        "Drama"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "our friend",
@@ -5573,7 +5773,12 @@
       "Mohannad": 7.3,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt9608818"
+      "imdb_id": "tt9608818",
+      "director": "Gabriela Cowperthwaite",
+      "genre": [
+        "Drama",
+        "Romance"
+      ]
     },
     {
       "title": "don't look up",
@@ -5615,7 +5820,13 @@
       "Mohannad": 7.1,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt1430132"
+      "imdb_id": "tt1430132",
+      "director": "James Mangold",
+      "genre": [
+        "Action",
+        "Sci-Fi"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Blue Streak",
@@ -5627,7 +5838,13 @@
       "Mohannad": 6.3,
       "Albandary": null,
       "Jory": 7,
-      "imdb_id": "tt0181316"
+      "imdb_id": "tt0181316",
+      "director": "Les Mayfield",
+      "genre": [
+        "Action",
+        "Comedy",
+        "Crime"
+      ]
     },
     {
       "title": "Thank You for Smoking",
@@ -5639,7 +5856,13 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt0427944"
+      "imdb_id": "tt0427944",
+      "director": "Jason Reitman",
+      "genre": [
+        "Comedy",
+        "Drama"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "the Unbearable Weight of Massive Talent",
@@ -5651,7 +5874,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt11291274"
+      "imdb_id": "tt11291274",
+      "director": "Tom Gormican",
+      "genre": [
+        "Action",
+        "Comedy",
+        "Crime"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Aladdin",
@@ -5728,7 +5958,13 @@
       "Mohannad": 7.6,
       "Albandary": null,
       "Jory": 6.4,
-      "imdb_id": "tt3741834"
+      "imdb_id": "tt3741834",
+      "director": "Garth Davis",
+      "genre": [
+        "Biography",
+        "Drama"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "The Greatest Showman",
@@ -5740,7 +5976,14 @@
       "Mohannad": 7.7,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt1485796"
+      "imdb_id": "tt1485796",
+      "director": "Michael Gracey",
+      "genre": [
+        "Biography",
+        "Drama",
+        "Musical"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "hell or high water",
@@ -5771,7 +6014,14 @@
       "Mohannad": 7.7,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt8009428"
+      "imdb_id": "tt8009428",
+      "director": "Jeremiah Zagar",
+      "genre": [
+        "Comedy",
+        "Drama",
+        "Sport"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "before sunrise",
@@ -5801,7 +6051,12 @@
       "Mohannad": 6.9,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt8151874"
+      "imdb_id": "tt8151874",
+      "director": "Alma Har'el",
+      "genre": [
+        "Drama"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Dumb and Dumber",
@@ -5813,7 +6068,12 @@
       "Mohannad": 8.4,
       "Albandary": null,
       "Jory": 6.5,
-      "imdb_id": "tt0109686"
+      "imdb_id": "tt0109686",
+      "director": "Peter Farrelly",
+      "genre": [
+        "Comedy"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "The Terminator",
@@ -5843,7 +6103,14 @@
       "Mohannad": 6.6,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt3420504"
+      "imdb_id": "tt3420504",
+      "director": "Miguel Sapochnik",
+      "genre": [
+        "Adventure",
+        "Drama",
+        "Sci-Fi"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Airplane!",
@@ -5855,7 +6122,12 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt0080339"
+      "imdb_id": "tt0080339",
+      "director": "Jim Abrahams",
+      "genre": [
+        "Comedy"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "john wick 3",
@@ -5867,7 +6139,10 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt18304288"
+      "imdb_id": "tt18304288",
+      "genre": [
+        "Short"
+      ]
     },
     {
       "title": "ali",
@@ -5879,7 +6154,14 @@
       "Mohannad": 7.3,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt0248667"
+      "imdb_id": "tt0248667",
+      "director": "Michael Mann",
+      "genre": [
+        "Biography",
+        "Drama",
+        "Sport"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "the lost city",
@@ -5891,7 +6173,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt13320622"
+      "imdb_id": "tt13320622",
+      "director": "Aaron Nee",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Comedy"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "ad astra",
