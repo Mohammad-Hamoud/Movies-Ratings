@@ -8287,7 +8287,13 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt2528814"
+      "imdb_id": "tt2528814",
+      "director": "Harold Cronk",
+      "genre": [
+        "Drama",
+        "Romance"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "keif al-hal",
@@ -8327,7 +8333,12 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt2364998"
+      "imdb_id": "tt2364998",
+      "director": "Mohammed M. Sendi",
+      "genre": [
+        "Short",
+        "Romance"
+      ]
     },
     {
       "title": "Singin' in the Rain",
@@ -8339,7 +8350,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 9,
-      "imdb_id": "tt0045152"
+      "imdb_id": "tt0045152",
+      "director": "Stanley Donen",
+      "genre": [
+        "Comedy",
+        "Musical",
+        "Romance"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Raging Bull",
@@ -8371,7 +8389,12 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 7,
-      "imdb_id": "tt5460658"
+      "imdb_id": "tt5460658",
+      "director": "Saeed Roustayi",
+      "genre": [
+        "Drama"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "in the mood for love",
@@ -8383,7 +8406,13 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 7,
-      "imdb_id": "tt0118694"
+      "imdb_id": "tt0118694",
+      "director": "Wong Kar-Wai",
+      "genre": [
+        "Drama",
+        "Romance"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "roman holiday",
@@ -8395,7 +8424,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 8,
-      "imdb_id": "tt0046250"
+      "imdb_id": "tt0046250",
+      "director": "William Wyler",
+      "genre": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "I want to eat your pancreas",
@@ -8407,7 +8443,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 9,
-      "imdb_id": "tt7236034"
+      "imdb_id": "tt7236034",
+      "director": "Shin'ichirô Ushijima",
+      "genre": [
+        "Animation",
+        "Drama",
+        "Family"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "jojo rabbit",
@@ -8419,7 +8462,14 @@
       "Mohannad": 7.6,
       "Albandary": null,
       "Jory": 7.7,
-      "imdb_id": "tt2584384"
+      "imdb_id": "tt2584384",
+      "director": "Taika Waititi",
+      "genre": [
+        "Comedy",
+        "Drama",
+        "War"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "sound of metal",
@@ -8442,7 +8492,13 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 8,
-      "imdb_id": "tt0414387"
+      "imdb_id": "tt0414387",
+      "director": "Joe Wright",
+      "genre": [
+        "Drama",
+        "Romance"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "the last duel",
@@ -8454,7 +8510,14 @@
       "Mohannad": 8,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt4244994"
+      "imdb_id": "tt4244994",
+      "director": "Ridley Scott",
+      "genre": [
+        "Drama",
+        "History",
+        "Thriller"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Drive my car",
@@ -8466,7 +8529,12 @@
       "Mohannad": 6.1,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt14039582"
+      "imdb_id": "tt14039582",
+      "director": "Ryûsuke Hamaguchi",
+      "genre": [
+        "Drama"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "triangle of sadness",
@@ -8478,7 +8546,13 @@
       "Mohannad": 7.6,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt7322224"
+      "imdb_id": "tt7322224",
+      "director": "Ruben Östlund",
+      "genre": [
+        "Comedy",
+        "Drama"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "The Color Purple",
@@ -8508,7 +8582,14 @@
       "Mohannad": 7.3,
       "Albandary": null,
       "Jory": 7.7,
-      "imdb_id": "tt1517451"
+      "imdb_id": "tt1517451",
+      "director": "Bradley Cooper",
+      "genre": [
+        "Drama",
+        "Music",
+        "Romance"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "the reader",
@@ -8520,7 +8601,14 @@
       "Mohannad": 7.7,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt0976051"
+      "imdb_id": "tt0976051",
+      "director": "Stephen Daldry",
+      "genre": [
+        "Drama",
+        "Mystery",
+        "Romance"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "west side Story",
@@ -8551,7 +8639,13 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 7.4,
-      "imdb_id": "tt3416742"
+      "imdb_id": "tt3416742",
+      "director": "Jemaine Clement",
+      "genre": [
+        "Comedy",
+        "Horror"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Tell Me Who I Am",
@@ -8563,7 +8657,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 7,
-      "imdb_id": "tt10915286"
+      "imdb_id": "tt10915286",
+      "director": "Ed Perkins",
+      "genre": [
+        "Documentary",
+        "Drama",
+        "Mystery"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Harry Potter and the Sorcerer's Stone",
@@ -8575,7 +8676,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 8,
-      "imdb_id": "tt0241527"
+      "imdb_id": "tt0241527",
+      "director": "Chris Columbus",
+      "genre": [
+        "Adventure",
+        "Family",
+        "Fantasy"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "judas and the black messiah",
@@ -8587,7 +8695,14 @@
       "Mohannad": 7.6,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt9784798"
+      "imdb_id": "tt9784798",
+      "director": "Shaka King",
+      "genre": [
+        "Biography",
+        "Crime",
+        "Drama"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "promising young woman",
@@ -8599,7 +8714,14 @@
       "Mohannad": 7.5,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt9620292"
+      "imdb_id": "tt9620292",
+      "director": "Emerald Fennell",
+      "genre": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "licorice pizza",
@@ -8611,7 +8733,14 @@
       "Mohannad": 6.6,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt11271038"
+      "imdb_id": "tt11271038",
+      "director": "Paul Thomas Anderson",
+      "genre": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "tick tick boom",
@@ -8623,7 +8752,11 @@
       "Mohannad": 6.6,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt22813646"
+      "imdb_id": "tt22813646",
+      "genre": [
+        "Short",
+        "Musical"
+      ]
     },
     {
       "title": "Me Before You",
@@ -8636,7 +8769,13 @@
       "Albandary": null,
       "Jory": 8,
       "imdb_id": "tt2674426",
-      "Moayad": null
+      "Moayad": null,
+      "director": "Thea Sharrock",
+      "genre": [
+        "Drama",
+        "Romance"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "lincoln",
@@ -8667,7 +8806,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 8,
-      "imdb_id": "tt21867434"
+      "imdb_id": "tt21867434",
+      "director": "Matt Johnson",
+      "genre": [
+        "Biography",
+        "Comedy",
+        "Drama"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "the place beyond the pines",
@@ -8679,7 +8825,14 @@
       "Mohannad": 7.8,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt1817273"
+      "imdb_id": "tt1817273",
+      "director": "Derek Cianfrance",
+      "genre": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Belfast",
@@ -8691,7 +8844,13 @@
       "Mohannad": 6.7,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt12789558"
+      "imdb_id": "tt12789558",
+      "director": "Kenneth Branagh",
+      "genre": [
+        "Biography",
+        "Drama"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "bonse and all",
@@ -8715,7 +8874,14 @@
       "Albandary": null,
       "Jory": 7,
       "imdb_id": "tt0147800",
-      "Moayad": null
+      "Moayad": null,
+      "director": "Gil Junger",
+      "genre": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Film sakafi",
@@ -8739,7 +8905,14 @@
       "Albandary": null,
       "Jory": 6,
       "imdb_id": "tt11233960",
-      "Moayad": null
+      "Moayad": null,
+      "director": "Nora Fingscheidt",
+      "genre": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "mean girls",
@@ -8751,7 +8924,12 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 8,
-      "imdb_id": "tt0377092"
+      "imdb_id": "tt0377092",
+      "director": "Mark Waters",
+      "genre": [
+        "Comedy"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "maleficent",
@@ -8763,7 +8941,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 7.8,
-      "imdb_id": "tt1587310"
+      "imdb_id": "tt1587310",
+      "director": "Robert Stromberg",
+      "genre": [
+        "Adventure",
+        "Drama",
+        "Family"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "To All the Boys I've Loved Before",
@@ -8775,7 +8960,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 6,
-      "imdb_id": "tt3846674"
+      "imdb_id": "tt3846674",
+      "director": "Susan Johnson",
+      "genre": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "The good nurse",
@@ -8787,7 +8979,14 @@
       "Mohannad": 6.9,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt4273800"
+      "imdb_id": "tt4273800",
+      "director": "Tobias Lindholm",
+      "genre": [
+        "Biography",
+        "Crime",
+        "Drama"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "run",
@@ -8799,7 +8998,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 6.8,
-      "imdb_id": "tt8633478"
+      "imdb_id": "tt8633478",
+      "director": "Aneesh Chaganty",
+      "genre": [
+        "Drama",
+        "Horror",
+        "Mystery"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "A Haunting in Venice",
@@ -8811,7 +9017,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 5,
-      "imdb_id": "tt22687790"
+      "imdb_id": "tt22687790",
+      "director": "Kenneth Branagh",
+      "genre": [
+        "Crime",
+        "Drama",
+        "Horror"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "17 Again",
@@ -8823,7 +9036,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 5.6,
-      "imdb_id": "tt0974661"
+      "imdb_id": "tt0974661",
+      "director": "Burr Steers",
+      "genre": [
+        "Comedy",
+        "Drama",
+        "Fantasy"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Queenpins",
@@ -8835,7 +9055,13 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 2,
-      "imdb_id": "tt9054192"
+      "imdb_id": "tt9054192",
+      "director": "Aron Gaudet",
+      "genre": [
+        "Comedy",
+        "Crime"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "the guilty",
@@ -8847,7 +9073,13 @@
       "Mohannad": 6.8,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt9421570"
+      "imdb_id": "tt9421570",
+      "director": "Antoine Fuqua",
+      "genre": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ]
     },
     {
       "title": "a fall from grace",
@@ -8859,7 +9091,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 6.2,
-      "imdb_id": "tt11390036"
+      "imdb_id": "tt11390036",
+      "director": "Tyler Perry",
+      "genre": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "the wretched",
@@ -8871,7 +9110,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 3,
-      "imdb_id": "tt8305806"
+      "imdb_id": "tt8305806",
+      "director": "Brett Pierce",
+      "genre": [
+        "Drama",
+        "Horror",
+        "Mystery"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "mulan",
@@ -8883,7 +9129,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 7.4,
-      "imdb_id": "tt4566758"
+      "imdb_id": "tt4566758",
+      "director": "Niki Caro",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Drama"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Palm Springs",
@@ -8895,7 +9148,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 6,
-      "imdb_id": "tt9484998"
+      "imdb_id": "tt9484998",
+      "director": "Max Barbakow",
+      "genre": [
+        "Comedy",
+        "Fantasy",
+        "Mystery"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Edward Scissorhands",
@@ -8908,7 +9168,14 @@
       "Albandary": null,
       "Jory": 7.4,
       "imdb_id": "tt0099487",
-      "Moayad": null
+      "Moayad": null,
+      "director": "Tim Burton",
+      "genre": [
+        "Drama",
+        "Fantasy",
+        "Romance"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Perfect Blue",
@@ -8920,7 +9187,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 8.5,
-      "imdb_id": "tt0156887"
+      "imdb_id": "tt0156887",
+      "director": "Satoshi Kon",
+      "genre": [
+        "Animation",
+        "Crime",
+        "Drama"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "small things like these",
@@ -8932,7 +9206,13 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 6.5,
-      "imdb_id": "tt27196021"
+      "imdb_id": "tt27196021",
+      "director": "Tim Mielants",
+      "genre": [
+        "Drama",
+        "History"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "silenced",
@@ -8944,7 +9224,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 7,
-      "imdb_id": "tt2070649"
+      "imdb_id": "tt2070649",
+      "director": "Hwang Dong-hyuk",
+      "genre": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "crazy stupid love",
@@ -8957,7 +9244,14 @@
       "Albandary": null,
       "Jory": 7.3,
       "imdb_id": "tt1570728",
-      "Moayad": null
+      "Moayad": null,
+      "director": "Glenn Ficarra",
+      "genre": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "closer",
@@ -8969,7 +9263,13 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 6.6,
-      "imdb_id": "tt0376541"
+      "imdb_id": "tt0376541",
+      "director": "Mike Nichols",
+      "genre": [
+        "Drama",
+        "Romance"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "When Harry Met Sally...",
