@@ -2947,7 +2947,7 @@
       "imdb": 8.4,
       "poster": "/7sfbEnaARXDDhKm0CZ7D7uc2sbo.jpg",
       "tmdb_id": 16869,
-      "Mohammad": 8,
+      "Mohammad": 8.4,
       "Mohannad": 8,
       "Albandary": null,
       "Jory": 8.3,
@@ -2958,7 +2958,8 @@
         "Drama",
         "War"
       ],
-      "oscar_best_picture": false
+      "oscar_best_picture": false,
+      "Moayad": null
     },
     {
       "title": "12 years a slave",
