@@ -6192,7 +6192,14 @@
       "Mohannad": 6.7,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt2935510"
+      "imdb_id": "tt2935510",
+      "director": "James Gray",
+      "genre": [
+        "Adventure",
+        "Drama",
+        "Mystery"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "passengers",
@@ -6204,7 +6211,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt1355644"
+      "imdb_id": "tt1355644",
+      "director": "Morten Tyldum",
+      "genre": [
+        "Drama",
+        "Romance",
+        "Sci-Fi"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "nope",
@@ -6216,7 +6230,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt10954984"
+      "imdb_id": "tt10954984",
+      "director": "Jordan Peele",
+      "genre": [
+        "Horror",
+        "Mystery",
+        "Sci-Fi"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "army of the dead",
@@ -6228,7 +6249,14 @@
       "Mohannad": 7.3,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt0993840"
+      "imdb_id": "tt0993840",
+      "director": "Zack Snyder",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Crime"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "athena",
@@ -6240,7 +6268,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt15445056"
+      "imdb_id": "tt15445056",
+      "director": "Romain Gavras",
+      "genre": [
+        "Action",
+        "Drama",
+        "Thriller"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "roman j. israel, esq.",
@@ -6263,7 +6298,13 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt0944835"
+      "imdb_id": "tt0944835",
+      "director": "Phillip Noyce",
+      "genre": [
+        "Action",
+        "Thriller"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "the boy",
@@ -6275,7 +6316,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt3882082"
+      "imdb_id": "tt3882082",
+      "director": "William Brent Bell",
+      "genre": [
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Lion of the Desert",
@@ -6287,7 +6335,13 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 7.4,
-      "imdb_id": "tt0081059"
+      "imdb_id": "tt0081059",
+      "director": "Moustapha Akkad",
+      "genre": [
+        "Biography",
+        "Drama",
+        "History"
+      ]
     },
     {
       "title": "you've got mail",
@@ -6299,7 +6353,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": 7,
-      "imdb_id": "tt0128853"
+      "imdb_id": "tt0128853",
+      "director": "Nora Ephron",
+      "genre": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "arrival",
@@ -6330,7 +6391,12 @@
       "Mohannad": 6.9,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt10986222"
+      "imdb_id": "tt10986222",
+      "director": "Mike Mills",
+      "genre": [
+        "Drama"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "babylon",
@@ -6342,7 +6408,13 @@
       "Mohannad": 7.1,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt10640346"
+      "imdb_id": "tt10640346",
+      "director": "Damien Chazelle",
+      "genre": [
+        "Comedy",
+        "Drama"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Stonehearst Asylum",
@@ -6354,7 +6426,14 @@
       "Mohannad": 7.4,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt1772264"
+      "imdb_id": "tt1772264",
+      "director": "Brad Anderson",
+      "genre": [
+        "Drama",
+        "Horror",
+        "Mystery"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "the wild robot",
@@ -6366,7 +6445,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt29623480"
+      "imdb_id": "tt29623480",
+      "director": "Chris Sanders",
+      "genre": [
+        "Animation",
+        "Adventure",
+        "Family"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "john wick 2",
@@ -6407,7 +6493,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt0096734"
+      "imdb_id": "tt0096734",
+      "director": "Joe Dante",
+      "genre": [
+        "Comedy",
+        "Mystery",
+        "Thriller"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "wanted",
@@ -6419,7 +6512,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt0493464"
+      "imdb_id": "tt0493464",
+      "director": "Timur Bekmambetov",
+      "genre": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Little women",
@@ -6431,7 +6531,13 @@
       "Mohannad": 7.1,
       "Albandary": null,
       "Jory": 7.8,
-      "imdb_id": "tt3281548"
+      "imdb_id": "tt3281548",
+      "director": "Greta Gerwig",
+      "genre": [
+        "Drama",
+        "Romance"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "sully",
@@ -6443,7 +6549,14 @@
       "Mohannad": 6.6,
       "Albandary": null,
       "Jory": 7.2,
-      "imdb_id": "tt3263904"
+      "imdb_id": "tt3263904",
+      "director": "Clint Eastwood",
+      "genre": [
+        "Biography",
+        "Drama",
+        "History"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "don't breathe",
@@ -6456,7 +6569,14 @@
       "Albandary": null,
       "Jory": 7,
       "imdb_id": "tt4160708",
-      "Moayad": null
+      "Moayad": null,
+      "director": "Fede Alvarez",
+      "genre": [
+        "Crime",
+        "Horror",
+        "Thriller"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Fever Dream",
@@ -6468,7 +6588,12 @@
       "Mohannad": 7.8,
       "Albandary": null,
       "Jory": 7.7,
-      "imdb_id": "tt30395629"
+      "imdb_id": "tt30395629",
+      "director": "Faris Godus",
+      "genre": [
+        "Comedy",
+        "Drama"
+      ]
     },
     {
       "title": "the boxer",
@@ -6480,7 +6605,14 @@
       "Mohannad": 8,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt0118760"
+      "imdb_id": "tt0118760",
+      "director": "Jim Sheridan",
+      "genre": [
+        "Drama",
+        "Romance",
+        "Sport"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "spirited away",
@@ -6503,7 +6635,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt1488589"
+      "imdb_id": "tt1488589",
+      "director": "Guillermo del Toro",
+      "genre": [
+        "Animation",
+        "Adventure",
+        "Drama"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "The northman",
@@ -6515,7 +6654,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt11138512"
+      "imdb_id": "tt11138512",
+      "director": "Robert Eggers",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Drama"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Late Night with the Devil",
@@ -6527,7 +6673,12 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt14966898"
+      "imdb_id": "tt14966898",
+      "director": "Cameron Cairnes",
+      "genre": [
+        "Horror"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "before sunset",
@@ -6539,7 +6690,13 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt0381681"
+      "imdb_id": "tt0381681",
+      "director": "Richard Linklater",
+      "genre": [
+        "Drama",
+        "Romance"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "the bone collector",
@@ -6551,7 +6708,14 @@
       "Mohannad": 6.7,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt0145681"
+      "imdb_id": "tt0145681",
+      "director": "Phillip Noyce",
+      "genre": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Gi-eok-ui bam",
@@ -6574,7 +6738,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt4846232"
+      "imdb_id": "tt4846232",
+      "director": "Benny Safdie",
+      "genre": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "a serious man",
@@ -6586,7 +6757,13 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt1019452"
+      "imdb_id": "tt1019452",
+      "director": "Ethan Coen",
+      "genre": [
+        "Comedy",
+        "Drama"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Bad Boys: Ride or Die",
@@ -6598,7 +6775,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt4919268"
+      "imdb_id": "tt4919268",
+      "director": "Adil El Arbi",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Comedy"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "godzilla vs. kong",
@@ -6610,7 +6794,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt5034838"
+      "imdb_id": "tt5034838",
+      "director": "Adam Wingard",
+      "genre": [
+        "Action",
+        "Sci-Fi",
+        "Thriller"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "the pink panther",
@@ -6622,7 +6813,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt0383216"
+      "imdb_id": "tt0383216",
+      "director": "Shawn Levy",
+      "genre": [
+        "Adventure",
+        "Comedy",
+        "Crime"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "the pink panther 2",
@@ -6634,7 +6832,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt0838232"
+      "imdb_id": "tt0838232",
+      "director": "Harald Zwart",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Comedy"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "The Brutalist",
@@ -6657,7 +6862,14 @@
       "Mohannad": 7.4,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt6443346"
+      "imdb_id": "tt6443346",
+      "director": "Jaume Collet-Serra",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "The Bikeriders",
@@ -6669,7 +6881,13 @@
       "Mohannad": 7.1,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt21454134"
+      "imdb_id": "tt21454134",
+      "director": "Jeff Nichols",
+      "genre": [
+        "Crime",
+        "Drama"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "a clockwork orange",
@@ -6701,7 +6919,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt17526714"
+      "imdb_id": "tt17526714",
+      "director": "Coralie Fargeat",
+      "genre": [
+        "Drama",
+        "Horror",
+        "Sci-Fi"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "hit man",
@@ -6713,7 +6938,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt20215968"
+      "imdb_id": "tt20215968",
+      "director": "Richard Linklater",
+      "genre": [
+        "Comedy",
+        "Crime",
+        "Romance"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "bad boys",
@@ -6725,7 +6957,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt0112442"
+      "imdb_id": "tt0112442",
+      "director": "Michael Bay",
+      "genre": [
+        "Action",
+        "Comedy",
+        "Crime"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "How to Lose a Guy in 10 Days",
@@ -6738,7 +6977,13 @@
       "Albandary": null,
       "Jory": 7.5,
       "imdb_id": "tt0251127",
-      "Moayad": null
+      "Moayad": null,
+      "director": "Donald Petrie",
+      "genre": [
+        "Comedy",
+        "Romance"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "quite place 2",
@@ -6761,7 +7006,13 @@
       "Mohannad": null,
       "Albandary": 7,
       "Jory": 4.7,
-      "imdb_id": "tt10638522"
+      "imdb_id": "tt10638522",
+      "director": "Danny Philippou",
+      "genre": [
+        "Horror",
+        "Thriller"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "white noise",
@@ -6773,7 +7024,14 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt6160448"
+      "imdb_id": "tt6160448",
+      "director": "Noah Baumbach",
+      "genre": [
+        "Comedy",
+        "Drama",
+        "Horror"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "Last night in Soho",
@@ -6785,7 +7043,14 @@
       "Mohannad": 6.8,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt9639470"
+      "imdb_id": "tt9639470",
+      "director": "Edgar Wright",
+      "genre": [
+        "Drama",
+        "Horror",
+        "Mystery"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "requiem for a dream",
@@ -6814,7 +7079,13 @@
       "Mohannad": null,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt5645432"
+      "imdb_id": "tt5645432",
+      "genre": [
+        "Action",
+        "Drama",
+        "Thriller"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "the book of eli",
@@ -6826,7 +7097,14 @@
       "Mohannad": 4.3,
       "Albandary": null,
       "Jory": 8,
-      "imdb_id": "tt1037705"
+      "imdb_id": "tt1037705",
+      "director": "Albert Hughes",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Drama"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "braveheart",
@@ -6894,7 +7172,14 @@
       "Mohannad": 6.8,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt6264654"
+      "imdb_id": "tt6264654",
+      "director": "Shawn Levy",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Comedy"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "the lighthouse",
@@ -6906,7 +7191,14 @@
       "Mohannad": 6.3,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt7984734"
+      "imdb_id": "tt7984734",
+      "director": "Robert Eggers",
+      "genre": [
+        "Drama",
+        "Fantasy",
+        "Horror"
+      ],
+      "oscar_best_picture": false
     },
     {
       "title": "sonic the hedgehog 2",
