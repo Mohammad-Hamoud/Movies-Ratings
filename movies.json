@@ -8,6 +8,26 @@
   ],
   "movies": [
     {
+      "title": "50 First Dates",
+      "year": 2004,
+      "imdb": 6.8,
+      "poster": "/lzUI2Cg7OMfcUNv3f7MywYNBjs6.jpg",
+      "tmdb_id": 1824,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 6.4,
+      "Moayad": null,
+      "imdb_id": "tt0343660",
+      "director": "Peter Segal",
+      "oscar_best_picture": false,
+      "genre": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ]
+    },
+    {
       "title": "Toy Story 5",
       "year": 2026,
       "imdb": null,
