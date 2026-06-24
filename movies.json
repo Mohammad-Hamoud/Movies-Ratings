@@ -3153,7 +3153,7 @@
       "Mohammad": 8,
       "Mohannad": 8,
       "Albandary": null,
-      "Jory": null,
+      "Jory": 8.7,
       "imdb_id": "tt0352248",
       "director": "Ron Howard",
       "genre": [
@@ -3161,7 +3161,8 @@
         "Drama",
         "Romance"
       ],
-      "oscar_best_picture": false
+      "oscar_best_picture": false,
+      "Moayad": null
     },
     {
       "title": "knives out",
