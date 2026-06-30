@@ -8,6 +8,26 @@
   ],
   "movies": [
     {
+      "title": "Poor Things",
+      "year": 2023,
+      "imdb": 7.7,
+      "poster": "/kCGlIMHnOm8JPXq3rXM6c5wMxcT.jpg",
+      "tmdb_id": 792307,
+      "Mohammad": 6.5,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 2,
+      "Moayad": null,
+      "imdb_id": "tt14230458",
+      "director": "Yorgos Lanthimos",
+      "oscar_best_picture": false,
+      "genre": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ]
+    },
+    {
       "title": "50 First Dates",
       "year": 2004,
       "imdb": 6.8,
