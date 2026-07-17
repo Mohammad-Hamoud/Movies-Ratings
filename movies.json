@@ -8,6 +8,26 @@
   ],
   "movies": [
     {
+      "title": "The Odyssey",
+      "year": 2026,
+      "imdb": null,
+      "poster": "/5rhTDKUhPYvpdQIijFIs5VoWsON.jpg",
+      "tmdb_id": 1368337,
+      "Mohammad": 8.5,
+      "Mohannad": 8.2,
+      "Albandary": null,
+      "Jory": 8.7,
+      "Moayad": 8,
+      "imdb_id": "tt33764258",
+      "director": "Christopher Nolan",
+      "oscar_best_picture": false,
+      "genre": [
+        "Adventure",
+        "Drama",
+        "Fantasy"
+      ]
+    },
+    {
       "title": "Poor Things",
       "year": 2023,
       "imdb": 7.7,
