@@ -8,6 +8,26 @@
   ],
   "movies": [
     {
+      "title": "Oppenheimer",
+      "year": 2023,
+      "imdb": 8.2,
+      "poster": "/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+      "tmdb_id": 872585,
+      "Mohammad": 8.6,
+      "Mohannad": 8.6,
+      "Albandary": null,
+      "Jory": null,
+      "Moayad": 9.1,
+      "imdb_id": "tt15398776",
+      "director": "Christopher Nolan",
+      "oscar_best_picture": false,
+      "genre": [
+        "Biography",
+        "Drama",
+        "History"
+      ]
+    },
+    {
       "title": "The Odyssey",
       "year": 2026,
       "imdb": null,
