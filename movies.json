@@ -1541,7 +1541,7 @@
       "imdb": 8.8,
       "poster": "/xlaY2zyzMfkhk0HSC5VUwzoZPU1.jpg",
       "tmdb_id": 27205,
-      "Mohammad": 9.6,
+      "Mohammad": 9.4,
       "Mohannad": 8.4,
       "Albandary": 10,
       "Jory": 9.6,
@@ -1552,7 +1552,8 @@
         "Adventure",
         "Sci-Fi"
       ],
-      "oscar_best_picture": false
+      "oscar_best_picture": false,
+      "Moayad": null
     },
     {
       "title": "interstellar",
