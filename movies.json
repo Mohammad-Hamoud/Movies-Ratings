@@ -8,6 +8,26 @@
   ],
   "movies": [
     {
+      "title": "The Drama",
+      "year": 2026,
+      "imdb": 7.2,
+      "poster": "/rnIOUhzwJDfgQakx8EjoNyItKgs.jpg",
+      "tmdb_id": 1325734,
+      "Mohammad": null,
+      "Mohannad": 7.3,
+      "Albandary": null,
+      "Jory": null,
+      "Moayad": null,
+      "imdb_id": "tt33071426",
+      "director": "Kristoffer Borgli",
+      "oscar_best_picture": false,
+      "genre": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ]
+    },
+    {
       "title": "Oppenheimer",
       "year": 2023,
       "imdb": 8.2,
