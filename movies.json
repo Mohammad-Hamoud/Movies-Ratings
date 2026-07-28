@@ -8,6 +8,26 @@
   ],
   "movies": [
     {
+      "title": "Pressure",
+      "year": 2026,
+      "imdb": 7.7,
+      "poster": "/gFjEggtrejCN79r6SXRjM269OtG.jpg",
+      "tmdb_id": 1318413,
+      "Mohammad": null,
+      "Mohannad": 7.3,
+      "Albandary": null,
+      "Jory": null,
+      "Moayad": null,
+      "imdb_id": "tt32547691",
+      "director": "Anthony Maras",
+      "oscar_best_picture": false,
+      "genre": [
+        "Drama",
+        "History",
+        "Thriller"
+      ]
+    },
+    {
       "title": "The Drama",
       "year": 2026,
       "imdb": 7.2,
