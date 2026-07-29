@@ -8,6 +8,26 @@
   ],
   "movies": [
     {
+      "title": "Backrooms",
+      "year": 2026,
+      "imdb": 7,
+      "poster": "/rhGx6E3qRNMgj3i5su2oukNHwIQ.jpg",
+      "tmdb_id": 1083381,
+      "Mohammad": null,
+      "Mohannad": 6.6,
+      "Albandary": null,
+      "Jory": null,
+      "Moayad": null,
+      "imdb_id": "tt26657236",
+      "director": "Kane Parsons",
+      "oscar_best_picture": false,
+      "genre": [
+        "Horror",
+        "Sci-Fi",
+        "Thriller"
+      ]
+    },
+    {
       "title": "Pressure",
       "year": 2026,
       "imdb": 7.7,
