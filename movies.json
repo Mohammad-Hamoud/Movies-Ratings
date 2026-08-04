@@ -8,6 +8,26 @@
   ],
   "movies": [
     {
+      "title": "Spider-Man: Brand New Day",
+      "year": 2026,
+      "imdb": 8.2,
+      "poster": "/iPOn6DinuVyLY17YM9mKuPofV08.jpg",
+      "tmdb_id": 969681,
+      "Mohammad": 7.3,
+      "Mohannad": 7.7,
+      "Albandary": null,
+      "Jory": null,
+      "Moayad": null,
+      "imdb_id": "tt22084616",
+      "director": "Destin Daniel Cretton",
+      "oscar_best_picture": false,
+      "genre": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ]
+    },
+    {
       "title": "Backrooms",
       "year": 2026,
       "imdb": 7,
