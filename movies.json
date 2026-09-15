@@ -8,6 +8,26 @@
   ],
   "movies": [
     {
+      "title": "The Invite",
+      "year": 2026,
+      "imdb": 7.8,
+      "poster": "/b7Dr8Chzse8VagexAporUu2RtLx.jpg",
+      "tmdb_id": 950028,
+      "Mohammad": 7.3,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null,
+      "Moayad": null,
+      "imdb_id": "tt14173636",
+      "director": "Olivia Wilde",
+      "oscar_best_picture": false,
+      "genre": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ]
+    },
+    {
       "title": "Spider-Man: Brand New Day",
       "year": 2026,
       "imdb": 8.2,
