@@ -8,6 +8,24 @@
   ],
   "movies": [
     {
+      "title": "Philadelphia",
+      "year": 1993,
+      "imdb": 7.7,
+      "poster": "/tFe5Yoo5zT495okA49bq1vPPkiV.jpg",
+      "tmdb_id": 9800,
+      "Mohammad": 7.5,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 7.3,
+      "Moayad": null,
+      "imdb_id": "tt0107818",
+      "director": "Jonathan Demme",
+      "oscar_best_picture": false,
+      "genre": [
+        "Drama"
+      ]
+    },
+    {
       "title": "The Invite",
       "year": 2026,
       "imdb": 7.8,
