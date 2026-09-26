@@ -8,6 +8,25 @@
   ],
   "movies": [
     {
+      "title": "Resident Evil",
+      "year": 2026,
+      "imdb": null,
+      "poster": "/i7UyjfPio0VFHB9rBUZSFyhOoM8.jpg",
+      "tmdb_id": 1423191,
+      "Mohammad": null,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 7,
+      "Moayad": null,
+      "imdb_id": "tt35538033",
+      "director": "Zach Cregger",
+      "genre": [
+        "Action",
+        "Horror",
+        "Sci-Fi"
+      ]
+    },
+    {
       "title": "Philadelphia",
       "year": 1993,
       "imdb": 7.7,
