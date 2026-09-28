@@ -8,6 +8,25 @@
   ],
   "movies": [
     {
+      "title": "Heart of the Beast",
+      "year": 2026,
+      "imdb": 7.5,
+      "poster": "/1ApfSA8JTqeha3GTFEY8syV4auq.jpg",
+      "tmdb_id": 1263337,
+      "Mohammad": 4,
+      "Mohannad": 6,
+      "Albandary": null,
+      "Jory": null,
+      "Moayad": null,
+      "imdb_id": "tt7526136",
+      "director": "David Ayer",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Drama"
+      ]
+    },
+    {
       "title": "Resident Evil",
       "year": 2026,
       "imdb": null,
@@ -2177,7 +2196,7 @@
     {
       "title": "the dark knight",
       "year": 2008,
-      "imdb": 9.0,
+      "imdb": 9,
       "poster": "/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
       "tmdb_id": 155,
       "Mohammad": 8.6,
@@ -2911,7 +2930,7 @@
     {
       "title": "her",
       "year": 2013,
-      "imdb": 8.0,
+      "imdb": 8,
       "poster": "/eCOtqtfvn7mxGl6nfmq4b1exJRc.jpg",
       "tmdb_id": 152601,
       "Mohammad": 8.2,
@@ -4980,7 +4999,7 @@
     {
       "title": "Everything Everywhere All at Once",
       "year": 2022,
-      "imdb": 8.0,
+      "imdb": 8,
       "poster": "/u68AjlvlutfEIcpmbYpKcdi09ut.jpg",
       "tmdb_id": 545611,
       "Mohammad": 7.5,
