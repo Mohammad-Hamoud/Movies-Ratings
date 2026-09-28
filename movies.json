@@ -3371,7 +3371,7 @@
       "Mohammad": 8,
       "Mohannad": 8.2,
       "Albandary": null,
-      "Jory": 7.8,
+      "Jory": 8.2,
       "imdb_id": "tt8946378",
       "director": "Rian Johnson",
       "genre": [
@@ -3379,7 +3379,8 @@
         "Crime",
         "Drama"
       ],
-      "oscar_best_picture": false
+      "oscar_best_picture": false,
+      "Moayad": null
     },
     {
       "title": "The Curious Case of Benjamin Button",
