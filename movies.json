@@ -8,6 +8,18 @@
   ],
   "movies": [
     {
+      "title": "Wake Up Dead Man: A Knives Out Mystery",
+      "year": 2025,
+      "imdb": null,
+      "poster": "/iV9LM8aUb83BjCCx2RUnKE5sSQg.jpg",
+      "tmdb_id": 812583,
+      "Mohammad": 7.5,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 7.5,
+      "Moayad": null
+    },
+    {
       "title": "Heart of the Beast",
       "year": 2026,
       "imdb": 7.5,
