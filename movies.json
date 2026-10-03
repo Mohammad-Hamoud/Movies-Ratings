@@ -8,6 +8,24 @@
   ],
   "movies": [
     {
+      "title": "Digger",
+      "year": 2026,
+      "imdb": null,
+      "poster": "/1ATXKrIPJyKNwnJ6lcG088Sa6zi.jpg",
+      "tmdb_id": 1248832,
+      "Mohammad": 7.7,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": null,
+      "Moayad": null,
+      "imdb_id": "tt31450459",
+      "director": "Alejandro G. Iñárritu",
+      "genre": [
+        "Comedy",
+        "Drama"
+      ]
+    },
+    {
       "title": "Wake Up Dead Man: A Knives Out Mystery",
       "year": 2025,
       "imdb": null,
