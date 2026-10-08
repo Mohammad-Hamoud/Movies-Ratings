@@ -2569,7 +2569,14 @@
       "Mohammad": 8.5,
       "Mohannad": 8.7,
       "Albandary": null,
-      "Jory": 8.5
+      "Jory": 8.5,
+      "director": "Quentin Tarantino",
+      "genre": [
+        "Comedy",
+        "Drama"
+      ],
+      "imdb_id": "tt7131622",
+      "oscar_best_picture": false
     },
     {
       "title": "rain man",
@@ -5578,14 +5585,18 @@
     {
       "title": "Glass Onion: A Knives Out Mystery",
       "year": 2022,
-      "imdb": 7.1,
+      "imdb": 6.3,
       "poster": "/vDGr1YdrlfbU9wxTOdpf3zChmv9.jpg",
       "tmdb_id": 661374,
       "Mohammad": 7.3,
       "Mohannad": 7.3,
       "Albandary": null,
       "Jory": null,
-      "imdb_id": "tt24734444"
+      "imdb_id": "tt23724524",
+      "genre": [
+        "Short",
+        "Mystery"
+      ]
     },
     {
       "title": "The Book of Sun",
@@ -8763,13 +8774,20 @@
     {
       "title": "sound of metal",
       "year": 2020,
-      "imdb": 7.8,
+      "imdb": 7.7,
       "poster": "/3178oOJKKPDeQ2legWQvMPpllv.jpg",
       "tmdb_id": 502033,
       "Mohammad": null,
       "Mohannad": 7.4,
       "Albandary": null,
-      "Jory": 7.8
+      "Jory": 7.8,
+      "director": "Darius Marder",
+      "genre": [
+        "Drama",
+        "Music"
+      ],
+      "imdb_id": "tt5363618",
+      "oscar_best_picture": false
     },
     {
       "title": "Pride & Prejudice",
