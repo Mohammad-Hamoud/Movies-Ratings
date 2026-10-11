@@ -10,7 +10,7 @@
     {
       "title": "Digger",
       "year": 2026,
-      "imdb": null,
+      "imdb": 7.4,
       "poster": "/1ATXKrIPJyKNwnJ6lcG088Sa6zi.jpg",
       "tmdb_id": 1248832,
       "Mohammad": 7.4,
@@ -355,7 +355,7 @@
     {
       "title": "The Upside",
       "year": 2019,
-      "imdb": null,
+      "imdb": 7.4,
       "poster": "/hPZ2caow1PCND6qnerfgn6RTXdm.jpg",
       "tmdb_id": 440472,
       "Mohammad": null,
@@ -841,7 +841,7 @@
     {
       "title": "Anatomy of a Fall",
       "year": 2023,
-      "imdb": null,
+      "imdb": 7.8,
       "poster": "/1ho0d4LNZw3Y0voeKmSvPSgJOJ2.jpg",
       "tmdb_id": 915935,
       "Mohammad": null,
@@ -854,7 +854,8 @@
         "Drama",
         "Thriller"
       ],
-      "oscar_best_picture": false
+      "oscar_best_picture": false,
+      "imdb_id": "tt17009710"
     },
     {
       "title": "A Bronx Tale",
@@ -917,7 +918,7 @@
     {
       "title": "Talk to Me",
       "year": 2023,
-      "imdb": null,
+      "imdb": 7.1,
       "poster": "/kdPMUMJzyYAc4roD52qavX0nLIC.jpg",
       "tmdb_id": 1008042,
       "Mohammad": 6.5,
@@ -1347,13 +1348,14 @@
     {
       "title": "Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan",
       "year": 2006,
-      "imdb": null,
+      "imdb": 7.3,
       "poster": "/kfkyALfD4G1mlBJI1lOt2QCra4i.jpg",
       "tmdb_id": 496,
       "Mohammad": 4.5,
       "Mohannad": null,
       "Albandary": null,
-      "Jory": 3
+      "Jory": 3,
+      "imdb_id": "tt0443453"
     },
     {
       "title": "Paths of Glory",
