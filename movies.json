@@ -8,6 +8,23 @@
   ],
   "movies": [
     {
+      "title": "Street Fighter",
+      "year": 2026,
+      "imdb": 6.2,
+      "poster": "/dJPT2Uf12X6aFg8i5N67NTpIZ9t.jpg",
+      "tmdb_id": 1153576,
+      "Mohammad": 4,
+      "Mohannad": 5.5,
+      "Albandary": null,
+      "Jory": null,
+      "Moayad": null,
+      "imdb_id": "tt27419420",
+      "director": "Kitao Sakurai",
+      "genre": [
+        "Action"
+      ]
+    },
+    {
       "title": "Digger",
       "year": 2026,
       "imdb": 7.4,
@@ -116,7 +133,7 @@
     {
       "title": "Spider-Man: Brand New Day",
       "year": 2026,
-      "imdb": 8.0,
+      "imdb": 8,
       "poster": "/iPOn6DinuVyLY17YM9mKuPofV08.jpg",
       "tmdb_id": 969681,
       "Mohammad": 7.3,
@@ -1635,7 +1652,7 @@
     {
       "title": "Network",
       "year": 1976,
-      "imdb": 8.0,
+      "imdb": 8,
       "poster": "/qZomlHsaALUtkFeMDwdYmwS2Pbo.jpg",
       "tmdb_id": 10774,
       "Mohammad": null,
@@ -2342,7 +2359,7 @@
     {
       "title": "The Invisible Guest",
       "year": 2016,
-      "imdb": 8.0,
+      "imdb": 8,
       "poster": "/fptnZJbLzKUHeNlYrAynbyoL5YJ.jpg",
       "tmdb_id": 411088,
       "Mohammad": 8.6,
@@ -2434,7 +2451,7 @@
     {
       "title": "Titanic",
       "year": 1997,
-      "imdb": 8.0,
+      "imdb": 8,
       "poster": "/9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg",
       "tmdb_id": 597,
       "Mohammad": 8.6,
@@ -2820,7 +2837,7 @@
     {
       "title": "coda",
       "year": 2021,
-      "imdb": 8.0,
+      "imdb": 8,
       "poster": "/BzVjmm8l23rPsijLiNLUzuQtyd.jpg",
       "tmdb_id": 776503,
       "Mohammad": 8.3,
@@ -4512,7 +4529,7 @@
     {
       "title": "sin city",
       "year": 2005,
-      "imdb": 8.0,
+      "imdb": 8,
       "poster": "/i66G50wATMmPrvpP95f0XP6ZdVS.jpg",
       "tmdb_id": 187,
       "Mohammad": 7.7,
