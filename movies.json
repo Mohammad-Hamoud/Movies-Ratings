@@ -8,6 +8,25 @@
   ],
   "movies": [
     {
+      "title": "Clayface",
+      "year": 2026,
+      "imdb": null,
+      "poster": "/9l1NuFjel2j89hiuiJbsxfblqjy.jpg",
+      "tmdb_id": 1400940,
+      "Mohammad": 7.5,
+      "Mohannad": 7.6,
+      "Albandary": null,
+      "Jory": null,
+      "Moayad": null,
+      "imdb_id": "tt34890576",
+      "director": "James Watkins",
+      "genre": [
+        "Horror",
+        "Sci-Fi",
+        "Thriller"
+      ]
+    },
+    {
       "title": "Street Fighter",
       "year": 2026,
       "imdb": 6.2,
