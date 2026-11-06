@@ -8,6 +8,26 @@
   ],
   "movies": [
     {
+      "title": "Primetime",
+      "year": 2026,
+      "imdb": 8.7,
+      "poster": "/lmrulvLbmaejTix1YaMxo1oGhH1.jpg",
+      "tmdb_id": 1375441,
+      "Mohammad": 7.4,
+      "Mohannad": null,
+      "Albandary": null,
+      "Jory": 7.5,
+      "Moayad": null,
+      "imdb_id": "tt34206385",
+      "director": "Lance Oppenheim",
+      "oscar_best_picture": false,
+      "genre": [
+        "Action",
+        "Biography",
+        "Crime"
+      ]
+    },
+    {
       "title": "Clayface",
       "year": 2026,
       "imdb": 7.5,
